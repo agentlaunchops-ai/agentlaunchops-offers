@@ -232,6 +232,36 @@
         width: 64%;
       }
 
+      .mini-page {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) 220px;
+        gap: 16px;
+        padding: 18px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--panel);
+      }
+
+      .mini-page h3 {
+        margin: 0 0 10px;
+        font-size: 1.55rem;
+        line-height: 1.08;
+      }
+
+      .mini-proof {
+        display: grid;
+        gap: 8px;
+        align-content: start;
+      }
+
+      .mini-proof span {
+        padding: 9px 10px;
+        border-radius: 6px;
+        background: #efede8;
+        color: var(--muted);
+        font-size: 0.92rem;
+      }
+
       code {
         display: block;
         overflow-wrap: anywhere;
@@ -259,7 +289,8 @@
 
         header,
         .sample-body,
-        .grid {
+        .grid,
+        .mini-page {
           grid-template-columns: 1fr;
         }
 
@@ -355,6 +386,29 @@
                 <p>Stripe card, Base USDC, Calendly, waitlist, or contact form placement.</p>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Example First Draft</h2>
+        <div class="mini-page" aria-label="Example service-business landing page first draft">
+          <div>
+            <p class="eyebrow">Local service page</p>
+            <h3>Book reliable exterior cleaning before the next busy weekend.</h3>
+            <p class="lead">
+              A first draft like this can turn a rough service note into a clear page with the area served,
+              the jobs handled, a simple booking CTA, and proof blocks a buyer can scan in seconds.
+            </p>
+            <div class="actions">
+              <a class="button primary" href="https://buy.stripe.com/cNi3co9cG8Oj1CS4XA3sI00">Start a $25 sprint</a>
+            </div>
+          </div>
+          <div class="mini-proof">
+            <span>Services listed clearly</span>
+            <span>Booking CTA above the fold</span>
+            <span>Trust and process sections</span>
+            <span>Mobile-friendly HTML/CSS</span>
           </div>
         </div>
       </section>
