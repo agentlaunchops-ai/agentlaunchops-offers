@@ -134,6 +134,32 @@
         color: var(--muted);
       }
 
+      .checklist {
+        display: grid;
+        gap: 10px;
+        margin-top: 10px;
+      }
+
+      .check {
+        display: grid;
+        grid-template-columns: 30px 1fr;
+        gap: 10px;
+        align-items: start;
+        color: var(--muted);
+      }
+
+      .check span {
+        display: inline-flex;
+        width: 30px;
+        height: 30px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        background: #e6f2ef;
+        color: var(--accent);
+        font-weight: 900;
+      }
+
       .sample {
         overflow: hidden;
         border: 1px solid var(--line);
@@ -316,12 +342,39 @@
       </section>
 
       <section>
+        <h2>Audit Sample</h2>
+        <div class="grid">
+          <div class="card">
+            <strong>Hero clarity</strong>
+            <p>Replace vague launch copy with the buyer, outcome, timeframe, and first action in the first screen.</p>
+          </div>
+          <div class="card">
+            <strong>CTA friction</strong>
+            <p>Move the primary CTA above the fold and repeat it after proof, pricing, and the FAQ instead of hiding it in the nav.</p>
+          </div>
+          <div class="card">
+            <strong>Trust gap</strong>
+            <p>Add one compact proof block: who it is for, what is included, and what happens immediately after payment or signup.</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
         <h2>Scope</h2>
         <ul>
           <li>Best for one-page launches, portfolios, local services, tiny SaaS/tools, and proof-of-concept offers.</li>
           <li>Buyer provides product details, logo if any, preferred links, and any required images through checkout or the revision pass.</li>
           <li>No fake claims, scraping, account creation, credential handling, regulated advice, or spam tooling.</li>
         </ul>
+      </section>
+
+      <section>
+        <h2>Delivery Flow</h2>
+        <div class="checklist" aria-label="Delivery steps">
+          <div class="check"><span>1</span><p>Checkout collects the URL or project brief, main goal, and primary CTA.</p></div>
+          <div class="check"><span>2</span><p>The first audit or page version is prepared within 24 hours after payment and usable scope are received.</p></div>
+          <div class="check"><span>3</span><p>For the $25 sprint, one focused revision pass is included for copy, layout, or CTA adjustments.</p></div>
+        </div>
       </section>
 
       <section>
