@@ -49,6 +49,12 @@
     <priority>0.95</priority>
   </url>
   <url>
+    <loc>https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-customer-portal-node.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
     <loc>https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-metered-billing-node.html</loc>
     <lastmod>2026-06-09</lastmod>
     <changefreq>weekly</changefreq>

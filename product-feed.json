@@ -44,6 +44,14 @@
       "summary": "Buyer guide mapping Stripe subscription management searches to the six live paid Stripe source kits."
     },
     {
+      "name": "Stripe Customer Portal for Node SaaS",
+      "price": null,
+      "status": "buyer guide",
+      "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-customer-portal-node.html",
+      "checkout": null,
+      "summary": "Buyer guide mapping Stripe Customer Portal searches to live paid source kits for adjacent SaaS billing workflows."
+    },
+    {
       "name": "Stripe Metered Billing for Node SaaS",
       "price": null,
       "status": "buyer guide",
