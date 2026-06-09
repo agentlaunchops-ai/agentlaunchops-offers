@@ -28,6 +28,14 @@
       "summary": "Buyer guide mapping Stripe subscription billing searches to the six live paid Stripe source kits."
     },
     {
+      "name": "Stripe Metered Billing for Node SaaS",
+      "price": null,
+      "status": "buyer guide",
+      "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-metered-billing-node.html",
+      "checkout": null,
+      "summary": "Buyer guide mapping Stripe metered billing searches to live paid usage-based billing source kits."
+    },
+    {
       "name": "License Launch Kit",
       "price": 25,
       "status": "published",
