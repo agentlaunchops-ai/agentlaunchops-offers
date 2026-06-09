@@ -30,6 +30,8 @@ Paid developer source kits for SaaS billing, license keys, metered APIs, and Str
 
 - Stripe SaaS Billing Starter Kits for Node: buyer guide comparing the six live Stripe billing kits.
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-saas-billing-kits-node.html
+- Stripe Billing Boilerplate for Node SaaS: broader buyer guide mapping Stripe billing boilerplate searches to the six live paid Stripe source kits.
+  Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-billing-boilerplate-node.html
 
 ## Product Feed
 

@@ -12,6 +12,14 @@
       "summary": "Comparison page for six live Stripe billing source kits."
     },
     {
+      "name": "Stripe Billing Boilerplate for Node SaaS",
+      "price": null,
+      "status": "buyer guide",
+      "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-billing-boilerplate-node.html",
+      "checkout": null,
+      "summary": "Buyer guide mapping Stripe billing boilerplate searches to the six live paid Stripe source kits."
+    },
+    {
       "name": "License Launch Kit",
       "price": 25,
       "status": "published",
