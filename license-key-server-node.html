@@ -37,6 +37,38 @@
           }
     }
     </script>
+    <script type="application/ld+json">
+    {
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                        {
+                                  "@type": "Question",
+                                  "name": "What does the license key server kit include?",
+                                  "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "It includes Node source for license issuing, verification, activation tracking, admin listing, Stripe webhook idempotency, manual Base USDC pending orders, tests, and buyer smoke checks."
+                                  }
+                        },
+                        {
+                                  "@type": "Question",
+                                  "name": "Is this a hosted license server?",
+                                  "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "No. It is an adapt-it-yourself source kit for developers who want to run and customize their own license-key flow for paid tools, templates, plugins, or downloads."
+                                  }
+                        },
+                        {
+                                  "@type": "Question",
+                                  "name": "What work remains after purchase?",
+                                  "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "You connect your payment rail, deploy the server where you want it, map the license checks into your product, review the tests, and adapt storage for your production setup."
+                                  }
+                        }
+              ]
+    }
+    </script>
     <style>
       :root {
         color-scheme: light;
@@ -173,6 +205,19 @@
         grid-template-columns: repeat(3, minmax(0, 1fr));
         gap: 14px;
       }
+      .faq-grid {
+        display: grid;
+        gap: 14px;
+      }
+      .faq-item {
+        padding: 18px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--panel);
+      }
+      .faq-item + .faq-item {
+        margin-top: 0;
+      }
       .card {
         min-height: 168px;
         padding: 18px;
@@ -276,6 +321,24 @@ npm run format:check
 npm test
 npm run smoke:buyer</code>
         <p class="note">The delivered zip includes setup notes, source files, tests, and a checksum manifest.</p>
+      </section>
+
+      <section class="faq" id="faq">
+        <h2>Questions Before Buying</h2>
+        <div class="faq-grid">
+          <div class="faq-item">
+            <h3>What does the license key server kit include?</h3>
+            <p>It includes Node source for license issuing, verification, activation tracking, admin listing, Stripe webhook idempotency, manual Base USDC pending orders, tests, and buyer smoke checks.</p>
+          </div>
+          <div class="faq-item">
+            <h3>Is this a hosted license server?</h3>
+            <p>No. It is an adapt-it-yourself source kit for developers who want to run and customize their own license-key flow for paid tools, templates, plugins, or downloads.</p>
+          </div>
+          <div class="faq-item">
+            <h3>What work remains after purchase?</h3>
+            <p>You connect your payment rail, deploy the server where you want it, map the license checks into your product, review the tests, and adapt storage for your production setup.</p>
+          </div>
+        </div>
       </section>
 
       <section>

@@ -37,6 +37,38 @@
           }
     }
     </script>
+    <script type="application/ld+json">
+    {
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                        {
+                                  "@type": "Question",
+                                  "name": "What does the Stripe invoice tax kit include?",
+                                  "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "It includes Node source for checkout payloads with billing address and tax ID collection, signed invoice webhooks, invoice state syncing, escaped receipt HTML, tests, and buyer checks."
+                                  }
+                        },
+                        {
+                                  "@type": "Question",
+                                  "name": "Does this replace tax advice or tax filing software?",
+                                  "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "No. It is a developer source kit for collecting and syncing invoice and tax-ID fields in a Stripe Billing flow. It does not provide tax, accounting, or legal advice."
+                                  }
+                        },
+                        {
+                                  "@type": "Question",
+                                  "name": "What work remains after purchase?",
+                                  "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "You connect your Stripe account, review your jurisdiction-specific tax requirements separately, map invoice records to your app, and adapt the examples to your billing flow."
+                                  }
+                        }
+              ]
+    }
+    </script>
     <style>
       :root {
         color-scheme: light;
@@ -173,6 +205,19 @@
         grid-template-columns: repeat(3, minmax(0, 1fr));
         gap: 14px;
       }
+      .faq-grid {
+        display: grid;
+        gap: 14px;
+      }
+      .faq-item {
+        padding: 18px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--panel);
+      }
+      .faq-item + .faq-item {
+        margin-top: 0;
+      }
       .card {
         min-height: 168px;
         padding: 18px;
@@ -275,6 +320,24 @@
 npm test
 npm run smoke:buyer</code>
         <p class="note">The delivered zip includes setup notes, source files, tests, and a checksum manifest.</p>
+      </section>
+
+      <section class="faq" id="faq">
+        <h2>Questions Before Buying</h2>
+        <div class="faq-grid">
+          <div class="faq-item">
+            <h3>What does the Stripe invoice tax kit include?</h3>
+            <p>It includes Node source for checkout payloads with billing address and tax ID collection, signed invoice webhooks, invoice state syncing, escaped receipt HTML, tests, and buyer checks.</p>
+          </div>
+          <div class="faq-item">
+            <h3>Does this replace tax advice or tax filing software?</h3>
+            <p>No. It is a developer source kit for collecting and syncing invoice and tax-ID fields in a Stripe Billing flow. It does not provide tax, accounting, or legal advice.</p>
+          </div>
+          <div class="faq-item">
+            <h3>What work remains after purchase?</h3>
+            <p>You connect your Stripe account, review your jurisdiction-specific tax requirements separately, map invoice records to your app, and adapt the examples to your billing flow.</p>
+          </div>
+        </div>
       </section>
 
       <section>

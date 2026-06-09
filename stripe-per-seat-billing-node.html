@@ -37,6 +37,38 @@
           }
     }
     </script>
+    <script type="application/ld+json">
+    {
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                        {
+                                  "@type": "Question",
+                                  "name": "What does the Stripe per-seat billing kit include?",
+                                  "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "It includes Node source for subscription quantity syncing, signed team invites, seat-limit checks, webhook idempotency, tests, buyer smoke checks, and a manifest verifier."
+                                  }
+                        },
+                        {
+                                  "@type": "Question",
+                                  "name": "Is this a hosted billing service?",
+                                  "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "No. It is an adapt-it-yourself source kit for developers who want working reference code to merge into an existing Node app, auth layer, and Stripe Billing setup."
+                                  }
+                        },
+                        {
+                                  "@type": "Question",
+                                  "name": "What work remains after purchase?",
+                                  "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "You connect your Stripe account, map the examples to your user and team model, review the tests, and adapt the demo server paths to your production app."
+                                  }
+                        }
+              ]
+    }
+    </script>
     <style>
       :root {
         color-scheme: light;
@@ -173,6 +205,19 @@
         grid-template-columns: repeat(3, minmax(0, 1fr));
         gap: 14px;
       }
+      .faq-grid {
+        display: grid;
+        gap: 14px;
+      }
+      .faq-item {
+        padding: 18px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--panel);
+      }
+      .faq-item + .faq-item {
+        margin-top: 0;
+      }
       .card {
         min-height: 168px;
         padding: 18px;
@@ -275,6 +320,24 @@
 npm test
 npm run smoke:buyer</code>
         <p class="note">The delivered zip includes setup notes, source files, tests, and a checksum manifest.</p>
+      </section>
+
+      <section class="faq" id="faq">
+        <h2>Questions Before Buying</h2>
+        <div class="faq-grid">
+          <div class="faq-item">
+            <h3>What does the Stripe per-seat billing kit include?</h3>
+            <p>It includes Node source for subscription quantity syncing, signed team invites, seat-limit checks, webhook idempotency, tests, buyer smoke checks, and a manifest verifier.</p>
+          </div>
+          <div class="faq-item">
+            <h3>Is this a hosted billing service?</h3>
+            <p>No. It is an adapt-it-yourself source kit for developers who want working reference code to merge into an existing Node app, auth layer, and Stripe Billing setup.</p>
+          </div>
+          <div class="faq-item">
+            <h3>What work remains after purchase?</h3>
+            <p>You connect your Stripe account, map the examples to your user and team model, review the tests, and adapt the demo server paths to your production app.</p>
+          </div>
+        </div>
       </section>
 
       <section>

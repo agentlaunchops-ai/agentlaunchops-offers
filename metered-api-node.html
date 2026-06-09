@@ -37,6 +37,38 @@
           }
     }
     </script>
+    <script type="application/ld+json">
+    {
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                        {
+                                  "@type": "Question",
+                                  "name": "What does the metered API kit include?",
+                                  "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "It includes Node source for HMAC-prefixed API keys, hashed key storage, monthly quota checks, usage logs, remaining-quota summaries, Stripe checkout hooks, manual Base USDC order intake, tests, and buyer smoke checks."
+                                  }
+                        },
+                        {
+                                  "@type": "Question",
+                                  "name": "Is this a hosted API gateway?",
+                                  "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "No. It is an adapt-it-yourself source kit for developers who want the core metering, key, and quota logic to embed in their own API service."
+                                  }
+                        },
+                        {
+                                  "@type": "Question",
+                                  "name": "What work remains after purchase?",
+                                  "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "You connect your persistence layer, map plans and customers, wire the protected-route helper into your app, review the tests, and adapt checkout hooks to your payment flow."
+                                  }
+                        }
+              ]
+    }
+    </script>
     <style>
       :root {
         color-scheme: light;
@@ -173,6 +205,19 @@
         grid-template-columns: repeat(3, minmax(0, 1fr));
         gap: 14px;
       }
+      .faq-grid {
+        display: grid;
+        gap: 14px;
+      }
+      .faq-item {
+        padding: 18px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--panel);
+      }
+      .faq-item + .faq-item {
+        margin-top: 0;
+      }
       .card {
         min-height: 168px;
         padding: 18px;
@@ -276,6 +321,24 @@
 npm test
 npm run smoke:buyer</code>
         <p class="note">The delivered zip includes setup notes, source files, tests, and a checksum manifest.</p>
+      </section>
+
+      <section class="faq" id="faq">
+        <h2>Questions Before Buying</h2>
+        <div class="faq-grid">
+          <div class="faq-item">
+            <h3>What does the metered API kit include?</h3>
+            <p>It includes Node source for HMAC-prefixed API keys, hashed key storage, monthly quota checks, usage logs, remaining-quota summaries, Stripe checkout hooks, manual Base USDC order intake, tests, and buyer smoke checks.</p>
+          </div>
+          <div class="faq-item">
+            <h3>Is this a hosted API gateway?</h3>
+            <p>No. It is an adapt-it-yourself source kit for developers who want the core metering, key, and quota logic to embed in their own API service.</p>
+          </div>
+          <div class="faq-item">
+            <h3>What work remains after purchase?</h3>
+            <p>You connect your persistence layer, map plans and customers, wire the protected-route helper into your app, review the tests, and adapt checkout hooks to your payment flow.</p>
+          </div>
+        </div>
       </section>
 
       <section>

@@ -37,6 +37,38 @@
           }
     }
     </script>
+    <script type="application/ld+json">
+    {
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                        {
+                                  "@type": "Question",
+                                  "name": "What does the Stripe MRR analytics kit include?",
+                                  "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "It includes Node source for subscription snapshots, paid invoice summaries, churn and refund handling, duplicate-event suppression, a metrics endpoint, tests, and buyer smoke checks."
+                                  }
+                        },
+                        {
+                                  "@type": "Question",
+                                  "name": "Is this a full analytics dashboard?",
+                                  "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "No. It is an adapt-it-yourself source kit that gives you the revenue-state calculations and endpoints to build into your own internal dashboard or admin tools."
+                                  }
+                        },
+                        {
+                                  "@type": "Question",
+                                  "name": "What work remains after purchase?",
+                                  "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "You connect Stripe webhooks, map your customer records, decide which metrics to expose, review the tests, and adapt the demo server to your app."
+                                  }
+                        }
+              ]
+    }
+    </script>
     <style>
       :root {
         color-scheme: light;
@@ -173,6 +205,19 @@
         grid-template-columns: repeat(3, minmax(0, 1fr));
         gap: 14px;
       }
+      .faq-grid {
+        display: grid;
+        gap: 14px;
+      }
+      .faq-item {
+        padding: 18px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--panel);
+      }
+      .faq-item + .faq-item {
+        margin-top: 0;
+      }
       .card {
         min-height: 168px;
         padding: 18px;
@@ -275,6 +320,24 @@
 npm test
 npm run smoke:buyer</code>
         <p class="note">The delivered zip includes setup notes, source files, tests, and a checksum manifest.</p>
+      </section>
+
+      <section class="faq" id="faq">
+        <h2>Questions Before Buying</h2>
+        <div class="faq-grid">
+          <div class="faq-item">
+            <h3>What does the Stripe MRR analytics kit include?</h3>
+            <p>It includes Node source for subscription snapshots, paid invoice summaries, churn and refund handling, duplicate-event suppression, a metrics endpoint, tests, and buyer smoke checks.</p>
+          </div>
+          <div class="faq-item">
+            <h3>Is this a full analytics dashboard?</h3>
+            <p>No. It is an adapt-it-yourself source kit that gives you the revenue-state calculations and endpoints to build into your own internal dashboard or admin tools.</p>
+          </div>
+          <div class="faq-item">
+            <h3>What work remains after purchase?</h3>
+            <p>You connect Stripe webhooks, map your customer records, decide which metrics to expose, review the tests, and adapt the demo server to your app.</p>
+          </div>
+        </div>
       </section>
 
       <section>
