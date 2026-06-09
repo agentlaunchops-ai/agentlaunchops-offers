@@ -36,6 +36,14 @@
       "summary": "Buyer guide mapping Stripe metered billing searches to live paid usage-based billing source kits."
     },
     {
+      "name": "Stripe Usage Based Billing for Node SaaS",
+      "price": null,
+      "status": "buyer guide",
+      "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-usage-based-billing-node.html",
+      "checkout": null,
+      "summary": "Buyer guide mapping Stripe usage-based billing searches to live paid metered API, usage alerts, MRR analytics, invoice tax, and cancel-save source kits."
+    },
+    {
       "name": "License Launch Kit",
       "price": 25,
       "status": "published",
