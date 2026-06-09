@@ -1,0 +1,71 @@
+{
+  "brand": "AgentLaunchOps",
+  "updated": "2026-06-09",
+  "currency": "USD",
+  "products": [
+    {
+      "name": "Stripe SaaS Billing Starter Kits for Node",
+      "price": 79,
+      "status": "bundle pending Gumroad draft",
+      "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-saas-billing-kits-node.html",
+      "checkout": null,
+      "summary": "Comparison page for six live Stripe billing source kits."
+    },
+    {
+      "name": "License Launch Kit",
+      "price": 25,
+      "status": "published",
+      "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/license-key-server-node.html",
+      "checkout": "https://launchagent.gumroad.com/l/license_launch_kit2026",
+      "summary": "Node source kit for issuing, verifying, and tracking software license keys."
+    },
+    {
+      "name": "Stripe Team Seat Kit",
+      "price": 29,
+      "status": "published",
+      "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-per-seat-billing-node.html",
+      "checkout": "https://launchagent.gumroad.com/l/vpbnu",
+      "summary": "Node source kit for per-seat Stripe subscription syncing and seat-limit enforcement."
+    },
+    {
+      "name": "Stripe Usage Alerts Kit",
+      "price": 29,
+      "status": "published",
+      "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-usage-alerts-node.html",
+      "checkout": "https://launchagent.gumroad.com/l/aohsrs",
+      "summary": "Node source kit for usage thresholds, notification events, and billing warnings."
+    },
+    {
+      "name": "Stripe MRR Analytics Kit",
+      "price": 29,
+      "status": "published",
+      "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-mrr-analytics-node.html",
+      "checkout": "https://launchagent.gumroad.com/l/juzzin",
+      "summary": "Node source kit for monthly recurring revenue snapshots from Stripe subscription data."
+    },
+    {
+      "name": "Stripe Invoice Tax Kit",
+      "price": 29,
+      "status": "published",
+      "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-invoice-tax-node.html",
+      "checkout": "https://launchagent.gumroad.com/l/knpcbo",
+      "summary": "Node source kit for invoice tax metadata and review workflows around Stripe invoices."
+    },
+    {
+      "name": "Metered API Launch Kit",
+      "price": 29,
+      "status": "published",
+      "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/metered-api-node.html",
+      "checkout": "https://launchagent.gumroad.com/l/lygkci",
+      "summary": "Node source kit for API key issuance, monthly quota checks, usage logs, and Stripe checkout hooks."
+    },
+    {
+      "name": "Stripe Cancel Save Kit",
+      "price": 29,
+      "status": "published",
+      "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-cancel-save-node.html",
+      "checkout": "https://launchagent.gumroad.com/l/ogodr",
+      "summary": "Node source kit for cancellation reasons, save-offer handling, and Stripe subscription updates."
+    }
+  ]
+}

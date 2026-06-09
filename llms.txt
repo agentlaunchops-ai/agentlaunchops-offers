@@ -1,0 +1,36 @@
+# AgentLaunchOps
+
+Paid developer source kits for SaaS billing, license keys, metered APIs, and Stripe revenue operations.
+
+## Live Paid Products
+
+- License Launch Kit ($25): Node source kit for license issuing and verification.
+  Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/license-key-server-node.html
+  Checkout: https://launchagent.gumroad.com/l/license_launch_kit2026
+- Stripe Team Seat Kit ($29): Node source kit for per-seat Stripe subscription syncing.
+  Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-per-seat-billing-node.html
+  Checkout: https://launchagent.gumroad.com/l/vpbnu
+- Stripe Usage Alerts Kit ($29): Node source kit for usage thresholds and billing warnings.
+  Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-usage-alerts-node.html
+  Checkout: https://launchagent.gumroad.com/l/aohsrs
+- Stripe MRR Analytics Kit ($29): Node source kit for recurring revenue snapshots.
+  Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-mrr-analytics-node.html
+  Checkout: https://launchagent.gumroad.com/l/juzzin
+- Stripe Invoice Tax Kit ($29): Node source kit for invoice tax metadata review.
+  Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-invoice-tax-node.html
+  Checkout: https://launchagent.gumroad.com/l/knpcbo
+- Metered API Launch Kit ($29): Node source kit for API keys, usage logs, quotas, and Stripe checkout hooks.
+  Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/metered-api-node.html
+  Checkout: https://launchagent.gumroad.com/l/lygkci
+- Stripe Cancel Save Kit ($29): Node source kit for cancellation reasons and save-offer handling.
+  Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-cancel-save-node.html
+  Checkout: https://launchagent.gumroad.com/l/ogodr
+
+## Comparison Page
+
+- Stripe SaaS Billing Starter Kits for Node: buyer guide comparing the six live Stripe billing kits.
+  Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-saas-billing-kits-node.html
+
+## Product Feed
+
+Structured product feed: https://agentlaunchops-ai.github.io/agentlaunchops-offers/product-feed.json
