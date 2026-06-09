@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Stripe SaaS Billing Starter Kits for Node | AgentLaunchOps</title>
+    <meta
+      name="description"
+      content="Paid Node source kits for Stripe SaaS billing: per-seat subscriptions, usage alerts, MRR analytics, invoice tax, cancel-save flows, and metered API access."
+    />
+    <link rel="canonical" href="https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-saas-billing-kits-node.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="AgentLaunchOps" />
+    <meta property="og:title" content="Stripe SaaS Billing Starter Kits for Node | AgentLaunchOps" />
+    <meta property="og:description" content="Paid Node source kits for Stripe SaaS billing workflows, each sold through Gumroad with tests and buyer smoke checks." />
+    <meta property="og:url" content="https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-saas-billing-kits-node.html" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Stripe SaaS Billing Starter Kits for Node | AgentLaunchOps" />
+    <meta name="twitter:description" content="Paid Node source kits for Stripe SaaS billing workflows, each sold through Gumroad with tests and buyer smoke checks." />
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": "Stripe SaaS Billing Starter Kits for Node",
+      "description": "A collection of paid Node source kits for Stripe SaaS billing workflows.",
+      "url": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-saas-billing-kits-node.html",
+      "mainEntity": {
+        "@type": "ItemList",
+        "name": "Stripe billing source kits",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "url": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-per-seat-billing-node.html",
+            "name": "Stripe Team Seat Kit"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "url": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-usage-alerts-node.html",
+            "name": "Stripe Usage Alerts Kit"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "url": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-mrr-analytics-node.html",
+            "name": "Stripe MRR Analytics Kit"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "url": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-invoice-tax-node.html",
+            "name": "Stripe Invoice Tax Kit"
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "url": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-cancel-save-node.html",
+            "name": "Stripe Cancel Save Kit"
+          },
+          {
+            "@type": "ListItem",
+            "position": 6,
+            "url": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/metered-api-node.html",
+            "name": "Metered API Launch Kit"
+          }
+        ]
+      }
+    }
+    </script>
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #17201b;
+        --muted: #59645e;
+        --line: #d8ded9;
+        --paper: #f7faf8;
+        --panel: #ffffff;
+        --accent: #0f766e;
+        --accent-dark: #115e59;
+        --warm: #a24613;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font-family:
+          Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          sans-serif;
+        background: var(--paper);
+        color: var(--ink);
+        line-height: 1.55;
+      }
+      main {
+        width: min(1100px, calc(100% - 32px));
+        margin: 0 auto;
+        padding: 42px 0 56px;
+      }
+      .nav {
+        display: flex;
+        justify-content: space-between;
+        gap: 16px;
+        margin-bottom: 34px;
+        color: var(--muted);
+        font-size: 0.95rem;
+      }
+      .nav a {
+        color: var(--accent-dark);
+        font-weight: 700;
+        text-decoration: none;
+      }
+      .hero {
+        display: grid;
+        grid-template-columns: minmax(0, 1.05fr) minmax(320px, 0.95fr);
+        gap: 38px;
+        align-items: start;
+        padding-bottom: 34px;
+        border-bottom: 1px solid var(--line);
+      }
+      h1,
+      h2,
+      h3,
+      p {
+        margin: 0;
+      }
+      h1 {
+        max-width: 780px;
+        margin-bottom: 16px;
+        font-size: clamp(2.25rem, 6vw, 4.65rem);
+        line-height: 0.98;
+        letter-spacing: 0;
+      }
+      h2 {
+        margin-bottom: 14px;
+        font-size: 1.25rem;
+      }
+      h3 {
+        margin-bottom: 8px;
+        font-size: 1rem;
+      }
+      p {
+        color: var(--muted);
+      }
+      .eyebrow {
+        margin-bottom: 14px;
+        color: var(--warm);
+        font-weight: 800;
+        text-transform: uppercase;
+      }
+      .lead {
+        max-width: 740px;
+        font-size: 1.08rem;
+      }
+      .actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 24px;
+      }
+      .button {
+        min-height: 44px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 11px 16px;
+        border: 1px solid var(--accent);
+        border-radius: 6px;
+        background: var(--accent);
+        color: #ffffff;
+        font-weight: 800;
+        text-decoration: none;
+      }
+      .button.secondary {
+        background: transparent;
+        color: var(--accent-dark);
+      }
+      .panel,
+      .card {
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--panel);
+      }
+      .panel {
+        padding: 22px;
+      }
+      .price {
+        margin-bottom: 12px;
+        color: var(--warm);
+        font-size: 1.35rem;
+        font-weight: 900;
+      }
+      ul {
+        margin: 0;
+        padding-left: 20px;
+        color: var(--muted);
+      }
+      li + li {
+        margin-top: 9px;
+      }
+      section {
+        padding: 32px 0;
+        border-bottom: 1px solid var(--line);
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 14px;
+      }
+      .card {
+        min-height: 216px;
+        padding: 18px;
+      }
+      .card .price-line {
+        margin-bottom: 10px;
+        color: var(--warm);
+        font-weight: 800;
+      }
+      .card p + p {
+        margin-top: 10px;
+      }
+      .card a {
+        color: var(--accent-dark);
+        font-weight: 800;
+      }
+      code {
+        display: inline-block;
+        max-width: 100%;
+        overflow-wrap: anywhere;
+        padding: 2px 5px;
+        border-radius: 4px;
+        background: #edf3ef;
+        color: var(--ink);
+      }
+      .snippet {
+        display: block;
+        margin-top: 12px;
+        padding: 14px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: #101817;
+        color: #e7f4ef;
+        white-space: pre-wrap;
+      }
+      .note {
+        margin-top: 14px;
+        font-size: 0.94rem;
+      }
+      @media (max-width: 860px) {
+        main {
+          padding-top: 24px;
+        }
+        .hero,
+        .grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <nav class="nav" aria-label="Product navigation">
+        <span>AgentLaunchOps</span>
+        <a href="./">All products</a>
+      </nav>
+
+      <section class="hero">
+        <div>
+          <p class="eyebrow">Stripe SaaS billing source kits for Node apps</p>
+          <h1>Pick the billing workflow you need and start from tested Node source.</h1>
+          <p class="lead">
+            This collection gathers the live AgentLaunchOps paid source kits for common SaaS billing
+            jobs: team seats, usage alerts, MRR reporting, invoice tax metadata, cancel-save flows,
+            and metered API access.
+          </p>
+          <div class="actions">
+            <a class="button" href="#kits">Compare the kits</a>
+            <a class="button secondary" href="https://launchagent.gumroad.com/l/vpbnu">Buy a live kit on Gumroad</a>
+          </div>
+        </div>
+        <aside class="panel">
+          <p class="price">$29 each on Gumroad</p>
+          <h2>Good fit when you need</h2>
+          <ul>
+            <li>Adaptable Node source instead of a hosted billing service.</li>
+            <li>Stripe webhook examples with idempotent state updates.</li>
+            <li>Buyer smoke checks before merging code into an app.</li>
+            <li>Focused workflows that can be purchased separately.</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section id="kits">
+        <h2>Live Paid Kits</h2>
+        <div class="grid">
+          <div class="card">
+            <p class="price-line">$29</p>
+            <h3>Stripe Team Seat Kit</h3>
+            <p>Map subscription quantity to team seat limits, signed invites, active-subscription checks, and webhook syncing.</p>
+            <p><a href="stripe-per-seat-billing-node.html">Details</a> · <a href="https://launchagent.gumroad.com/l/vpbnu">Buy on Gumroad</a></p>
+          </div>
+          <div class="card">
+            <p class="price-line">$29</p>
+            <h3>Stripe Usage Alerts Kit</h3>
+            <p>Track usage thresholds, queue warning events, summarize billing limits, and sync usage invoices from Stripe.</p>
+            <p><a href="stripe-usage-alerts-node.html">Details</a> · <a href="https://launchagent.gumroad.com/l/aohsrs">Buy on Gumroad</a></p>
+          </div>
+          <div class="card">
+            <p class="price-line">$29</p>
+            <h3>Stripe MRR Analytics Kit</h3>
+            <p>Calculate MRR, ARR, churn, paid invoices, refunds, and subscription revenue snapshots from webhook events.</p>
+            <p><a href="stripe-mrr-analytics-node.html">Details</a> · <a href="https://launchagent.gumroad.com/l/juzzin">Buy on Gumroad</a></p>
+          </div>
+          <div class="card">
+            <p class="price-line">$29</p>
+            <h3>Stripe Invoice Tax Kit</h3>
+            <p>Collect invoice metadata and tax IDs, verify invoice webhooks, sync invoice state, and render receipt data.</p>
+            <p><a href="stripe-invoice-tax-node.html">Details</a> · <a href="https://launchagent.gumroad.com/l/knpcbo">Buy on Gumroad</a></p>
+          </div>
+          <div class="card">
+            <p class="price-line">$29</p>
+            <h3>Stripe Cancel Save Kit</h3>
+            <p>Capture cancellation reasons, present save offers, confirm cancellations, and report save-rate analytics.</p>
+            <p><a href="stripe-cancel-save-node.html">Details</a> · <a href="https://launchagent.gumroad.com/l/ogodr">Buy on Gumroad</a></p>
+          </div>
+          <div class="card">
+            <p class="price-line">$29</p>
+            <h3>Metered API Launch Kit</h3>
+            <p>Issue API keys, enforce monthly quotas, log usage, expose protected routes, and connect access to checkout events.</p>
+            <p><a href="metered-api-node.html">Details</a> · <a href="https://launchagent.gumroad.com/l/lygkci">Buy on Gumroad</a></p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Adapt-It-Yourself Source</h2>
+        <p>
+          Each kit is a compact source package for developers who already have an app, database plan,
+          and Stripe account. The code is meant to be read, tested, and adapted into your billing layer.
+        </p>
+        <code class="snippet">npm run verify:manifest
+npm test
+npm run smoke:buyer</code>
+        <p class="note">The delivered zips include setup notes, source files, tests, buyer smoke checks, and checksum manifests.</p>
+      </section>
+
+      <section>
+        <h2>Choosing A Kit</h2>
+        <div class="grid">
+          <div class="card">
+            <h3>Seats</h3>
+            <p>Choose the team-seat kit when your pricing is tied to users, invites, and subscription quantity.</p>
+          </div>
+          <div class="card">
+            <h3>Usage</h3>
+            <p>Choose usage alerts or metered API when your product needs quota warnings, usage logs, or key-based access.</p>
+          </div>
+          <div class="card">
+            <h3>Revenue Ops</h3>
+            <p>Choose MRR analytics, invoice tax, or cancel-save when your billing workflow needs reporting or retention helpers.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
