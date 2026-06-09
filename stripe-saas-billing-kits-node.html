@@ -100,6 +100,32 @@
       ]
     }
     </script>
+    <script type="application/ld+json">
+    {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+                {
+                      "@type": "ListItem",
+                      "position": 1,
+                      "name": "AgentLaunchOps",
+                      "item": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/"
+                },
+                {
+                      "@type": "ListItem",
+                      "position": 2,
+                      "name": "Paid developer kits",
+                      "item": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/"
+                },
+                {
+                      "@type": "ListItem",
+                      "position": 3,
+                      "name": "Stripe SaaS Billing Starter Kits",
+                      "item": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-saas-billing-kits-node.html"
+                }
+          ]
+    }
+    </script>
     <style>
       :root {
         color-scheme: light;
@@ -128,6 +154,24 @@
         width: min(1100px, calc(100% - 32px));
         margin: 0 auto;
         padding: 42px 0 56px;
+      }
+
+      .breadcrumbs {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        align-items: center;
+        margin-bottom: 14px;
+        color: var(--muted);
+        font-size: 0.86rem;
+      }
+      .breadcrumbs a {
+        color: var(--accent-dark);
+        font-weight: 700;
+        text-decoration: none;
+      }
+      .breadcrumbs span {
+        color: var(--muted);
       }
       .nav {
         display: flex;
@@ -259,6 +303,40 @@
         display: grid;
         gap: 14px;
       }
+      .comparison {
+        width: 100%;
+        overflow-x: auto;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--panel);
+      }
+      table {
+        width: 100%;
+        min-width: 760px;
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        padding: 13px 14px;
+        border-bottom: 1px solid var(--line);
+        text-align: left;
+        vertical-align: top;
+      }
+      th {
+        color: var(--ink);
+        font-size: 0.82rem;
+        text-transform: uppercase;
+      }
+      td {
+        color: var(--muted);
+      }
+      tbody tr:last-child td {
+        border-bottom: 0;
+      }
+      td a {
+        color: var(--accent-dark);
+        font-weight: 800;
+      }
       code {
         display: inline-block;
         max-width: 100%;
@@ -295,6 +373,14 @@
   </head>
   <body>
     <main>
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <a href="./">AgentLaunchOps</a>
+        <span>/</span>
+        <a href="./">Paid developer kits</a>
+        <span>/</span>
+        <span aria-current="page">Stripe SaaS Billing Starter Kits</span>
+      </nav>
+
       <nav class="nav" aria-label="Product navigation">
         <span>AgentLaunchOps</span>
         <a href="./">All products</a>
@@ -396,6 +482,61 @@ npm run smoke:buyer</code>
             <p>Choose MRR analytics, invoice tax, or cancel-save when your billing workflow needs reporting or retention helpers.</p>
           </div>
         </div>
+      </section>
+
+      <section>
+        <h2>Billing Workflow Matrix</h2>
+        <div class="comparison">
+          <table>
+            <thead>
+              <tr>
+                <th>Workflow</th>
+                <th>Best Fit</th>
+                <th>Included Focus</th>
+                <th>Checkout</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Team seats</td>
+                <td>B2B SaaS plans where subscription quantity controls user access.</td>
+                <td>Seat limits, signed invites, active-subscription checks, and webhook syncing.</td>
+                <td><a href="https://launchagent.gumroad.com/l/vpbnu">Stripe Team Seat Kit</a></td>
+              </tr>
+              <tr>
+                <td>Usage warnings</td>
+                <td>Apps that need quota warnings before users hit billing or plan limits.</td>
+                <td>Threshold rules, alert queues, usage summaries, and invoice event sync.</td>
+                <td><a href="https://launchagent.gumroad.com/l/aohsrs">Stripe Usage Alerts Kit</a></td>
+              </tr>
+              <tr>
+                <td>Revenue reporting</td>
+                <td>Small teams that need a source-level MRR snapshot without wiring a full analytics stack.</td>
+                <td>MRR, ARR, churn, paid invoice, refund, and subscription revenue calculations.</td>
+                <td><a href="https://launchagent.gumroad.com/l/juzzin">Stripe MRR Analytics Kit</a></td>
+              </tr>
+              <tr>
+                <td>Invoice tax metadata</td>
+                <td>SaaS apps that need invoice-ready checkout data and receipt rendering.</td>
+                <td>Tax ID collection, invoice webhooks, invoice state sync, and escaped receipt HTML.</td>
+                <td><a href="https://launchagent.gumroad.com/l/knpcbo">Stripe Invoice Tax Kit</a></td>
+              </tr>
+              <tr>
+                <td>Cancel-save flow</td>
+                <td>Subscription products that want a structured retention step before cancellation.</td>
+                <td>Reason capture, save offers, cancellation confirmation, and save-rate analytics.</td>
+                <td><a href="https://launchagent.gumroad.com/l/ogodr">Stripe Cancel Save Kit</a></td>
+              </tr>
+              <tr>
+                <td>Metered API access</td>
+                <td>API products that sell access by key, quota, and usage history.</td>
+                <td>API key issuance, monthly quotas, protected routes, usage logs, and checkout hooks.</td>
+                <td><a href="https://launchagent.gumroad.com/l/lygkci">Metered API Launch Kit</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="note">The table is a buying guide, not a hosted integration promise: each checkout delivers source code to adapt into your own app.</p>
       </section>
 
       <section>
