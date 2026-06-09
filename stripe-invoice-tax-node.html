@@ -69,6 +69,38 @@
               ]
     }
     </script>
+    <script type="application/ld+json">
+    {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+                {
+                      "@type": "ListItem",
+                      "position": 1,
+                      "name": "AgentLaunchOps",
+                      "item": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/"
+                },
+                {
+                      "@type": "ListItem",
+                      "position": 2,
+                      "name": "Paid developer kits",
+                      "item": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-saas-billing-kits-node.html"
+                },
+                {
+                      "@type": "ListItem",
+                      "position": 3,
+                      "name": "Stripe SaaS Billing Starter Kits",
+                      "item": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-saas-billing-kits-node.html"
+                },
+                {
+                      "@type": "ListItem",
+                      "position": 4,
+                      "name": "Stripe Invoice Tax Kit",
+                      "item": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-invoice-tax-node.html"
+                }
+          ]
+    }
+    </script>
     <style>
       :root {
         color-scheme: light;
@@ -97,6 +129,24 @@
         width: min(1080px, calc(100% - 32px));
         margin: 0 auto;
         padding: 42px 0 56px;
+      }
+
+      .breadcrumbs {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        align-items: center;
+        margin-bottom: 14px;
+        color: var(--muted);
+        font-size: 0.86rem;
+      }
+      .breadcrumbs a {
+        color: var(--accent-dark);
+        font-weight: 700;
+        text-decoration: none;
+      }
+      .breadcrumbs span {
+        color: var(--muted);
       }
       .nav {
         display: flex;
@@ -261,6 +311,16 @@
   </head>
   <body>
     <main>
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <a href="./">AgentLaunchOps</a>
+        <span>/</span>
+        <a href="./">Paid developer kits</a>
+        <span>/</span>
+        <a href="stripe-saas-billing-kits-node.html">Stripe SaaS Billing Starter Kits</a>
+        <span>/</span>
+        <span aria-current="page">Stripe Invoice Tax Kit</span>
+      </nav>
+
       <nav class="nav" aria-label="Product navigation">
         <span>AgentLaunchOps</span>
         <a href="./">All products</a>
