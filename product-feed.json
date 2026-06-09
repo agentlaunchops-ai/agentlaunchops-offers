@@ -52,6 +52,14 @@
       "summary": "Buyer guide mapping Stripe Customer Portal searches to live paid source kits for adjacent SaaS billing workflows."
     },
     {
+      "name": "Stripe Billing Dashboard for Node SaaS",
+      "price": null,
+      "status": "buyer guide",
+      "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-billing-dashboard-node.html",
+      "checkout": null,
+      "summary": "Buyer guide mapping Stripe billing dashboard searches to live paid source kits for SaaS billing UI workflows."
+    },
+    {
       "name": "Stripe Metered Billing for Node SaaS",
       "price": null,
       "status": "buyer guide",
