@@ -38,6 +38,8 @@ Paid developer source kits for SaaS billing, license keys, metered APIs, and Str
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-metered-billing-node.html
 - Stripe Usage Based Billing for Node SaaS: buyer guide mapping usage-based billing searches to live paid metered API, usage alerts, MRR analytics, invoice tax, and cancel-save source kits.
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-usage-based-billing-node.html
+- Stripe Webhook Billing for Node SaaS: buyer guide mapping Stripe webhook billing searches to live paid Stripe source kits for seats, usage alerts, revenue snapshots, invoice tax review, cancel-save flows, and metered API access.
+  Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-webhook-billing-node.html
 
 ## Product Feed
 

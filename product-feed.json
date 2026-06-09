@@ -44,6 +44,14 @@
       "summary": "Buyer guide mapping Stripe usage-based billing searches to live paid metered API, usage alerts, MRR analytics, invoice tax, and cancel-save source kits."
     },
     {
+      "name": "Stripe Webhook Billing for Node SaaS",
+      "price": null,
+      "status": "buyer guide",
+      "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-webhook-billing-node.html",
+      "checkout": null,
+      "summary": "Buyer guide mapping Stripe webhook billing searches to live paid seat, usage alert, revenue, invoice, cancel-save, and metered API source kits."
+    },
+    {
       "name": "License Launch Kit",
       "price": 25,
       "status": "published",
