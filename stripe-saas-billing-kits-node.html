@@ -68,6 +68,38 @@
       }
     }
     </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Are these Stripe billing kits a single hosted service?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. They are paid source kits for Node developers who want focused reference code, tests, setup notes, and buyer smoke checks to adapt inside their own application."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which Stripe billing kit should I buy first?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Choose based on the workflow you need now: seats for team billing, usage alerts or metered API for quota-based products, and MRR analytics, invoice tax, or cancel-save for revenue operations."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I buy the kits separately?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Each published kit has its own Gumroad checkout so you can buy only the Stripe billing workflow you need."
+          }
+        }
+      ]
+    }
+    </script>
     <style>
       :root {
         color-scheme: light;
@@ -223,6 +255,10 @@
         color: var(--accent-dark);
         font-weight: 800;
       }
+      .faq-grid {
+        display: grid;
+        gap: 14px;
+      }
       code {
         display: inline-block;
         max-width: 100%;
@@ -358,6 +394,24 @@ npm run smoke:buyer</code>
           <div class="card">
             <h3>Revenue Ops</h3>
             <p>Choose MRR analytics, invoice tax, or cancel-save when your billing workflow needs reporting or retention helpers.</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Questions Before Buying</h2>
+        <div class="faq-grid">
+          <div class="card">
+            <h3>Are these Stripe billing kits a single hosted service?</h3>
+            <p>No. They are paid source kits for Node developers who want focused reference code, tests, setup notes, and buyer smoke checks to adapt inside their own application.</p>
+          </div>
+          <div class="card">
+            <h3>Which Stripe billing kit should I buy first?</h3>
+            <p>Choose based on the workflow you need now: seats for team billing, usage alerts or metered API for quota-based products, and MRR analytics, invoice tax, or cancel-save for revenue operations.</p>
+          </div>
+          <div class="card">
+            <h3>Can I buy the kits separately?</h3>
+            <p>Yes. Each published kit has its own Gumroad checkout so you can buy only the Stripe billing workflow you need.</p>
           </div>
         </div>
       </section>
