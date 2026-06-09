@@ -36,6 +36,14 @@
       "summary": "Buyer guide mapping Stripe Checkout subscription searches to the six live paid Stripe source kits."
     },
     {
+      "name": "Stripe Subscription Management for Node SaaS",
+      "price": null,
+      "status": "buyer guide",
+      "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-subscription-management-node.html",
+      "checkout": null,
+      "summary": "Buyer guide mapping Stripe subscription management searches to the six live paid Stripe source kits."
+    },
+    {
       "name": "Stripe Metered Billing for Node SaaS",
       "price": null,
       "status": "buyer guide",
