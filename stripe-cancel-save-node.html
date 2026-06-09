@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Stripe Cancel Save Flow Node Starter | AgentLaunchOps</title>
+    <meta
+      name="description"
+      content="A paid Node source kit for Stripe cancellation surveys, save offers, subscription cancellation handling, and idempotent webhook syncing."
+    />
+    <link rel="canonical" href="https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-cancel-save-node.html" />
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #17201b;
+        --muted: #59645e;
+        --line: #d8ded9;
+        --paper: #f7faf8;
+        --panel: #ffffff;
+        --accent: #0f766e;
+        --accent-dark: #115e59;
+        --warm: #a24613;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font-family:
+          Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          sans-serif;
+        background: var(--paper);
+        color: var(--ink);
+        line-height: 1.55;
+      }
+      main {
+        width: min(1080px, calc(100% - 32px));
+        margin: 0 auto;
+        padding: 42px 0 56px;
+      }
+      .nav {
+        display: flex;
+        justify-content: space-between;
+        gap: 16px;
+        margin-bottom: 34px;
+        color: var(--muted);
+        font-size: 0.95rem;
+      }
+      .nav a {
+        color: var(--accent-dark);
+        font-weight: 700;
+        text-decoration: none;
+      }
+      .hero {
+        display: grid;
+        grid-template-columns: minmax(0, 1.08fr) minmax(320px, 0.92fr);
+        gap: 38px;
+        align-items: start;
+        padding-bottom: 34px;
+        border-bottom: 1px solid var(--line);
+      }
+      h1,
+      h2,
+      h3,
+      p {
+        margin: 0;
+      }
+      h1 {
+        max-width: 760px;
+        margin-bottom: 16px;
+        font-size: clamp(2.25rem, 6vw, 4.55rem);
+        line-height: 0.98;
+        letter-spacing: 0;
+      }
+      h2 {
+        margin-bottom: 14px;
+        font-size: 1.25rem;
+      }
+      h3 {
+        margin-bottom: 8px;
+        font-size: 1rem;
+      }
+      p {
+        color: var(--muted);
+      }
+      .eyebrow {
+        margin-bottom: 14px;
+        color: var(--warm);
+        font-weight: 800;
+        text-transform: uppercase;
+      }
+      .lead {
+        max-width: 720px;
+        font-size: 1.08rem;
+      }
+      .actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 24px;
+      }
+      .button {
+        min-height: 44px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 11px 16px;
+        border: 1px solid var(--accent);
+        border-radius: 6px;
+        background: var(--accent);
+        color: #ffffff;
+        font-weight: 800;
+        text-decoration: none;
+      }
+      .button.secondary {
+        background: transparent;
+        color: var(--accent-dark);
+      }
+      .panel {
+        padding: 22px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--panel);
+      }
+      .price {
+        margin-bottom: 12px;
+        color: var(--warm);
+        font-size: 1.4rem;
+        font-weight: 900;
+      }
+      ul {
+        margin: 0;
+        padding-left: 20px;
+        color: var(--muted);
+      }
+      li + li {
+        margin-top: 9px;
+      }
+      section {
+        padding: 32px 0;
+        border-bottom: 1px solid var(--line);
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 14px;
+      }
+      .card {
+        min-height: 168px;
+        padding: 18px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--panel);
+      }
+      code {
+        display: inline-block;
+        max-width: 100%;
+        overflow-wrap: anywhere;
+        padding: 2px 5px;
+        border-radius: 4px;
+        background: #edf3ef;
+        color: var(--ink);
+      }
+      .snippet {
+        display: block;
+        margin-top: 12px;
+        padding: 14px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: #101817;
+        color: #e7f4ef;
+        white-space: pre-wrap;
+      }
+      .note {
+        margin-top: 14px;
+        font-size: 0.94rem;
+      }
+      @media (max-width: 820px) {
+        main {
+          padding-top: 24px;
+        }
+        .hero,
+        .grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <nav class="nav" aria-label="Product navigation">
+        <span>AgentLaunchOps</span>
+        <a href="./">All products</a>
+      </nav>
+
+      <section class="hero">
+        <div>
+          <p class="eyebrow">Stripe cancel-save flow for Node apps</p>
+          <h1>Add a measured cancellation flow before subscription churn becomes silent.</h1>
+          <p class="lead">
+            Stripe Cancel Save Kit is a paid Node source kit for SaaS builders who need cancellation
+            reasons, targeted save offers, subscription cancellation handling, and idempotent Stripe webhook syncing.
+          </p>
+          <div class="actions">
+            <a class="button" href="https://launchagent.gumroad.com/l/ogodr">Buy on Gumroad for $29</a>
+            <a class="button secondary" href="#included">See included files</a>
+          </div>
+        </div>
+        <aside class="panel">
+          <p class="price">$29 source kit</p>
+          <h2>Good fit when you need</h2>
+          <ul>
+            <li>Cancellation reason capture before ending a subscription.</li>
+            <li>Plan-aware save offers for pause, discount, or downgrade flows.</li>
+            <li>Stripe subscription cancellation calls with audit-friendly records.</li>
+            <li>Webhook idempotency for cancellation and subscription status updates.</li>
+            <li>Buyer smoke checks before adapting the code.</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section id="included">
+        <h2>What The Kit Covers</h2>
+        <div class="grid">
+          <div class="card">
+            <h3>Save Offer Routing</h3>
+            <p>Reason and plan inputs choose the right retention offer while still allowing a direct cancellation path.</p>
+          </div>
+          <div class="card">
+            <h3>Stripe Webhooks</h3>
+            <p>Raw-body signature checks and event idempotency keep local cancellation state aligned with Stripe.</p>
+          </div>
+          <div class="card">
+            <h3>Verification</h3>
+            <p>Includes tests, buyer smoke checks, a manifest verifier, and a dependency-free demo server.</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Adapt-It-Yourself Source</h2>
+        <p>
+          This is not a hosted retention platform. It is a compact source kit for developers who want a concrete
+          cancellation and save-offer implementation to adapt into an existing Node app and Stripe Billing setup.
+        </p>
+        <code class="snippet">npm run verify:manifest
+npm test
+npm run smoke:buyer</code>
+        <p class="note">The delivered zip includes setup notes, source files, tests, and a checksum manifest.</p>
+      </section>
+
+      <section>
+        <h2>Buy</h2>
+        <p>
+          The live Gumroad checkout delivers the paid source kit. Base USDC orders are available by email when a card
+          checkout is not a fit.
+        </p>
+        <div class="actions">
+          <a class="button" href="https://launchagent.gumroad.com/l/ogodr">Buy on Gumroad</a>
+          <a class="button secondary" href="mailto:agentlaunchops@proton.me?subject=Stripe%20Cancel%20Save%20Kit%20USDC%20order">Base USDC order</a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
