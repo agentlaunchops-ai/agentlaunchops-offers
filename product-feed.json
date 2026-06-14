@@ -12,6 +12,14 @@
       "summary": "Buyer guide for GitHub Actions workflow hardening with the live GHA Guard Pro Kit."
     },
     {
+      "name": "GitHub Actions Workflow Scanner for Node Repos",
+      "price": 29,
+      "status": "published",
+      "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/github-actions-workflow-scanner.html",
+      "checkout": "https://launchagent.gumroad.com/l/auqpvm",
+      "summary": "Buyer guide for local GitHub Actions workflow scanning with the live GHA Guard Pro Kit."
+    },
+    {
       "name": "GHA Guard Pro Kit",
       "price": 29,
       "status": "published",
