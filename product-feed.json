@@ -1,8 +1,24 @@
 {
   "brand": "AgentLaunchOps",
-  "updated": "2026-06-09",
+  "updated": "2026-06-14",
   "currency": "USD",
   "products": [
+    {
+      "name": "GitHub Actions Security Kit for Node Projects",
+      "price": 29,
+      "status": "published",
+      "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/github-actions-security-node.html",
+      "checkout": "https://launchagent.gumroad.com/l/auqpvm",
+      "summary": "Buyer guide for GitHub Actions workflow hardening with the live GHA Guard Pro Kit."
+    },
+    {
+      "name": "GHA Guard Pro Kit",
+      "price": 29,
+      "status": "published",
+      "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/gha-guard-pro-kit.html",
+      "checkout": "https://launchagent.gumroad.com/l/auqpvm",
+      "summary": "Paid GitHub Actions security source kit with workflow checks, safe auto-fixes, PR reports, and hardened templates."
+    },
     {
       "name": "Stripe SaaS Billing Starter Kits for Node",
       "price": 79,

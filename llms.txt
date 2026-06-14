@@ -4,6 +4,9 @@ Paid developer source kits for SaaS billing, license keys, metered APIs, and Str
 
 ## Live Paid Products
 
+- GHA Guard Pro Kit ($29): GitHub Actions security source kit with workflow checks, safe auto-fixes, PR reports, and hardened templates.
+  Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/github-actions-security-node.html
+  Checkout: https://launchagent.gumroad.com/l/auqpvm
 - License Launch Kit ($25): Node source kit for license issuing and verification.
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/license-key-server-node.html
   Checkout: https://launchagent.gumroad.com/l/license_launch_kit2026
