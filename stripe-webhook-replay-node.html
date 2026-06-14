@@ -1,0 +1,402 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Stripe Webhook Replay for Node | AgentLaunchOps</title>
+    <meta
+      name="description"
+      content="A paid Node source kit for storing failed Stripe webhook events, replaying them safely, and keeping handlers idempotent."
+    />
+    <link rel="canonical" href="https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-webhook-replay-node.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="AgentLaunchOps" />
+    <meta property="og:title" content="Stripe Webhook Replay for Node | AgentLaunchOps" />
+    <meta property="og:description" content="Paid Node source for failed Stripe webhook replay, event storage, idempotency, and recovery workflows." />
+    <meta property="og:url" content="https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-webhook-replay-node.html" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Stripe Webhook Replay for Node | AgentLaunchOps" />
+    <meta name="twitter:description" content="Paid Node source for failed Stripe webhook replay and idempotent recovery workflows." />
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Stripe Webhook Replay Kit",
+      "description": "A paid Node source kit for storing failed Stripe webhook events, replaying them safely, and keeping handlers idempotent.",
+      "url": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-webhook-replay-node.html",
+      "offers": {
+        "@type": "Offer",
+        "price": "19",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "url": "https://launchagent.gumroad.com/l/wfhzbp"
+      }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is this a hosted Stripe webhook replay service?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. It is a paid source kit for developers to adapt into their own Node app, database, Stripe account, and hosting environment."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does the kit help with?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It covers raw-body signature verification, event storage, failed-event state, guarded replay attempts, and idempotent handler patterns."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does replay remove the need for Stripe testing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Buyers still test their own endpoint secrets, event types, persistence, handlers, deployment, and operational controls."
+          }
+        }
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "AgentLaunchOps",
+          "item": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Paid developer kits",
+          "item": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Stripe Webhook Replay for Node",
+          "item": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-webhook-replay-node.html"
+        }
+      ]
+    }
+    </script>
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #18211e;
+        --muted: #5d6662;
+        --line: #d7ded9;
+        --paper: #f8faf7;
+        --panel: #ffffff;
+        --accent: #0f766e;
+        --accent-dark: #115e59;
+        --warm: #9a3412;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        background: var(--paper);
+        color: var(--ink);
+        line-height: 1.55;
+      }
+      main {
+        width: min(1080px, calc(100% - 32px));
+        margin: 0 auto;
+        padding: 38px 0 56px;
+      }
+      nav {
+        display: flex;
+        justify-content: space-between;
+        gap: 16px;
+        margin-bottom: 34px;
+        color: var(--muted);
+      }
+      a {
+        color: var(--accent-dark);
+        font-weight: 800;
+        text-decoration: none;
+      }
+      .breadcrumbs {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        align-items: center;
+        margin-bottom: 14px;
+        color: var(--muted);
+        font-size: 0.86rem;
+      }
+      h1,
+      h2,
+      h3,
+      p {
+        margin: 0;
+      }
+      h1 {
+        max-width: 850px;
+        margin-bottom: 16px;
+        font-size: clamp(2.2rem, 6vw, 4.45rem);
+        line-height: 0.98;
+        letter-spacing: 0;
+      }
+      h2 {
+        margin-bottom: 14px;
+        font-size: 1.25rem;
+      }
+      h3 {
+        margin-bottom: 8px;
+        font-size: 1rem;
+      }
+      p,
+      li {
+        color: var(--muted);
+      }
+      .eyebrow {
+        margin-bottom: 14px;
+        color: var(--warm);
+        font-weight: 800;
+        text-transform: uppercase;
+      }
+      .lead {
+        max-width: 760px;
+        font-size: 1.08rem;
+      }
+      .hero {
+        display: grid;
+        grid-template-columns: minmax(0, 1.08fr) minmax(300px, 0.92fr);
+        gap: 34px;
+        align-items: start;
+        padding-bottom: 34px;
+        border-bottom: 1px solid var(--line);
+      }
+      .actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 24px;
+      }
+      .button {
+        min-height: 44px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 12px 16px;
+        border: 1px solid var(--accent);
+        border-radius: 6px;
+        background: var(--accent);
+        color: #fff;
+        font-weight: 800;
+      }
+      .button.secondary {
+        background: transparent;
+        color: var(--accent-dark);
+      }
+      .panel,
+      .card {
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--panel);
+      }
+      .panel {
+        padding: 22px;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 14px;
+      }
+      .card {
+        min-height: 184px;
+        padding: 18px;
+      }
+      section {
+        padding: 34px 0;
+        border-bottom: 1px solid var(--line);
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        overflow-wrap: anywhere;
+      }
+      th,
+      td {
+        padding: 13px 12px;
+        border-bottom: 1px solid var(--line);
+        text-align: left;
+        vertical-align: top;
+      }
+      th {
+        color: var(--ink);
+        font-size: 0.86rem;
+        text-transform: uppercase;
+      }
+      footer {
+        padding-top: 28px;
+        color: var(--muted);
+      }
+      @media (max-width: 820px) {
+        .hero,
+        .grid {
+          grid-template-columns: 1fr;
+        }
+        table,
+        tbody,
+        tr,
+        th,
+        td {
+          display: block;
+        }
+        thead {
+          display: none;
+        }
+        td {
+          padding: 10px 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <nav>
+        <a href="./">AgentLaunchOps</a>
+        <a href="stripe-webhook-billing-node.html">Compare webhook kits</a>
+      </nav>
+      <div class="breadcrumbs" aria-label="Breadcrumb">
+        <a href="./">AgentLaunchOps</a>
+        <span>/</span>
+        <a href="./">Paid developer kits</a>
+        <span>/</span>
+        <span>Stripe webhook replay</span>
+      </div>
+      <header class="hero">
+        <div>
+          <p class="eyebrow">Stripe webhook replay source kit</p>
+          <h1>Replay failed Stripe webhooks in a Node app without double-processing orders.</h1>
+          <p class="lead">
+            Stripe Webhook Replay Kit is a paid source package for developers who need signed event
+            capture, failed-event tracking, guarded replay, and idempotent handlers they can adapt
+            into an existing Node backend.
+          </p>
+          <div class="actions">
+            <a class="button" href="https://launchagent.gumroad.com/l/wfhzbp">Buy the kit on Gumroad for $19</a>
+            <a class="button secondary" href="stripe-webhook-replay-kit.html">View product details</a>
+          </div>
+        </div>
+        <div class="panel">
+          <h2>Best fit</h2>
+          <p>
+            Use this when Stripe retries and dashboard replays are not enough because your app needs
+            a local record of failed events, replay attempts, and handler outcomes.
+          </p>
+        </div>
+      </header>
+
+      <section>
+        <h2>What The Source Covers</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Need</th>
+              <th>Included Pattern</th>
+              <th>Why It Matters</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Verify incoming Stripe events</td>
+              <td>Raw-body signature verification before persistence.</td>
+              <td>Prevents replay tooling from trusting forged or already-mutated request bodies.</td>
+            </tr>
+            <tr>
+              <td>Store failed webhook state</td>
+              <td>Event records keyed by Stripe event ID with failed status, last error, and attempts.</td>
+              <td>Gives operators a recoverable queue instead of relying only on logs.</td>
+            </tr>
+            <tr>
+              <td>Replay safely</td>
+              <td>Bearer-token admin replay endpoint plus local CLI workflow.</td>
+              <td>Lets a developer retry a known event path while preserving access checks.</td>
+            </tr>
+            <tr>
+              <td>Avoid duplicate side effects</td>
+              <td>Idempotent handler examples and event-state checks.</td>
+              <td>Reduces the risk of issuing duplicate credits, keys, seats, or order fulfillment.</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section>
+        <h2>What Buyers Get</h2>
+        <div class="grid">
+          <div class="card">
+            <strong>Adaptable Node source</strong>
+            <p>Drop-in routes, helpers, tests, and CLI flow for an existing Node backend.</p>
+          </div>
+          <div class="card">
+            <strong>Buyer smoke check</strong>
+            <p>The archive includes manifest verification, tests, and a buyer smoke command.</p>
+          </div>
+          <div class="card">
+            <strong>Clear limits</strong>
+            <p>This is source code, not hosted infrastructure. Buyers bring Stripe, secrets, storage, and deployment.</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Related Guides</h2>
+        <div class="grid">
+          <div class="card">
+            <strong>Stripe Webhook Billing</strong>
+            <p>Compare webhook-backed billing kits for seats, usage alerts, revenue, invoices, cancellation, and API access.</p>
+            <p><a href="stripe-webhook-billing-node.html">Choose a webhook billing kit</a></p>
+          </div>
+          <div class="card">
+            <strong>Stripe Customer Portal Kit</strong>
+            <p>A paid source kit for Portal sessions, return URL checks, and account-level subscription state.</p>
+            <p><a href="stripe-customer-portal-kit.html">View Customer Portal kit</a></p>
+          </div>
+          <div class="card">
+            <strong>Stripe Connect Marketplace Kit</strong>
+            <p>A paid source kit for connected-account state, marketplace webhooks, and transfer records.</p>
+            <p><a href="stripe-connect-marketplace-kit.html">View Connect kit</a></p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Buyer FAQ</h2>
+        <div class="grid">
+          <div class="card">
+            <strong>Is this production-ready as-is?</strong>
+            <p>No. It is a focused source kit that a developer reviews, adapts, tests, and deploys in their own app.</p>
+          </div>
+          <div class="card">
+            <strong>Can it replay every Stripe event type?</strong>
+            <p>The patterns are adaptable, but buyers decide which event types, handlers, and side effects to support.</p>
+          </div>
+          <div class="card">
+            <strong>Is the checkout live?</strong>
+            <p>Yes. The Gumroad checkout linked here is the live Stripe Webhook Replay Kit listing.</p>
+          </div>
+        </div>
+      </section>
+
+      <footer>AgentLaunchOps</footer>
+    </main>
+  </body>
+</html>

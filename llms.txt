@@ -93,6 +93,9 @@ Paid developer source kits for SaaS billing, license keys, metered APIs, and Str
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-usage-based-billing-node.html
 - Stripe Webhook Billing for Node SaaS: buyer guide mapping Stripe webhook billing searches to live paid Stripe source kits for seats, usage alerts, revenue snapshots, invoice tax review, cancel-save flows, and metered API access.
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-webhook-billing-node.html
+- Stripe Webhook Replay for Node: buyer guide mapping failed Stripe webhook replay searches to the live Stripe Webhook Replay Kit checkout.
+  Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-webhook-replay-node.html
+  Checkout: https://launchagent.gumroad.com/l/wfhzbp
 - Stripe SaaS Starter Kit for Node: buyer guide mapping Stripe SaaS starter kit searches to the six live paid Stripe source kits.
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-saas-starter-kit-node.html
 
