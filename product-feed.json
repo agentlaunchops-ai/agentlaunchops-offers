@@ -20,6 +20,14 @@
       "summary": "Buyer guide for local GitHub Actions workflow scanning with the live GHA Guard Pro Kit."
     },
     {
+      "name": "GitHub Actions Permissions Hardening for Node Repos",
+      "price": 29,
+      "status": "published",
+      "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/github-actions-permissions-hardening.html",
+      "checkout": "https://launchagent.gumroad.com/l/auqpvm",
+      "summary": "Buyer guide for tightening GitHub Actions token permissions, checkout credentials, and least-privilege workflow defaults with the live GHA Guard Pro Kit."
+    },
+    {
       "name": "GHA Guard Pro Kit",
       "price": 29,
       "status": "published",
@@ -170,6 +178,70 @@
       "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-cancel-save-node.html",
       "checkout": "https://launchagent.gumroad.com/l/ogodr",
       "summary": "Node source kit for cancellation reasons, save-offer handling, and Stripe subscription updates."
+    },
+    {
+      "name": "AI Credits Billing Kit",
+      "price": 29,
+      "status": "published",
+      "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/ai-credits-billing-kit.html",
+      "checkout": "https://launchagent.gumroad.com/l/wjfxhu",
+      "summary": "Node source kit for usage-credit pricing, Stripe credit packs, reservation holds, finalized refunds, and idempotent AI consumption."
+    },
+    {
+      "name": "Clerk Stripe Org Kit",
+      "price": 29,
+      "status": "published",
+      "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/clerk-stripe-org-kit.html",
+      "checkout": "https://launchagent.gumroad.com/l/ghekag",
+      "summary": "Node source kit for Clerk organizations, Stripe subscriptions, org seats, entitlement syncing, and webhook-safe access checks."
+    },
+    {
+      "name": "Lemon Squeezy Subscription Kit",
+      "price": 29,
+      "status": "published",
+      "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/lemon-squeezy-subscription-kit.html",
+      "checkout": "https://launchagent.gumroad.com/l/wcxuo",
+      "summary": "Node source kit for Lemon Squeezy subscription webhooks, entitlement records, customer state, and buyer smoke tests."
+    },
+    {
+      "name": "Stripe Connect Marketplace Kit",
+      "price": 29,
+      "status": "published",
+      "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-connect-marketplace-kit.html",
+      "checkout": "https://launchagent.gumroad.com/l/kusejgu",
+      "summary": "Node source kit for Stripe Connect marketplace onboarding, seller account state, transfers, and webhook idempotency."
+    },
+    {
+      "name": "Stripe Customer Portal Kit",
+      "price": 19,
+      "status": "published",
+      "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-customer-portal-kit.html",
+      "checkout": "https://launchagent.gumroad.com/l/gdqea",
+      "summary": "Node source kit for Stripe Customer Portal sessions, return-url checks, subscription state, and authenticated account access."
+    },
+    {
+      "name": "Stripe Webhook Replay Kit",
+      "price": 19,
+      "status": "published",
+      "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-webhook-replay-kit.html",
+      "checkout": "https://launchagent.gumroad.com/l/wfhzbp",
+      "summary": "Node source kit for Stripe webhook event storage, replay, idempotent handlers, and failed-event recovery workflows."
+    },
+    {
+      "name": "Supabase Entitlement Kit",
+      "price": 29,
+      "status": "published",
+      "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/supabase-entitlement-kit.html",
+      "checkout": "https://launchagent.gumroad.com/l/cwrhl",
+      "summary": "Node and SQL source kit for Supabase workspace plans, seats, RLS-readable billing state, and server-side feature gates."
+    },
+    {
+      "name": "Supabase RLS Tenant Kit",
+      "price": 29,
+      "status": "published",
+      "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/supabase-rls-tenant-kit.html",
+      "checkout": "https://launchagent.gumroad.com/l/ipqgkx",
+      "summary": "Supabase SQL and Node source kit for tenant tables, RLS policies, membership checks, and buyer smoke verification."
     }
   ]
 }

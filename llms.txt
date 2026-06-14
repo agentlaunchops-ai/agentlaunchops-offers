@@ -10,6 +10,9 @@ Paid developer source kits for SaaS billing, license keys, metered APIs, and Str
 - GitHub Actions Workflow Scanner for Node Repos ($29): buyer guide for local workflow scanning with the live GHA Guard Pro Kit.
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/github-actions-workflow-scanner.html
   Checkout: https://launchagent.gumroad.com/l/auqpvm
+- GitHub Actions Permissions Hardening for Node Repos ($29): buyer guide for tightening token permissions, checkout credentials, and least-privilege workflow defaults with the live GHA Guard Pro Kit.
+  Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/github-actions-permissions-hardening.html
+  Checkout: https://launchagent.gumroad.com/l/auqpvm
 - License Launch Kit ($25): Node source kit for license issuing and verification.
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/license-key-server-node.html
   Checkout: https://launchagent.gumroad.com/l/license_launch_kit2026
@@ -32,12 +35,46 @@ Paid developer source kits for SaaS billing, license keys, metered APIs, and Str
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-cancel-save-node.html
   Checkout: https://launchagent.gumroad.com/l/ogodr
 
+- AI Credits Billing Kit ($29): Node source kit for usage-credit pricing, Stripe credit packs, reservation holds, finalized refunds, and idempotent AI consumption.
+  Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/ai-credits-billing-kit.html
+  Checkout: https://launchagent.gumroad.com/l/wjfxhu
+
+- Clerk Stripe Org Kit ($29): Node source kit for Clerk organizations, Stripe subscriptions, org seats, entitlement syncing, and webhook-safe access checks.
+  Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/clerk-stripe-org-kit.html
+  Checkout: https://launchagent.gumroad.com/l/ghekag
+
+- Lemon Squeezy Subscription Kit ($29): Node source kit for Lemon Squeezy subscription webhooks, entitlement records, customer state, and buyer smoke tests.
+  Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/lemon-squeezy-subscription-kit.html
+  Checkout: https://launchagent.gumroad.com/l/wcxuo
+
+- Stripe Connect Marketplace Kit ($29): Node source kit for Stripe Connect marketplace onboarding, seller account state, transfers, and webhook idempotency.
+  Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-connect-marketplace-kit.html
+  Checkout: https://launchagent.gumroad.com/l/kusejgu
+
+- Stripe Customer Portal Kit ($19): Node source kit for Stripe Customer Portal sessions, return-url checks, subscription state, and authenticated account access.
+  Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-customer-portal-kit.html
+  Checkout: https://launchagent.gumroad.com/l/gdqea
+
+- Stripe Webhook Replay Kit ($19): Node source kit for Stripe webhook event storage, replay, idempotent handlers, and failed-event recovery workflows.
+  Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-webhook-replay-kit.html
+  Checkout: https://launchagent.gumroad.com/l/wfhzbp
+
+- Supabase Entitlement Kit ($29): Node and SQL source kit for Supabase workspace plans, seats, RLS-readable billing state, and server-side feature gates.
+  Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/supabase-entitlement-kit.html
+  Checkout: https://launchagent.gumroad.com/l/cwrhl
+
+- Supabase RLS Tenant Kit ($29): Supabase SQL and Node source kit for tenant tables, RLS policies, membership checks, and buyer smoke verification.
+  Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/supabase-rls-tenant-kit.html
+  Checkout: https://launchagent.gumroad.com/l/ipqgkx
+
 ## Comparison Page
 
 - Stripe SaaS Billing Starter Kits for Node: buyer guide comparing the six live Stripe billing kits.
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-saas-billing-kits-node.html
 - GitHub Actions Workflow Scanner for Node Repos: buyer guide mapping workflow scanner searches to the live paid GHA Guard Pro Kit.
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/github-actions-workflow-scanner.html
+- GitHub Actions Permissions Hardening for Node Repos: buyer guide mapping permission-hardening searches to the live paid GHA Guard Pro Kit.
+  Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/github-actions-permissions-hardening.html
 - Stripe Billing Boilerplate for Node SaaS: broader buyer guide mapping Stripe billing boilerplate searches to the six live paid Stripe source kits.
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-billing-boilerplate-node.html
 - Stripe Subscription Billing for Node SaaS: buyer guide mapping subscription billing workflow searches to the six live paid Stripe source kits.

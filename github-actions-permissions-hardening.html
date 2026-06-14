@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GitHub Actions Permissions Hardening for Node Repos</title>
+    <meta
+      name="description"
+      content="A buyer guide for tightening GitHub Actions permissions with the live GHA Guard Pro Kit checkout."
+    />
+    <link
+      rel="canonical"
+      href="https://agentlaunchops-ai.github.io/agentlaunchops-offers/github-actions-permissions-hardening.html"
+    />
+    <meta property="og:type" content="product" />
+    <meta property="og:site_name" content="AgentLaunchOps" />
+    <meta property="og:title" content="GitHub Actions Permissions Hardening for Node Repos" />
+    <meta
+      property="og:description"
+      content="Find broad token grants, missing permissions blocks, checkout credential persistence, and unsafe workflow defaults before release jobs run."
+    />
+    <meta
+      property="og:url"
+      content="https://agentlaunchops-ai.github.io/agentlaunchops-offers/github-actions-permissions-hardening.html"
+    />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="GitHub Actions Permissions Hardening for Node Repos" />
+    <meta
+      name="twitter:description"
+      content="A paid Node source kit for local GitHub Actions permission review, safe fixes, and PR-ready reports."
+    />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "GHA Guard Pro Kit",
+        "description": "A paid GitHub Actions security source kit with workflow permission checks, safe auto-fixes, PR reports, and hardened workflow templates.",
+        "brand": { "@type": "Brand", "name": "AgentLaunchOps" },
+        "offers": {
+          "@type": "Offer",
+          "price": "29",
+          "priceCurrency": "USD",
+          "url": "https://launchagent.gumroad.com/l/auqpvm",
+          "availability": "https://schema.org/InStock"
+        }
+      }
+    </script>
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #171717;
+        --muted: #5f6561;
+        --line: #d7ddd9;
+        --paper: #f9faf8;
+        --panel: #ffffff;
+        --accent: #126c62;
+        --accent-dark: #0f4f49;
+        --warn: #a74416;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        background: var(--paper);
+        color: var(--ink);
+        font-family:
+          Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          sans-serif;
+        line-height: 1.55;
+      }
+      main {
+        width: min(1080px, calc(100% - 32px));
+        margin: 0 auto;
+        padding: 48px 0 60px;
+      }
+      header {
+        display: grid;
+        grid-template-columns: minmax(0, 1.05fr) minmax(320px, 0.95fr);
+        gap: 34px;
+        align-items: start;
+        border-bottom: 1px solid var(--line);
+        padding-bottom: 36px;
+      }
+      h1,
+      h2,
+      p {
+        margin: 0;
+      }
+      h1 {
+        max-width: 780px;
+        font-size: clamp(2.25rem, 5vw, 4.8rem);
+        line-height: 0.98;
+        letter-spacing: 0;
+      }
+      h2 {
+        margin-bottom: 14px;
+        font-size: 1.08rem;
+        text-transform: uppercase;
+        letter-spacing: 0;
+      }
+      p {
+        color: var(--muted);
+      }
+      section {
+        margin-top: 34px;
+      }
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+      th,
+      td {
+        border-bottom: 1px solid var(--line);
+        padding: 12px 10px;
+        text-align: left;
+        vertical-align: top;
+      }
+      th {
+        color: var(--accent-dark);
+        font-size: 0.9rem;
+        text-transform: uppercase;
+      }
+      .eyebrow {
+        color: var(--warn);
+        font-weight: 800;
+        margin-bottom: 14px;
+        text-transform: uppercase;
+      }
+      .lead {
+        margin-top: 18px;
+        font-size: 1.08rem;
+      }
+      .panel,
+      .card {
+        background: var(--panel);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 22px;
+      }
+      .actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 24px;
+      }
+      a.button {
+        align-items: center;
+        background: var(--accent);
+        border-radius: 6px;
+        color: #ffffff;
+        display: inline-flex;
+        font-weight: 800;
+        justify-content: center;
+        min-height: 44px;
+        padding: 10px 16px;
+        text-decoration: none;
+      }
+      a.button.secondary {
+        background: transparent;
+        border: 1px solid var(--accent-dark);
+        color: var(--accent-dark);
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 16px;
+      }
+      ul {
+        margin: 0;
+        padding-left: 20px;
+      }
+      li + li {
+        margin-top: 8px;
+      }
+      code {
+        background: #eef3f0;
+        border-radius: 4px;
+        padding: 2px 5px;
+      }
+      @media (max-width: 860px) {
+        header,
+        .grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <div>
+          <p class="eyebrow">GitHub Actions permissions</p>
+          <h1>Make repository tokens boring before a release workflow can do too much.</h1>
+          <p class="lead">
+            GHA Guard Pro Kit is a paid Node source kit for reviewing GitHub Actions
+            permissions locally: broad grants, missing least-privilege defaults,
+            checkout credential persistence, and PR-ready markdown reports.
+          </p>
+          <div class="actions">
+            <a class="button" href="https://launchagent.gumroad.com/l/auqpvm">Buy GHA Guard Pro Kit for $29</a>
+            <a class="button secondary" href="gha-guard-pro-kit.html">View product details</a>
+          </div>
+        </div>
+        <aside class="panel">
+          <h2>Use it when</h2>
+          <ul>
+            <li>A repo has release, deploy, package publish, or container publish workflows.</li>
+            <li>Reviewers need a repeatable check for workflow permission drift.</li>
+            <li>You want local source code instead of a hosted workflow scanning service.</li>
+          </ul>
+        </aside>
+      </header>
+
+      <section>
+        <h2>Permission Risks Covered</h2>
+        <div class="grid">
+          <div class="card">
+            <strong>Missing defaults</strong>
+            <p>Flags workflows with no top-level <code>permissions</code> block so inherited token scope is visible during review.</p>
+          </div>
+          <div class="card">
+            <strong>Broad write grants</strong>
+            <p>Highlights write-all and broad write permissions on jobs that should usually start from read-only access.</p>
+          </div>
+          <div class="card">
+            <strong>Checkout token leakage</strong>
+            <p>Checks for checkout credential persistence so later steps do not keep repository write credentials by accident.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel">
+        <h2>What buyers get</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Need</th>
+              <th>Included source</th>
+              <th>Result</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Audit existing workflows</td>
+              <td>Local CLI checks with text, JSON, and markdown report output.</td>
+              <td>Reviewers can paste a focused workflow hardening report into PRs.</td>
+            </tr>
+            <tr>
+              <td>Fix safe defaults</td>
+              <td>Conservative auto-fixes for mechanical permission and timeout defaults.</td>
+              <td>Teams get quicker cleanup without risky semantic rewrites.</td>
+            </tr>
+            <tr>
+              <td>Teach a safer pattern</td>
+              <td>Hardened workflow examples, a composite action template, remediation notes, and buyer smoke tests.</td>
+              <td>Future release YAML starts from a better baseline.</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="panel">
+        <h2>Buyer Verification</h2>
+        <p>
+          The paid zip includes runnable checks: <code>npm run verify:manifest</code>,
+          <code>npm test</code>, and <code>npm run smoke:buyer</code>. The live Gumroad
+          checkout currently sells the attached GHA Guard Pro Kit package.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
