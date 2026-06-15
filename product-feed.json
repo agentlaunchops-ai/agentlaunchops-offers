@@ -172,6 +172,14 @@
       "summary": "Node source kit for usage thresholds, notification events, and billing warnings."
     },
     {
+      "name": "Stripe Usage Alerts Kit Product Page",
+      "price": 29,
+      "status": "published",
+      "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-usage-alerts-kit.html",
+      "checkout": "https://launchagent.gumroad.com/l/aohsrs",
+      "summary": "Gumroad-first product page for the live Stripe Usage Alerts Kit source package."
+    },
+    {
       "name": "Stripe MRR Analytics Kit",
       "price": 29,
       "status": "published",
