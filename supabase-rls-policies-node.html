@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Supabase RLS Policies for Multi-Tenant Node Apps | AgentLaunchOps</title>
+    <meta
+      name="description"
+      content="Paid Supabase SQL and Node source kit for multi-tenant RLS policies, workspace memberships, signed tenant tokens, role checks, and buyer smoke tests."
+    />
+    <link rel="canonical" href="https://agentlaunchops-ai.github.io/agentlaunchops-offers/supabase-rls-policies-node.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="AgentLaunchOps" />
+    <meta property="og:title" content="Supabase RLS Policies for Multi-Tenant Node Apps" />
+    <meta property="og:description" content="Paid source kit for Supabase tenant tables, RLS policies, membership roles, signed tenant tokens, and server-side access checks." />
+    <meta property="og:url" content="https://agentlaunchops-ai.github.io/agentlaunchops-offers/supabase-rls-policies-node.html" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Supabase RLS Policies for Multi-Tenant Node Apps" />
+    <meta name="twitter:description" content="Supabase SQL and Node source kit for tenant-scoped RLS and membership checks." />
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Supabase RLS Tenant Kit",
+      "description": "A paid Supabase SQL and Node source kit for workspace tables, memberships, Row Level Security policies, signed tenant handoff tokens, role checks, tests, and buyer smoke verification.",
+      "url": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/supabase-rls-policies-node.html",
+      "offers": {
+        "@type": "Offer",
+        "price": "29",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "url": "https://launchagent.gumroad.com/l/ipqgkx"
+      }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is this an official Supabase product?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. It is an independent paid source kit for developers adding tenant-scoped access controls to their own Supabase applications."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What RLS behavior does the kit cover?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The kit includes workspace, membership, project, and audit-event tables, RLS policies for member reads and admin or owner writes, signed tenant tokens, server-side role checks, tests, and buyer smoke verification."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does this deploy my production database?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Buyers adapt the SQL and Node helpers into their own Supabase project, schema names, auth claims, persistence, hosting, and production review process."
+          }
+        }
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "AgentLaunchOps",
+          "item": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Paid developer kits",
+          "item": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Supabase RLS Policies",
+          "item": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/supabase-rls-policies-node.html"
+        }
+      ]
+    }
+    </script>
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #17211b;
+        --muted: #59665f;
+        --line: #d7ded9;
+        --paper: #f6f9f5;
+        --panel: #ffffff;
+        --accent: #047857;
+        --accent-dark: #064e3b;
+        --warm: #9a3412;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        background: var(--paper);
+        color: var(--ink);
+        line-height: 1.55;
+      }
+      main {
+        width: min(1080px, calc(100% - 32px));
+        margin: 0 auto;
+        padding: 38px 0 56px;
+      }
+      nav,
+      .breadcrumbs {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        color: var(--muted);
+      }
+      nav {
+        justify-content: space-between;
+        margin-bottom: 34px;
+      }
+      a {
+        color: var(--accent-dark);
+        font-weight: 800;
+        text-decoration: none;
+      }
+      h1,
+      h2,
+      h3,
+      p {
+        margin: 0;
+      }
+      h1 {
+        max-width: 880px;
+        margin: 14px 0 16px;
+        font-size: clamp(2.2rem, 6vw, 4.7rem);
+        line-height: 0.98;
+        letter-spacing: 0;
+      }
+      h2 {
+        margin-bottom: 14px;
+        font-size: 1.25rem;
+      }
+      h3 {
+        margin-bottom: 8px;
+        font-size: 1rem;
+      }
+      p,
+      li {
+        color: var(--muted);
+      }
+      code {
+        border-radius: 4px;
+        padding: 2px 5px;
+        background: #eef2f0;
+      }
+      .eyebrow {
+        margin-bottom: 14px;
+        color: var(--warm);
+        font-weight: 800;
+        text-transform: uppercase;
+      }
+      .lead {
+        max-width: 780px;
+        font-size: 1.08rem;
+      }
+      .hero {
+        padding-bottom: 34px;
+        border-bottom: 1px solid var(--line);
+      }
+      section {
+        padding: 34px 0;
+        border-bottom: 1px solid var(--line);
+      }
+      .matrix {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 14px;
+      }
+      .card {
+        display: grid;
+        gap: 12px;
+        min-height: 224px;
+        padding: 18px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--panel);
+      }
+      .price {
+        color: var(--warm);
+        font-weight: 800;
+      }
+      .button {
+        display: inline-flex;
+        min-height: 42px;
+        width: fit-content;
+        align-items: center;
+        justify-content: center;
+        border-radius: 6px;
+        padding: 10px 14px;
+        background: var(--accent);
+        color: #ffffff;
+      }
+      .note {
+        max-width: 840px;
+        padding: 18px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--panel);
+      }
+      @media (max-width: 760px) {
+        .matrix {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <nav>
+        <a href="./">AgentLaunchOps</a>
+        <a href="https://launchagent.gumroad.com/l/ipqgkx">Buy on Gumroad</a>
+      </nav>
+      <div class="breadcrumbs" aria-label="Breadcrumb">
+        <a href="./">AgentLaunchOps</a>
+        <span>/</span>
+        <a href="./">Paid developer kits</a>
+        <span>/</span>
+        <span>Supabase RLS Policies</span>
+      </div>
+
+      <header class="hero">
+        <p class="eyebrow">Supabase multi-tenant RLS starter</p>
+        <h1>Supabase RLS policies for tenant-scoped Node apps without starting from blank SQL.</h1>
+        <p class="lead">
+          Buy the Supabase RLS Tenant Kit when you need workspace tables, membership roles,
+          row-level policies, signed tenant handoff tokens, and server-side access checks in a
+          compact source package.
+        </p>
+      </header>
+
+      <section>
+        <h2>What the paid kit is for</h2>
+        <div class="matrix">
+          <div class="card">
+            <h3>Tenant tables</h3>
+            <p>Start from workspace, membership, project, and audit-event SQL that is ready to adapt to your schema.</p>
+          </div>
+          <div class="card">
+            <h3>RLS policies</h3>
+            <p>Use member-read and admin-write policies as a baseline for multi-tenant Supabase applications.</p>
+          </div>
+          <div class="card">
+            <h3>Node access checks</h3>
+            <p>Bridge server routes to tenant context with signed tokens, role guards, and buyer-run tests.</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Included source patterns</h2>
+        <ul>
+          <li>SQL schema for workspaces, memberships, tenant-scoped projects, and audit events.</li>
+          <li>Row Level Security policy templates for member reads and admin or owner writes.</li>
+          <li>HMAC-signed tenant handoff tokens with expiry and tamper rejection.</li>
+          <li>Server-side membership and minimum-role helpers for Node routes.</li>
+          <li>Dependency-free demo server, README, single-buyer license, manifest, tests, and buyer smoke command.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Checkout</h2>
+        <p class="price">$29 source kit</p>
+        <p class="note">
+          This is source code for your own application. You receive the kit through Gumroad, then
+          adapt the SQL, Supabase project settings, auth claims, database storage, hosting,
+          secrets, and production access review to match your app.
+        </p>
+        <p style="margin-top: 18px">
+          <a class="button" href="https://launchagent.gumroad.com/l/ipqgkx">Buy Supabase RLS Tenant Kit</a>
+        </p>
+      </section>
+    </main>
+  </body>
+</html>

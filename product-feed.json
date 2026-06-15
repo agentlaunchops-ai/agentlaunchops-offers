@@ -314,6 +314,14 @@
       "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/supabase-rls-tenant-kit.html",
       "checkout": "https://launchagent.gumroad.com/l/ipqgkx",
       "summary": "Supabase SQL and Node source kit for tenant tables, RLS policies, membership checks, and buyer smoke verification."
+    },
+    {
+      "name": "Supabase RLS Policies for Node",
+      "price": 29,
+      "status": "published buyer guide",
+      "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/supabase-rls-policies-node.html",
+      "checkout": "https://launchagent.gumroad.com/l/ipqgkx",
+      "summary": "Buyer guide mapping Supabase multi-tenant RLS policy, workspace membership, signed tenant token, and server-side role-check searches to the live Supabase RLS Tenant Kit checkout."
     }
   ]
 }
