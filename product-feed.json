@@ -244,6 +244,14 @@
       "summary": "Node source kit for Lemon Squeezy subscription webhooks, entitlement records, customer state, and buyer smoke tests."
     },
     {
+      "name": "Lemon Squeezy Webhooks for Node",
+      "price": 29,
+      "status": "published buyer guide",
+      "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/lemon-squeezy-webhooks-node.html",
+      "checkout": "https://launchagent.gumroad.com/l/wcxuo",
+      "summary": "Buyer guide mapping Lemon Squeezy webhook and subscription entitlement searches to the live Lemon Squeezy Subscription Kit checkout."
+    },
+    {
       "name": "Stripe Connect Marketplace Kit",
       "price": 29,
       "status": "published",
