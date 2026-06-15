@@ -4,6 +4,9 @@ Paid developer source kits for SaaS billing, license keys, metered APIs, and Str
 
 ## Live Paid Products
 
+- Stripe SaaS Billing Toolkit Bundle ($79): six Node source kits for Stripe SaaS billing workflows: team seats, usage alerts, MRR analytics, invoice tax, cancel-save, and metered API access.
+  Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-saas-billing-kits-node.html
+  Checkout: https://launchagent.gumroad.com/l/qmcpos
 - GHA Guard Pro Kit ($29): GitHub Actions security source kit with workflow checks, safe auto-fixes, PR reports, and hardened templates.
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/github-actions-security-node.html
   Checkout: https://launchagent.gumroad.com/l/auqpvm
@@ -69,8 +72,9 @@ Paid developer source kits for SaaS billing, license keys, metered APIs, and Str
 
 ## Comparison Page
 
-- Stripe SaaS Billing Starter Kits for Node: buyer guide comparing the six live Stripe billing kits.
+- Stripe SaaS Billing Toolkit Bundle ($79): Gumroad bundle for six live Stripe billing source kits.
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-saas-billing-kits-node.html
+  Checkout: https://launchagent.gumroad.com/l/qmcpos
 - GitHub Actions Workflow Scanner for Node Repos: buyer guide mapping workflow scanner searches to the live paid GHA Guard Pro Kit.
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/github-actions-workflow-scanner.html
 - GitHub Actions Permissions Hardening for Node Repos: buyer guide mapping permission-hardening searches to the live paid GHA Guard Pro Kit.
@@ -83,8 +87,9 @@ Paid developer source kits for SaaS billing, license keys, metered APIs, and Str
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-checkout-subscriptions-node.html
 - Stripe Subscription Management for Node SaaS: buyer guide mapping subscription management workflow searches to the six live paid Stripe source kits.
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-subscription-management-node.html
-- Stripe Customer Portal for Node SaaS: buyer guide mapping Customer Portal searches to live paid source kits for adjacent billing workflows.
+- Stripe Billing Portal Integration for Node ($19): buyer guide mapping Stripe billing portal and Customer Portal integration searches to the live Stripe Customer Portal Kit checkout.
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-customer-portal-node.html
+  Checkout: https://launchagent.gumroad.com/l/gdqea
 - Stripe Billing Dashboard for Node SaaS: buyer guide mapping billing dashboard searches to live paid source kits for SaaS billing UI workflows.
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-billing-dashboard-node.html
 - Stripe Metered Billing for Node SaaS: buyer guide mapping metered billing workflow searches to live paid usage-based billing source kits.

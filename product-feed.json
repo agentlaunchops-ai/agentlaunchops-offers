@@ -36,12 +36,12 @@
       "summary": "Paid GitHub Actions security source kit with workflow checks, safe auto-fixes, PR reports, and hardened templates."
     },
     {
-      "name": "Stripe SaaS Billing Starter Kits for Node",
+      "name": "Stripe SaaS Billing Toolkit Bundle",
       "price": 79,
-      "status": "bundle pending Gumroad draft",
+      "status": "published",
       "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-saas-billing-kits-node.html",
-      "checkout": null,
-      "summary": "Comparison page for six live Stripe billing source kits."
+      "checkout": "https://launchagent.gumroad.com/l/qmcpos",
+      "summary": "Gumroad bundle for six live Stripe SaaS billing source kits: seats, usage alerts, MRR analytics, invoice tax, cancel-save, and metered API access."
     },
     {
       "name": "Stripe Billing Boilerplate for Node SaaS",
@@ -76,12 +76,12 @@
       "summary": "Buyer guide mapping Stripe subscription management searches to the six live paid Stripe source kits."
     },
     {
-      "name": "Stripe Customer Portal for Node SaaS",
-      "price": null,
-      "status": "buyer guide",
+      "name": "Stripe Billing Portal Integration for Node",
+      "price": 19,
+      "status": "published buyer guide",
       "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-customer-portal-node.html",
-      "checkout": null,
-      "summary": "Buyer guide mapping Stripe Customer Portal searches to live paid source kits for adjacent SaaS billing workflows."
+      "checkout": "https://launchagent.gumroad.com/l/gdqea",
+      "summary": "Buyer guide mapping Stripe billing portal and Customer Portal integration searches to the live Stripe Customer Portal Kit checkout."
     },
     {
       "name": "Stripe Billing Dashboard for Node SaaS",
