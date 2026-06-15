@@ -49,7 +49,10 @@ Paid developer source kits for SaaS billing, license keys, metered APIs, and Str
 - Metered API Launch Kit ($29): Node source kit for API keys, usage logs, quotas, and Stripe checkout hooks.
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/metered-api-node.html
   Checkout: https://launchagent.gumroad.com/l/lygkci
-- Stripe Cancel Save Kit ($29): Node source kit for cancellation reasons and save-offer handling.
+- Stripe Cancel Save Kit ($29): Gumroad-first product page for the live source kit for cancellation surveys, save offers, subscription cancellation, and churn analytics.
+  Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-cancel-save-kit.html
+  Checkout: https://launchagent.gumroad.com/l/ogodr
+- Stripe Cancel Save Flow for Node ($29): buyer guide for cancellation survey, save-offer, subscription cancellation, and churn analytics searches backed by the live Stripe Cancel Save Kit.
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-cancel-save-node.html
   Checkout: https://launchagent.gumroad.com/l/ogodr
 
