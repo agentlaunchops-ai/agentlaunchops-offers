@@ -244,6 +244,14 @@
       "summary": "Node source kit for usage-credit pricing, Stripe credit packs, reservation holds, finalized refunds, and idempotent AI consumption."
     },
     {
+      "name": "AI Usage Credits Billing for Node",
+      "price": 29,
+      "status": "published buyer guide",
+      "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/ai-usage-credits-node.html",
+      "checkout": "https://launchagent.gumroad.com/l/wjfxhu",
+      "summary": "Buyer guide mapping AI usage credits, token billing, Stripe credit packs, reservation holds, finalized usage refunds, and idempotent consumption searches to the live AI Credits Billing Kit checkout."
+    },
+    {
       "name": "Clerk Stripe Org Kit",
       "price": 29,
       "status": "published",

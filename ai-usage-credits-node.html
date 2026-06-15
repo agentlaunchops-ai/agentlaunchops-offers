@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI Usage Credits Billing for Node | AgentLaunchOps</title>
+    <meta
+      name="description"
+      content="Paid Node source kit for AI usage credits, token billing, Stripe credit packs, reservation holds, finalized usage refunds, and idempotent model consumption."
+    />
+    <link rel="canonical" href="https://agentlaunchops-ai.github.io/agentlaunchops-offers/ai-usage-credits-node.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="AgentLaunchOps" />
+    <meta property="og:title" content="AI Usage Credits Billing for Node | AgentLaunchOps" />
+    <meta property="og:description" content="Paid Node source kit for usage-credit pricing, Stripe credit packs, token-cost estimates, reservation holds, finalized refunds, and idempotent AI consumption." />
+    <meta property="og:url" content="https://agentlaunchops-ai.github.io/agentlaunchops-offers/ai-usage-credits-node.html" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="AI Usage Credits Billing for Node | AgentLaunchOps" />
+    <meta name="twitter:description" content="Paid Node source for AI credit packs, token billing, reservation holds, refunds, and usage-safe consumption." />
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "AI Credits Billing Kit",
+      "description": "A paid Node source kit for AI usage-credit pricing, Stripe credit-pack grants, token-cost estimates, reservation holds, finalized usage refunds, idempotent consumption, tests, and buyer smoke verification.",
+      "url": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/ai-usage-credits-node.html",
+      "offers": {
+        "@type": "Offer",
+        "price": "29",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "url": "https://launchagent.gumroad.com/l/wjfxhu"
+      }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What AI billing flow does this kit cover?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The kit covers usage-credit pricing, Stripe credit-pack grants, token and job cost estimates, request reservations, finalized usage charges, refunds for unused reserved credits, and duplicate-safe consumption."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is this a hosted metering service?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. It is source code for your own application. Buyers still configure their own Stripe account, model pricing, persistence, auth, hosting, secrets, and production billing controls."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can it handle different model costs?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. The included patterns support per-model cost estimates from token counts and flat-cost jobs before reserving and finalizing usage credits."
+          }
+        }
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "AgentLaunchOps",
+          "item": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Paid developer kits",
+          "item": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "AI usage credits billing",
+          "item": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/ai-usage-credits-node.html"
+        }
+      ]
+    }
+    </script>
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #18211e;
+        --muted: #5d6662;
+        --line: #d7ded9;
+        --paper: #f8faf7;
+        --panel: #ffffff;
+        --accent: #0f766e;
+        --accent-dark: #115e59;
+        --warm: #9a3412;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        background: var(--paper);
+        color: var(--ink);
+        line-height: 1.55;
+      }
+      main {
+        width: min(1080px, calc(100% - 32px));
+        margin: 0 auto;
+        padding: 38px 0 56px;
+      }
+      nav,
+      .breadcrumbs {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        color: var(--muted);
+      }
+      nav {
+        justify-content: space-between;
+        margin-bottom: 34px;
+      }
+      a {
+        color: var(--accent-dark);
+        font-weight: 800;
+        text-decoration: none;
+      }
+      h1,
+      h2,
+      h3,
+      p {
+        margin: 0;
+      }
+      h1 {
+        max-width: 900px;
+        margin: 14px 0 16px;
+        font-size: clamp(2.2rem, 6vw, 4.7rem);
+        line-height: 0.98;
+        letter-spacing: 0;
+      }
+      h2 {
+        margin-bottom: 14px;
+        font-size: 1.25rem;
+      }
+      h3 {
+        margin-bottom: 8px;
+        font-size: 1rem;
+      }
+      p,
+      li {
+        color: var(--muted);
+      }
+      .eyebrow {
+        margin-bottom: 14px;
+        color: var(--warm);
+        font-weight: 800;
+        text-transform: uppercase;
+      }
+      .lead {
+        max-width: 790px;
+        font-size: 1.08rem;
+      }
+      .hero {
+        padding-bottom: 34px;
+        border-bottom: 1px solid var(--line);
+      }
+      section {
+        padding: 34px 0;
+        border-bottom: 1px solid var(--line);
+      }
+      .matrix {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 14px;
+      }
+      .card {
+        display: grid;
+        gap: 12px;
+        min-height: 224px;
+        padding: 18px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--panel);
+      }
+      .price {
+        color: var(--warm);
+        font-weight: 800;
+      }
+      .button {
+        display: inline-flex;
+        min-height: 42px;
+        width: fit-content;
+        align-items: center;
+        justify-content: center;
+        border-radius: 6px;
+        padding: 10px 14px;
+        background: var(--accent);
+        color: #ffffff;
+      }
+      .note {
+        max-width: 840px;
+        padding: 18px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--panel);
+      }
+      @media (max-width: 760px) {
+        .matrix {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <nav>
+        <a href="./">AgentLaunchOps</a>
+        <a href="https://launchagent.gumroad.com/l/wjfxhu">Buy on Gumroad</a>
+      </nav>
+      <div class="breadcrumbs" aria-label="Breadcrumb">
+        <a href="./">AgentLaunchOps</a>
+        <span>/</span>
+        <a href="./">Paid developer kits</a>
+        <span>/</span>
+        <span>AI usage credits billing</span>
+      </div>
+
+      <header class="hero">
+        <p class="eyebrow">AI usage credits starter</p>
+        <h1>AI credit billing for Node apps without rebuilding token metering from scratch.</h1>
+        <p class="lead">
+          Buy the AI Credits Billing Kit when you need credit packs, model-cost estimates,
+          reservation holds, finalized usage refunds, and duplicate-safe consumption in a plain Node source package.
+        </p>
+      </header>
+
+      <section>
+        <h2>What the paid kit is for</h2>
+        <div class="matrix">
+          <div class="card">
+            <h3>Credit packs</h3>
+            <p>Grant paid credits from Stripe events while keeping duplicate checkout and webhook deliveries from double-crediting an account.</p>
+          </div>
+          <div class="card">
+            <h3>Token-cost estimates</h3>
+            <p>Estimate per-model usage from token counts and flat-cost jobs before reserving spend for an AI request.</p>
+          </div>
+          <div class="card">
+            <h3>Reservation refunds</h3>
+            <p>Reserve credits before a run, finalize actual usage after the model call, and refund unused reserved credits back to the account balance.</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Included source patterns</h2>
+        <ul>
+          <li>Stripe credit-pack webhook handling with idempotent grant records.</li>
+          <li>Per-model token pricing and flat-job pricing configuration.</li>
+          <li>Reserve, finalize, and void flows for AI requests.</li>
+          <li>Unused-credit refund logic when actual usage is lower than reserved usage.</li>
+          <li>Usage event records for support, reconciliation, and account balance review.</li>
+          <li>README, single-buyer license, manifest verification, tests, and buyer smoke command.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Checkout</h2>
+        <p class="price">$29 source kit</p>
+        <p class="note">
+          This is source code for your own application. You receive the kit through Gumroad, then
+          configure your own Stripe account, model pricing, persistence, auth, hosting, secrets,
+          operational limits, and production billing controls.
+        </p>
+        <p style="margin-top: 18px">
+          <a class="button" href="https://launchagent.gumroad.com/l/wjfxhu">Buy AI Credits Billing Kit</a>
+        </p>
+      </section>
+    </main>
+  </body>
+</html>

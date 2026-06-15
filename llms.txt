@@ -57,6 +57,10 @@ Paid developer source kits for SaaS billing, license keys, metered APIs, and Str
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/ai-credits-billing-kit.html
   Checkout: https://launchagent.gumroad.com/l/wjfxhu
 
+- AI Usage Credits Billing for Node ($29): buyer guide for AI usage credits, token billing, Stripe credit packs, reservation holds, finalized usage refunds, and duplicate-safe consumption backed by the live AI Credits Billing Kit.
+  Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/ai-usage-credits-node.html
+  Checkout: https://launchagent.gumroad.com/l/wjfxhu
+
 - Clerk Stripe Org Kit ($29): Node source kit for Clerk organizations, Stripe subscriptions, org seats, entitlement syncing, and webhook-safe access checks.
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/clerk-stripe-org-kit.html
   Checkout: https://launchagent.gumroad.com/l/ghekag
