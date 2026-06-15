@@ -96,6 +96,9 @@ Paid developer source kits for SaaS billing, license keys, metered APIs, and Str
 - Stripe Webhook Replay for Node: buyer guide mapping failed Stripe webhook replay searches to the live Stripe Webhook Replay Kit checkout.
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-webhook-replay-node.html
   Checkout: https://launchagent.gumroad.com/l/wfhzbp
+- Stripe Webhook Idempotency for Node: buyer guide mapping duplicate Stripe event, retry-safe handler, and replay-lock searches to the live Stripe Webhook Replay Kit checkout.
+  Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-webhook-idempotency-node.html
+  Checkout: https://launchagent.gumroad.com/l/wfhzbp
 - Stripe SaaS Starter Kit for Node: buyer guide mapping Stripe SaaS starter kit searches to the six live paid Stripe source kits.
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-saas-starter-kit-node.html
 

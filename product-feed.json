@@ -124,6 +124,14 @@
       "summary": "Buyer guide mapping failed Stripe webhook replay searches to the live Stripe Webhook Replay Kit checkout."
     },
     {
+      "name": "Stripe Webhook Idempotency for Node",
+      "price": 19,
+      "status": "buyer guide",
+      "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-webhook-idempotency-node.html",
+      "checkout": "https://launchagent.gumroad.com/l/wfhzbp",
+      "summary": "Buyer guide mapping Stripe webhook idempotency, duplicate delivery, retry-safe handler, and replay lock searches to the live Stripe Webhook Replay Kit checkout."
+    },
+    {
       "name": "Stripe SaaS Starter Kit for Node",
       "price": null,
       "status": "buyer guide",
