@@ -212,6 +212,14 @@
       "summary": "Node source kit for invoice tax metadata and review workflows around Stripe invoices."
     },
     {
+      "name": "Stripe Invoice Tax ID Collection for Node",
+      "price": 29,
+      "status": "published buyer guide",
+      "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-invoice-tax-id-node.html",
+      "checkout": "https://launchagent.gumroad.com/l/knpcbo",
+      "summary": "Buyer guide mapping Stripe invoice tax ID collection, checkout metadata, invoice webhook, receipt data, and tax review searches to the live Stripe Invoice Tax Kit checkout."
+    },
+    {
       "name": "Metered API Launch Kit",
       "price": 29,
       "status": "published",
