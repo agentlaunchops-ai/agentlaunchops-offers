@@ -260,6 +260,14 @@
       "summary": "Node source kit for Stripe Connect marketplace onboarding, seller account state, transfers, and webhook idempotency."
     },
     {
+      "name": "Stripe Connect Webhooks for Node",
+      "price": 29,
+      "status": "published buyer guide",
+      "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-connect-webhooks-node.html",
+      "checkout": "https://launchagent.gumroad.com/l/kusejgu",
+      "summary": "Buyer guide mapping Stripe Connect account.updated, seller readiness, destination-charge, platform-fee, and checkout reconciliation searches to the live Stripe Connect Marketplace Kit checkout."
+    },
+    {
       "name": "Stripe Customer Portal Kit",
       "price": 19,
       "status": "published",

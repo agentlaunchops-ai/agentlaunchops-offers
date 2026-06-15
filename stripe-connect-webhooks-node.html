@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Stripe Connect Webhooks for Node | AgentLaunchOps</title>
+    <meta
+      name="description"
+      content="Paid Node source for Stripe Connect account.updated webhooks, seller readiness checks, destination-charge Checkout payloads, platform fees, and paid-order reconciliation."
+    />
+    <link rel="canonical" href="https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-connect-webhooks-node.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="AgentLaunchOps" />
+    <meta property="og:title" content="Stripe Connect Webhooks for Node | AgentLaunchOps" />
+    <meta property="og:description" content="Paid Node source kit for Stripe Connect seller onboarding state, signed webhooks, destination charges, platform fees, and order reconciliation." />
+    <meta property="og:url" content="https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-connect-webhooks-node.html" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Stripe Connect Webhooks for Node | AgentLaunchOps" />
+    <meta name="twitter:description" content="Paid Node source for Stripe Connect marketplace webhooks and destination-charge reconciliation." />
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Stripe Connect Marketplace Kit",
+      "description": "A paid Node source kit for Stripe Connect account.updated webhooks, seller readiness checks, Express onboarding links, destination-charge Checkout payloads, platform fees, signed checkout.session.completed reconciliation, tests, and buyer smoke checks.",
+      "url": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-connect-webhooks-node.html",
+      "offers": {
+        "@type": "Offer",
+        "price": "29",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "url": "https://launchagent.gumroad.com/l/kusejgu"
+      }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is this an official Stripe product?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. It is an independent paid source kit for developers building their own Stripe Connect marketplace integration."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What Connect webhook behavior does it cover?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The kit covers signed webhook verification, idempotent account.updated handling, seller readiness state, destination-charge order records, checkout.session.completed reconciliation, tests, and a buyer smoke command."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does the kit run my marketplace for me?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Buyers still configure their own Stripe account, connected-account onboarding, persistence, hosting, production secrets, fraud controls, and marketplace policy requirements."
+          }
+        }
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "AgentLaunchOps",
+          "item": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Paid developer kits",
+          "item": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Stripe Connect Webhooks",
+          "item": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-connect-webhooks-node.html"
+        }
+      ]
+    }
+    </script>
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #18211e;
+        --muted: #5d6662;
+        --line: #d7ded9;
+        --paper: #f8faf7;
+        --panel: #ffffff;
+        --accent: #0f766e;
+        --accent-dark: #115e59;
+        --warm: #9a3412;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        background: var(--paper);
+        color: var(--ink);
+        line-height: 1.55;
+      }
+      main {
+        width: min(1080px, calc(100% - 32px));
+        margin: 0 auto;
+        padding: 38px 0 56px;
+      }
+      nav,
+      .breadcrumbs {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        color: var(--muted);
+      }
+      nav {
+        justify-content: space-between;
+        margin-bottom: 34px;
+      }
+      a {
+        color: var(--accent-dark);
+        font-weight: 800;
+        text-decoration: none;
+      }
+      h1,
+      h2,
+      h3,
+      p {
+        margin: 0;
+      }
+      h1 {
+        max-width: 880px;
+        margin: 14px 0 16px;
+        font-size: clamp(2.2rem, 6vw, 4.7rem);
+        line-height: 0.98;
+        letter-spacing: 0;
+      }
+      h2 {
+        margin-bottom: 14px;
+        font-size: 1.25rem;
+      }
+      h3 {
+        margin-bottom: 8px;
+        font-size: 1rem;
+      }
+      p,
+      li {
+        color: var(--muted);
+      }
+      .eyebrow {
+        margin-bottom: 14px;
+        color: var(--warm);
+        font-weight: 800;
+        text-transform: uppercase;
+      }
+      .lead {
+        max-width: 780px;
+        font-size: 1.08rem;
+      }
+      .hero {
+        padding-bottom: 34px;
+        border-bottom: 1px solid var(--line);
+      }
+      section {
+        padding: 34px 0;
+        border-bottom: 1px solid var(--line);
+      }
+      .matrix {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 14px;
+      }
+      .card {
+        display: grid;
+        gap: 12px;
+        min-height: 224px;
+        padding: 18px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--panel);
+      }
+      .price {
+        color: var(--warm);
+        font-weight: 800;
+      }
+      .button {
+        display: inline-flex;
+        min-height: 42px;
+        width: fit-content;
+        align-items: center;
+        justify-content: center;
+        border-radius: 6px;
+        padding: 10px 14px;
+        background: var(--accent);
+        color: #ffffff;
+      }
+      .note {
+        max-width: 840px;
+        padding: 18px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--panel);
+      }
+      @media (max-width: 760px) {
+        .matrix {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <nav>
+        <a href="./">AgentLaunchOps</a>
+        <a href="https://launchagent.gumroad.com/l/kusejgu">Buy on Gumroad</a>
+      </nav>
+      <div class="breadcrumbs" aria-label="Breadcrumb">
+        <a href="./">AgentLaunchOps</a>
+        <span>/</span>
+        <a href="./">Paid developer kits</a>
+        <span>/</span>
+        <span>Stripe Connect Webhooks</span>
+      </div>
+
+      <header class="hero">
+        <p class="eyebrow">Stripe Connect marketplace starter</p>
+        <h1>Stripe Connect webhooks for Node marketplaces without rebuilding the same glue.</h1>
+        <p class="lead">
+          Buy the Stripe Connect Marketplace Kit when you need connected-account readiness,
+          destination-charge Checkout payloads, platform fees, and signed webhook reconciliation in
+          a plain Node source package.
+        </p>
+      </header>
+
+      <section>
+        <h2>What the paid kit is for</h2>
+        <div class="matrix">
+          <div class="card">
+            <h3>Seller readiness</h3>
+            <p>Track connected-account charges, payouts, and required capabilities before sending buyers to checkout.</p>
+          </div>
+          <div class="card">
+            <h3>Destination charges</h3>
+            <p>Build Checkout payloads with seller metadata, transfer destination, and platform fee amounts.</p>
+          </div>
+          <div class="card">
+            <h3>Webhook reconciliation</h3>
+            <p>Use signed Stripe events and idempotent order updates instead of trusting browser redirects.</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Included source patterns</h2>
+        <ul>
+          <li>Stripe Connect <code>account.updated</code> event handling with webhook signature verification.</li>
+          <li>Seller records for connected-account readiness and onboarding status.</li>
+          <li>Express account-link payload builders for marketplace onboarding.</li>
+          <li>Destination-charge Checkout payloads with application fees and order metadata.</li>
+          <li>Paid-order reconciliation from signed <code>checkout.session.completed</code> webhooks.</li>
+          <li>README, single-buyer license, manifest, tests, and buyer smoke command.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Checkout</h2>
+        <p class="price">$29 source kit</p>
+        <p class="note">
+          This is source code for your own application. You receive the kit through Gumroad, then
+          configure your own Stripe account, connected-account onboarding, persistence, hosting,
+          production secrets, and marketplace controls.
+        </p>
+        <p style="margin-top: 18px">
+          <a class="button" href="https://launchagent.gumroad.com/l/kusejgu">Buy Stripe Connect Marketplace Kit</a>
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
