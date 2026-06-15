@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Clerk Stripe Org Webhooks for Node | AgentLaunchOps</title>
+    <meta
+      name="description"
+      content="Paid Node source for Clerk organization billing with Stripe subscription webhooks, org seat syncing, entitlement checks, and buyer smoke tests."
+    />
+    <link rel="canonical" href="https://agentlaunchops-ai.github.io/agentlaunchops-offers/clerk-stripe-org-webhooks-node.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="AgentLaunchOps" />
+    <meta property="og:title" content="Clerk Stripe Org Webhooks for Node | AgentLaunchOps" />
+    <meta property="og:description" content="Paid Node source kit for Clerk organizations, Stripe subscription webhooks, org seats, entitlement records, and webhook-safe access checks." />
+    <meta property="og:url" content="https://agentlaunchops-ai.github.io/agentlaunchops-offers/clerk-stripe-org-webhooks-node.html" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Clerk Stripe Org Webhooks for Node | AgentLaunchOps" />
+    <meta name="twitter:description" content="Paid Node source for Clerk organization billing with Stripe subscription and entitlement webhooks." />
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Clerk Stripe Org Kit",
+      "description": "A paid Node source kit for Clerk organization billing, Stripe subscription webhooks, org seat syncing, entitlement snapshots, protected access checks, tests, and buyer smoke verification.",
+      "url": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/clerk-stripe-org-webhooks-node.html",
+      "offers": {
+        "@type": "Offer",
+        "price": "29",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "url": "https://launchagent.gumroad.com/l/ghekag"
+      }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is this an official Clerk or Stripe product?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. It is an independent paid source kit for developers building their own Clerk organization billing integration with Stripe."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What org billing behavior does it cover?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The kit covers signed Stripe webhook verification, organization subscription state, seat quantity checks, entitlement snapshots, guarded access helpers, tests, and a buyer smoke command."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does the kit run my billing system for me?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Buyers still configure their own Clerk app, Stripe account, webhook endpoint, persistence, hosting, secrets, and production billing controls."
+          }
+        }
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "AgentLaunchOps",
+          "item": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Paid developer kits",
+          "item": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Clerk Stripe Org Webhooks",
+          "item": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/clerk-stripe-org-webhooks-node.html"
+        }
+      ]
+    }
+    </script>
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #18211e;
+        --muted: #5d6662;
+        --line: #d7ded9;
+        --paper: #f8faf7;
+        --panel: #ffffff;
+        --accent: #0f766e;
+        --accent-dark: #115e59;
+        --warm: #9a3412;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        background: var(--paper);
+        color: var(--ink);
+        line-height: 1.55;
+      }
+      main {
+        width: min(1080px, calc(100% - 32px));
+        margin: 0 auto;
+        padding: 38px 0 56px;
+      }
+      nav,
+      .breadcrumbs {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        color: var(--muted);
+      }
+      nav {
+        justify-content: space-between;
+        margin-bottom: 34px;
+      }
+      a {
+        color: var(--accent-dark);
+        font-weight: 800;
+        text-decoration: none;
+      }
+      h1,
+      h2,
+      h3,
+      p {
+        margin: 0;
+      }
+      h1 {
+        max-width: 900px;
+        margin: 14px 0 16px;
+        font-size: clamp(2.2rem, 6vw, 4.7rem);
+        line-height: 0.98;
+        letter-spacing: 0;
+      }
+      h2 {
+        margin-bottom: 14px;
+        font-size: 1.25rem;
+      }
+      h3 {
+        margin-bottom: 8px;
+        font-size: 1rem;
+      }
+      p,
+      li {
+        color: var(--muted);
+      }
+      .eyebrow {
+        margin-bottom: 14px;
+        color: var(--warm);
+        font-weight: 800;
+        text-transform: uppercase;
+      }
+      .lead {
+        max-width: 790px;
+        font-size: 1.08rem;
+      }
+      .hero {
+        padding-bottom: 34px;
+        border-bottom: 1px solid var(--line);
+      }
+      section {
+        padding: 34px 0;
+        border-bottom: 1px solid var(--line);
+      }
+      .matrix {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 14px;
+      }
+      .card {
+        display: grid;
+        gap: 12px;
+        min-height: 224px;
+        padding: 18px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--panel);
+      }
+      .price {
+        color: var(--warm);
+        font-weight: 800;
+      }
+      .button {
+        display: inline-flex;
+        min-height: 42px;
+        width: fit-content;
+        align-items: center;
+        justify-content: center;
+        border-radius: 6px;
+        padding: 10px 14px;
+        background: var(--accent);
+        color: #ffffff;
+      }
+      .note {
+        max-width: 840px;
+        padding: 18px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--panel);
+      }
+      @media (max-width: 760px) {
+        .matrix {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <nav>
+        <a href="./">AgentLaunchOps</a>
+        <a href="https://launchagent.gumroad.com/l/ghekag">Buy on Gumroad</a>
+      </nav>
+      <div class="breadcrumbs" aria-label="Breadcrumb">
+        <a href="./">AgentLaunchOps</a>
+        <span>/</span>
+        <a href="./">Paid developer kits</a>
+        <span>/</span>
+        <span>Clerk Stripe Org Webhooks</span>
+      </div>
+
+      <header class="hero">
+        <p class="eyebrow">Clerk organization billing starter</p>
+        <h1>Clerk Stripe org billing for Node apps without rebuilding the webhook layer.</h1>
+        <p class="lead">
+          Buy the Clerk Stripe Org Kit when you need organization subscription state, seat counts,
+          entitlement snapshots, and webhook-safe access checks in a plain Node source package.
+        </p>
+      </header>
+
+      <section>
+        <h2>What the paid kit is for</h2>
+        <div class="matrix">
+          <div class="card">
+            <h3>Org subscriptions</h3>
+            <p>Map Stripe subscription and customer state onto Clerk organizations instead of individual-only billing records.</p>
+          </div>
+          <div class="card">
+            <h3>Seat and plan checks</h3>
+            <p>Sync seat quantities and entitlement snapshots so server-side routes can enforce org access.</p>
+          </div>
+          <div class="card">
+            <h3>Webhook-safe state</h3>
+            <p>Use signed Stripe events and idempotent updates before trusting subscription changes in your app.</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Included source patterns</h2>
+        <ul>
+          <li>Clerk organization records linked to Stripe customers and subscriptions.</li>
+          <li>Signed Stripe webhook verification before org billing state changes.</li>
+          <li>Seat quantity and plan entitlement snapshots for protected routes.</li>
+          <li>Webhook-safe access helpers for active, past-due, and missing subscription states.</li>
+          <li>Buyer smoke tests for the archive, manifest, and core entitlement behavior.</li>
+          <li>README, single-buyer license, delivery notes, and runnable Node tests.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Checkout</h2>
+        <p class="price">$29 source kit</p>
+        <p class="note">
+          This is source code for your own application. You receive the kit through Gumroad, then
+          configure your own Clerk app, Stripe account, webhook endpoint, persistence, hosting,
+          production secrets, and billing operations.
+        </p>
+        <p style="margin-top: 18px">
+          <a class="button" href="https://launchagent.gumroad.com/l/ghekag">Buy Clerk Stripe Org Kit</a>
+        </p>
+      </section>
+    </main>
+  </body>
+</html>

@@ -58,6 +58,10 @@ Paid developer source kits for SaaS billing, license keys, metered APIs, and Str
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/clerk-stripe-org-kit.html
   Checkout: https://launchagent.gumroad.com/l/ghekag
 
+- Clerk Stripe Org Webhooks for Node ($29): buyer guide for Clerk organization billing, Stripe subscription webhooks, org seats, entitlement snapshots, and access checks backed by the live Clerk Stripe Org Kit.
+  Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/clerk-stripe-org-webhooks-node.html
+  Checkout: https://launchagent.gumroad.com/l/ghekag
+
 - Lemon Squeezy Subscription Kit ($29): Node source kit for Lemon Squeezy subscription webhooks, entitlement records, customer state, and buyer smoke tests.
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/lemon-squeezy-subscription-kit.html
   Checkout: https://launchagent.gumroad.com/l/wcxuo
