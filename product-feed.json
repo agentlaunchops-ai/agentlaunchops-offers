@@ -1,6 +1,6 @@
 {
   "brand": "AgentLaunchOps",
-  "updated": "2026-06-14",
+  "updated": "2026-06-15",
   "currency": "USD",
   "products": [
     {
@@ -154,6 +154,14 @@
       "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-per-seat-billing-node.html",
       "checkout": "https://launchagent.gumroad.com/l/vpbnu",
       "summary": "Node source kit for per-seat Stripe subscription syncing and seat-limit enforcement."
+    },
+    {
+      "name": "Stripe Team Seat Kit Product Page",
+      "price": 29,
+      "status": "published",
+      "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-team-seat-kit.html",
+      "checkout": "https://launchagent.gumroad.com/l/vpbnu",
+      "summary": "Gumroad-first product page for the live Stripe Team Seat Kit source package."
     },
     {
       "name": "Stripe Usage Alerts Kit",

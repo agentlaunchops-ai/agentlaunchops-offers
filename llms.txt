@@ -22,6 +22,9 @@ Paid developer source kits for SaaS billing, license keys, metered APIs, and Str
 - Stripe Team Seat Kit ($29): Node source kit for per-seat Stripe subscription syncing.
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-per-seat-billing-node.html
   Checkout: https://launchagent.gumroad.com/l/vpbnu
+- Stripe Team Seat Kit Product Page ($29): Gumroad-first page for the live source package.
+  Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-team-seat-kit.html
+  Checkout: https://launchagent.gumroad.com/l/vpbnu
 - Stripe Usage Alerts Kit ($29): Node source kit for usage thresholds and billing warnings.
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-usage-alerts-node.html
   Checkout: https://launchagent.gumroad.com/l/aohsrs
