@@ -31,6 +31,9 @@ Paid developer source kits for SaaS billing, license keys, metered APIs, and Str
 - Stripe Usage Alerts Kit Product Page ($29): Gumroad-first page for the live source package.
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-usage-alerts-kit.html
   Checkout: https://launchagent.gumroad.com/l/aohsrs
+- Stripe Usage Limit Notifications for Node ($29): buyer guide for quota warnings, limit-reached notices, overage alerts, and monthly usage summaries backed by the live Stripe Usage Alerts Kit.
+  Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-usage-limit-notifications-node.html
+  Checkout: https://launchagent.gumroad.com/l/aohsrs
 - Stripe MRR Analytics Kit ($29): Node source kit for recurring revenue snapshots.
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-mrr-analytics-node.html
   Checkout: https://launchagent.gumroad.com/l/juzzin

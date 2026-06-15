@@ -180,6 +180,14 @@
       "summary": "Gumroad-first product page for the live Stripe Usage Alerts Kit source package."
     },
     {
+      "name": "Stripe Usage Limit Notifications for Node",
+      "price": 29,
+      "status": "published buyer guide",
+      "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-usage-limit-notifications-node.html",
+      "checkout": "https://launchagent.gumroad.com/l/aohsrs",
+      "summary": "Buyer guide mapping Stripe usage limit notification, quota warning, overage alert, and monthly usage summary searches to the live Stripe Usage Alerts Kit checkout."
+    },
+    {
       "name": "Stripe MRR Analytics Kit",
       "price": 29,
       "status": "published",
