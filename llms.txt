@@ -97,6 +97,10 @@ Paid developer source kits for SaaS billing, license keys, metered APIs, and Str
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/supabase-entitlement-kit.html
   Checkout: https://launchagent.gumroad.com/l/cwrhl
 
+- Supabase Entitlements for Node ($29): buyer guide for Supabase workspace plans, seat limits, entitlement tables, RLS-readable billing state, and server-side feature gates backed by the live Supabase Entitlement Kit.
+  Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/supabase-entitlements-node.html
+  Checkout: https://launchagent.gumroad.com/l/cwrhl
+
 - Supabase RLS Tenant Kit ($29): Supabase SQL and Node source kit for tenant tables, RLS policies, membership checks, and buyer smoke verification.
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/supabase-rls-tenant-kit.html
   Checkout: https://launchagent.gumroad.com/l/ipqgkx

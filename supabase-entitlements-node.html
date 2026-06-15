@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Supabase Entitlements for Node SaaS Apps | AgentLaunchOps</title>
+    <meta
+      name="description"
+      content="Paid Supabase SQL and Node source kit for workspace plans, seat limits, entitlement tables, RLS-readable billing state, and server-side feature gates."
+    />
+    <link rel="canonical" href="https://agentlaunchops-ai.github.io/agentlaunchops-offers/supabase-entitlements-node.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="AgentLaunchOps" />
+    <meta property="og:title" content="Supabase Entitlements for Node SaaS Apps" />
+    <meta property="og:description" content="Source kit for Supabase workspace plans, entitlement sync, seat checks, RLS-readable billing state, and server-side feature gates." />
+    <meta property="og:url" content="https://agentlaunchops-ai.github.io/agentlaunchops-offers/supabase-entitlements-node.html" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Supabase Entitlements for Node SaaS Apps" />
+    <meta name="twitter:description" content="Supabase SQL and Node source kit for plan and feature entitlement checks." />
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Supabase Entitlement Kit",
+      "description": "A paid Supabase SQL and Node source kit for workspace plans, seats, entitlement tables, RLS-readable billing state, webhook-safe subscription sync, tests, and buyer smoke verification.",
+      "url": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/supabase-entitlements-node.html",
+      "offers": {
+        "@type": "Offer",
+        "price": "29",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "url": "https://launchagent.gumroad.com/l/cwrhl"
+      }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is this an official Supabase product?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. It is an independent paid source kit for developers adding entitlement checks to their own Supabase-backed SaaS applications."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What entitlement behavior does the kit cover?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The kit includes workspace plans, members, subscription state, entitlement records, seat-limit checks, RLS-readable billing state, server-side feature gates, tests, and buyer smoke verification."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does this run billing for me?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Buyers adapt the SQL and Node helpers into their own checkout, webhook, database, hosting, and production review process."
+          }
+        }
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "AgentLaunchOps",
+          "item": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Paid developer kits",
+          "item": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Supabase Entitlements",
+          "item": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/supabase-entitlements-node.html"
+        }
+      ]
+    }
+    </script>
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #17211b;
+        --muted: #59665f;
+        --line: #d7ded9;
+        --paper: #f6f9f5;
+        --panel: #ffffff;
+        --accent: #047857;
+        --accent-dark: #064e3b;
+        --warm: #9a3412;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        background: var(--paper);
+        color: var(--ink);
+        line-height: 1.55;
+      }
+      main {
+        width: min(1080px, calc(100% - 32px));
+        margin: 0 auto;
+        padding: 38px 0 56px;
+      }
+      nav,
+      .breadcrumbs {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        color: var(--muted);
+      }
+      nav {
+        justify-content: space-between;
+        margin-bottom: 34px;
+      }
+      a {
+        color: var(--accent-dark);
+        font-weight: 800;
+        text-decoration: none;
+      }
+      h1, h2, h3, p { margin: 0; }
+      h1 {
+        max-width: 880px;
+        margin: 14px 0 16px;
+        font-size: clamp(2.2rem, 6vw, 4.7rem);
+        line-height: 0.98;
+        letter-spacing: 0;
+      }
+      h2 {
+        margin-bottom: 14px;
+        font-size: 1.25rem;
+      }
+      h3 {
+        margin-bottom: 8px;
+        font-size: 1rem;
+      }
+      p, li { color: var(--muted); }
+      code {
+        border-radius: 4px;
+        padding: 2px 5px;
+        background: #eef2f0;
+      }
+      .eyebrow {
+        margin-bottom: 14px;
+        color: var(--warm);
+        font-weight: 800;
+        text-transform: uppercase;
+      }
+      .lead {
+        max-width: 780px;
+        font-size: 1.08rem;
+      }
+      .hero {
+        padding-bottom: 34px;
+        border-bottom: 1px solid var(--line);
+      }
+      section {
+        padding: 34px 0;
+        border-bottom: 1px solid var(--line);
+      }
+      .matrix {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 14px;
+      }
+      .card {
+        display: grid;
+        gap: 12px;
+        min-height: 224px;
+        padding: 18px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--panel);
+      }
+      .price {
+        color: var(--warm);
+        font-weight: 800;
+      }
+      .button {
+        display: inline-flex;
+        min-height: 42px;
+        width: fit-content;
+        align-items: center;
+        justify-content: center;
+        border-radius: 6px;
+        padding: 10px 14px;
+        background: var(--accent);
+        color: #ffffff;
+      }
+      .note {
+        max-width: 840px;
+        padding: 18px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--panel);
+      }
+      @media (max-width: 760px) {
+        .matrix { grid-template-columns: 1fr; }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <nav>
+        <a href="./">AgentLaunchOps</a>
+        <a href="https://launchagent.gumroad.com/l/cwrhl">Buy on Gumroad</a>
+      </nav>
+      <div class="breadcrumbs" aria-label="Breadcrumb">
+        <a href="./">AgentLaunchOps</a>
+        <span>/</span>
+        <a href="./">Paid developer kits</a>
+        <span>/</span>
+        <span>Supabase Entitlements</span>
+      </div>
+      <header class="hero">
+        <p class="eyebrow">Supabase entitlement source kit</p>
+        <h1>Supabase entitlements for workspace plans, seats, and paid features.</h1>
+        <p class="lead">
+          Supabase Entitlement Kit is a $29 source kit for developers who need
+          plan-aware feature gates, workspace billing state, seat limits, and
+          webhook-safe entitlement sync without buying a full SaaS boilerplate.
+        </p>
+        <p class="price">$29 source kit</p>
+        <p><a class="button" href="https://launchagent.gumroad.com/l/cwrhl">Buy Supabase Entitlement Kit</a></p>
+      </header>
+
+      <section>
+        <h2>What This Helps You Ship</h2>
+        <div class="matrix">
+          <div class="card">
+            <h3>Workspace plans</h3>
+            <p>Model free, pro, and scale plan state in Supabase tables that your app can read without exposing billing write access.</p>
+          </div>
+          <div class="card">
+            <h3>Seat-limit checks</h3>
+            <p>Block extra workspace members before the plan allows them, with server-side helpers you can adapt into your own flows.</p>
+          </div>
+          <div class="card">
+            <h3>Feature gates</h3>
+            <p>Check paid features from trusted Node code before rendering premium routes or running paid API actions.</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Included In The Paid Zip</h2>
+        <div class="matrix">
+          <div class="card">
+            <h3>SQL starter</h3>
+            <p>Supabase schema and RLS policy starting points for workspaces, members, subscriptions, entitlements, and webhook event tracking.</p>
+          </div>
+          <div class="card">
+            <h3>Node helpers</h3>
+            <p>Dependency-free modules for active-plan checks, feature access, duplicate webhook suppression, and seat-limit decisions.</p>
+          </div>
+          <div class="card">
+            <h3>Buyer verification</h3>
+            <p>Manifest verification, tests, and <code>npm run smoke:buyer</code> so buyers can confirm the delivered source before adapting it.</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Buyer Fit</h2>
+        <div class="note">
+          <p>
+            This is source code for your own application. It is a good fit when
+            you already have Supabase auth or data tables and need a focused
+            entitlement layer for paid features, not a hosted billing service.
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <h2>Checkout</h2>
+        <p class="lead">
+          Gumroad handles card checkout and paid-file delivery for the finished
+          kit at <code>launchagent.gumroad.com/l/cwrhl</code>.
+        </p>
+        <p><a class="button" href="https://launchagent.gumroad.com/l/cwrhl">Buy on Gumroad for $29</a></p>
+      </section>
+    </main>
+  </body>
+</html>
