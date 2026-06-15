@@ -196,6 +196,14 @@
       "summary": "Node source kit for monthly recurring revenue snapshots from Stripe subscription data."
     },
     {
+      "name": "Stripe MRR Dashboard for Node",
+      "price": 29,
+      "status": "published buyer guide",
+      "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-mrr-dashboard-node.html",
+      "checkout": "https://launchagent.gumroad.com/l/juzzin",
+      "summary": "Buyer guide mapping Stripe MRR dashboard, ARR, churn, paid invoice, refund, and subscription revenue analytics searches to the live Stripe MRR Analytics Kit checkout."
+    },
+    {
       "name": "Stripe Invoice Tax Kit",
       "price": 29,
       "status": "published",

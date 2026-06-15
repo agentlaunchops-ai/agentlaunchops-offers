@@ -37,6 +37,9 @@ Paid developer source kits for SaaS billing, license keys, metered APIs, and Str
 - Stripe MRR Analytics Kit ($29): Node source kit for recurring revenue snapshots.
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-mrr-analytics-node.html
   Checkout: https://launchagent.gumroad.com/l/juzzin
+- Stripe MRR Dashboard for Node ($29): buyer guide for MRR dashboard, ARR snapshot, churn metric, paid invoice, refund, and subscription revenue analytics searches backed by the live Stripe MRR Analytics Kit.
+  Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-mrr-dashboard-node.html
+  Checkout: https://launchagent.gumroad.com/l/juzzin
 - Stripe Invoice Tax Kit ($29): Node source kit for invoice tax metadata review.
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-invoice-tax-node.html
   Checkout: https://launchagent.gumroad.com/l/knpcbo
