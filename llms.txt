@@ -46,6 +46,9 @@ Paid developer source kits for SaaS billing, license keys, metered APIs, and Str
 - Stripe Invoice Tax ID Collection for Node ($29): buyer guide for checkout metadata, customer tax ID capture, signed invoice webhooks, receipt data, and tax review fields backed by the live Stripe Invoice Tax Kit.
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-invoice-tax-id-node.html
   Checkout: https://launchagent.gumroad.com/l/knpcbo
+- Stripe Invoice Webhook Tax Metadata for Node ($29): buyer guide for signed Stripe invoice webhooks, duplicate-safe invoice events, invoice tax metadata, receipt review records, and billing audit searches backed by the live Stripe Invoice Tax Kit.
+  Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-invoice-webhook-node.html
+  Checkout: https://launchagent.gumroad.com/l/knpcbo
 - Metered API Launch Kit ($29): Node source kit for API keys, usage logs, quotas, and Stripe checkout hooks.
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/metered-api-node.html
   Checkout: https://launchagent.gumroad.com/l/lygkci

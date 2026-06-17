@@ -1,6 +1,6 @@
 {
   "brand": "AgentLaunchOps",
-  "updated": "2026-06-15",
+  "updated": "2026-06-16",
   "currency": "USD",
   "products": [
     {
@@ -218,6 +218,14 @@
       "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-invoice-tax-id-node.html",
       "checkout": "https://launchagent.gumroad.com/l/knpcbo",
       "summary": "Buyer guide mapping Stripe invoice tax ID collection, checkout metadata, invoice webhook, receipt data, and tax review searches to the live Stripe Invoice Tax Kit checkout."
+    },
+    {
+      "name": "Stripe Invoice Webhook Tax Metadata for Node",
+      "price": 29,
+      "status": "published buyer guide",
+      "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-invoice-webhook-node.html",
+      "checkout": "https://launchagent.gumroad.com/l/knpcbo",
+      "summary": "Buyer guide mapping signed Stripe invoice webhook, invoice tax metadata, duplicate-safe event handling, receipt review, and billing audit searches to the live Stripe Invoice Tax Kit checkout."
     },
     {
       "name": "Metered API Launch Kit",
