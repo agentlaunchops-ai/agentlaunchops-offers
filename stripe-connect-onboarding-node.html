@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Stripe Connect Express Onboarding for Node | AgentLaunchOps</title>
+    <meta
+      name="description"
+      content="Paid Node source for Stripe Connect Express onboarding: account links, seller readiness, capability checks, destination Checkout, and platform fees."
+    />
+    <link rel="canonical" href="https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-connect-onboarding-node.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="AgentLaunchOps" />
+    <meta property="og:title" content="Stripe Connect Express Onboarding for Node | AgentLaunchOps" />
+    <meta property="og:description" content="Paid Node source kit for Stripe Connect account links, seller readiness, capability checks, destination Checkout, and platform-fee reconciliation." />
+    <meta property="og:url" content="https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-connect-onboarding-node.html" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Stripe Connect Express Onboarding for Node | AgentLaunchOps" />
+    <meta name="twitter:description" content="Paid Node source for Stripe Connect Express onboarding, seller readiness, and destination-charge checkout." />
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Stripe Connect Marketplace Kit",
+      "description": "A paid Node source kit for Stripe Connect Express onboarding links, connected-account readiness checks, capability gates, destination-charge Checkout payloads, platform fees, signed webhook reconciliation, tests, and buyer smoke checks.",
+      "url": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-connect-onboarding-node.html",
+      "offers": {
+        "@type": "Offer",
+        "price": "29",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "url": "https://launchagent.gumroad.com/l/kusejgu"
+      }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Does this create Stripe Connect Express accounts for me?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. It is a paid source kit with server-side account-link payload builders, readiness checks, and webhook handling patterns that buyers adapt inside their own Stripe account and app."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What onboarding state does it track?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The kit tracks connected-account charges, payouts, required capabilities, onboarding readiness, destination Checkout payloads, platform fees, and paid-order records from signed Stripe webhooks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is this an official Stripe product?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. It is an independent paid source kit for developers building their own Stripe Connect marketplace integration."
+          }
+        }
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "AgentLaunchOps",
+          "item": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Paid developer kits",
+          "item": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Stripe Connect Express Onboarding",
+          "item": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-connect-onboarding-node.html"
+        }
+      ]
+    }
+    </script>
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #17211d;
+        --muted: #5f6762;
+        --line: #d8dfd9;
+        --paper: #f7faf7;
+        --panel: #ffffff;
+        --accent: #0f766e;
+        --accent-dark: #115e59;
+        --warm: #9a3412;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        background: var(--paper);
+        color: var(--ink);
+        line-height: 1.55;
+      }
+      main {
+        width: min(1080px, calc(100% - 32px));
+        margin: 0 auto;
+        padding: 38px 0 56px;
+      }
+      nav,
+      .breadcrumbs {
+        display: flex;
+        gap: 16px;
+        color: var(--muted);
+      }
+      nav {
+        justify-content: space-between;
+        margin-bottom: 34px;
+      }
+      .breadcrumbs {
+        flex-wrap: wrap;
+        margin-bottom: 24px;
+      }
+      a {
+        color: var(--accent-dark);
+        font-weight: 800;
+        text-decoration: none;
+      }
+      h1,
+      h2,
+      h3,
+      p {
+        margin: 0;
+      }
+      h1 {
+        max-width: 880px;
+        margin-bottom: 16px;
+        font-size: clamp(2.2rem, 6vw, 4.35rem);
+        line-height: 0.99;
+        letter-spacing: 0;
+      }
+      h2 {
+        margin-bottom: 14px;
+        font-size: 1.25rem;
+      }
+      h3 {
+        margin-bottom: 8px;
+        font-size: 1rem;
+      }
+      p,
+      li {
+        color: var(--muted);
+      }
+      .eyebrow {
+        margin-bottom: 14px;
+        color: var(--warm);
+        font-weight: 800;
+        text-transform: uppercase;
+      }
+      .lead {
+        max-width: 780px;
+        font-size: 1.08rem;
+      }
+      .hero {
+        display: grid;
+        grid-template-columns: minmax(0, 1.05fr) minmax(300px, 0.95fr);
+        gap: 34px;
+        align-items: start;
+      }
+      .panel,
+      .card {
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--panel);
+      }
+      .panel {
+        padding: 24px;
+      }
+      .price {
+        margin: 12px 0 18px;
+        color: var(--ink);
+        font-size: 1.35rem;
+        font-weight: 900;
+      }
+      .button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 44px;
+        padding: 12px 16px;
+        border-radius: 8px;
+        background: var(--accent);
+        color: #ffffff;
+        font-weight: 900;
+      }
+      .button.secondary {
+        border: 1px solid var(--line);
+        background: #ffffff;
+        color: var(--accent-dark);
+      }
+      .actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 22px;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 14px;
+        margin-top: 28px;
+      }
+      .card {
+        padding: 18px;
+      }
+      section {
+        margin-top: 42px;
+      }
+      ul {
+        margin: 0;
+        padding-left: 18px;
+      }
+      li + li {
+        margin-top: 8px;
+      }
+      .steps {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 14px;
+      }
+      .step {
+        border-top: 3px solid var(--accent);
+        padding-top: 12px;
+      }
+      .note {
+        margin-top: 18px;
+        padding-top: 16px;
+        border-top: 1px solid var(--line);
+        font-size: 0.94rem;
+      }
+      @media (max-width: 820px) {
+        .hero,
+        .grid,
+        .steps {
+          grid-template-columns: 1fr;
+        }
+        nav {
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <nav>
+        <a href="./">AgentLaunchOps kits</a>
+        <span>Stripe Connect onboarding source</span>
+      </nav>
+      <div class="breadcrumbs" aria-label="Breadcrumb">
+        <a href="./">AgentLaunchOps</a>
+        <span>/</span>
+        <a href="./">Paid developer kits</a>
+        <span>/</span>
+        <span>Stripe Connect Express Onboarding</span>
+      </div>
+
+      <section class="hero">
+        <div>
+          <p class="eyebrow">Stripe Connect Express onboarding for Node marketplaces</p>
+          <h1>Account links, seller readiness, and destination Checkout without a blank-server start.</h1>
+          <p class="lead">
+            Stripe Connect Marketplace Kit is a $29 paid source kit for marketplace teams that need server-side onboarding
+            links, connected-account capability checks, platform fees, and signed webhook reconciliation in one runnable Node package.
+          </p>
+          <div class="actions">
+            <a class="button" href="https://launchagent.gumroad.com/l/kusejgu">Buy the $29 source kit</a>
+            <a class="button secondary" href="stripe-connect-marketplace-kit.html">View kit details</a>
+          </div>
+        </div>
+        <aside class="panel">
+          <h2>Built for the messy middle</h2>
+          <p>
+            Use it after you already know your marketplace flow and need the Connect payment layer to stop living in scattered snippets.
+          </p>
+          <p class="price">$29 source kit</p>
+          <ul>
+            <li>Express account-link payload builders.</li>
+            <li>Seller readiness from charges, payouts, and capabilities.</li>
+            <li>Destination Checkout with server-calculated platform fees.</li>
+            <li>Signed webhook reconciliation and duplicate-event protection.</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section>
+        <h2>What the kit helps you wire</h2>
+        <div class="grid">
+          <div class="card">
+            <h3>Onboarding state</h3>
+            <p>Track the account fields that decide whether a seller can accept charges and receive payouts.</p>
+          </div>
+          <div class="card">
+            <h3>Checkout payloads</h3>
+            <p>Create destination-charge Checkout sessions server-side so buyers cannot alter seller IDs or platform fees.</p>
+          </div>
+          <div class="card">
+            <h3>Order records</h3>
+            <p>Turn signed `checkout.session.completed` events into paid-order records with idempotent event handling.</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Buyer smoke path</h2>
+        <div class="steps">
+          <div class="step">
+            <h3>1. Verify</h3>
+            <p>Run the manifest check so the delivered files match the archive.</p>
+          </div>
+          <div class="step">
+            <h3>2. Test</h3>
+            <p>Run the included tests for signature checks, readiness gates, destination payloads, and duplicate events.</p>
+          </div>
+          <div class="step">
+            <h3>3. Adapt</h3>
+            <p>Replace the in-memory store with your database and configure your own Stripe account/webhook secrets.</p>
+          </div>
+          <div class="step">
+            <h3>4. Harden</h3>
+            <p>Keep seller IDs, capability checks, platform fees, and checkout creation on the server.</p>
+          </div>
+        </div>
+        <p class="note">
+          This is source code for your own application. It is not a hosted marketplace, official Stripe product,
+          payment processor, fraud-control system, or production policy review.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>

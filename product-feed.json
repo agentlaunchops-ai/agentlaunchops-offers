@@ -1,6 +1,6 @@
 {
   "brand": "AgentLaunchOps",
-  "updated": "2026-06-16",
+  "updated": "2026-06-18",
   "currency": "USD",
   "products": [
     {
@@ -314,6 +314,14 @@
       "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-connect-webhooks-node.html",
       "checkout": "https://launchagent.gumroad.com/l/kusejgu",
       "summary": "Buyer guide mapping Stripe Connect account.updated, seller readiness, destination-charge, platform-fee, and checkout reconciliation searches to the live Stripe Connect Marketplace Kit checkout."
+    },
+    {
+      "name": "Stripe Connect Express Onboarding for Node",
+      "price": 29,
+      "status": "published buyer guide",
+      "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-connect-onboarding-node.html",
+      "checkout": "https://launchagent.gumroad.com/l/kusejgu",
+      "summary": "Buyer guide mapping Stripe Connect Express onboarding, account-link, connected-account capability, seller readiness, destination Checkout, and platform-fee searches to the live Stripe Connect Marketplace Kit checkout."
     },
     {
       "name": "Stripe Customer Portal Kit",
