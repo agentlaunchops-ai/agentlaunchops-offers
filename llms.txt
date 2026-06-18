@@ -7,8 +7,8 @@ Paid developer source kits for SaaS billing, license keys, metered APIs, and Str
 - Stripe SaaS Billing Toolkit Bundle ($79): six Node source kits for Stripe SaaS billing workflows: team seats, usage alerts, MRR analytics, invoice tax, cancel-save, and metered API access.
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-saas-billing-kits-node.html
   Checkout: https://launchagent.gumroad.com/l/qmcpos
-- GHA Guard Pro Kit ($29): GitHub Actions security source kit with workflow checks, safe auto-fixes, PR reports, and hardened templates.
-  Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/github-actions-security-node.html
+- GHA Guard Pro Kit ($29): GitHub Actions security source kit for workflow permissions, action pinning review, fork-safe PR defaults, CI scanner reports, and hardened Node release templates.
+  Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/gha-guard-pro-kit.html
   Checkout: https://launchagent.gumroad.com/l/auqpvm
 - GitHub Actions Workflow Scanner for Node Repos ($29): buyer guide for local workflow scanning with the live GHA Guard Pro Kit.
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/github-actions-workflow-scanner.html

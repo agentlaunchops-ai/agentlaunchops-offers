@@ -33,7 +33,7 @@
       "status": "published",
       "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/gha-guard-pro-kit.html",
       "checkout": "https://launchagent.gumroad.com/l/auqpvm",
-      "summary": "Paid GitHub Actions security source kit with workflow checks, safe auto-fixes, PR reports, and hardened templates."
+      "summary": "GitHub Actions security source kit for workflow permissions, action pinning review, fork-safe PR defaults, CI scanner reports, and hardened Node release templates."
     },
     {
       "name": "Stripe SaaS Billing Toolkit Bundle",
