@@ -332,6 +332,14 @@
       "summary": "Node source kit for Stripe Customer Portal sessions, return-url checks, subscription state, and authenticated account access."
     },
     {
+      "name": "Billing State UI Kit",
+      "price": 29,
+      "status": "prepared Gumroad listing",
+      "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/billing-state-ui-kit.html",
+      "checkout": "https://launchagent.gumroad.com/l/bynzbs",
+      "summary": "Node source kit for SaaS billing dashboards, entitlement gates, dunning, finance close packets, payout reconciliation, reserves, credits, disputes, refunds, and Stripe billing state UI."
+    },
+    {
       "name": "Stripe Webhook Replay Kit",
       "price": 19,
       "status": "published",

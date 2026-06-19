@@ -3,7 +3,11 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Billing State UI Kit</title>
+    <title>Billing State UI Kit for Node SaaS</title>
+    <meta
+      name="description"
+      content="Paid Node source kit for SaaS billing dashboards, entitlement gates, dunning, finance close packets, payout reconciliation, and Stripe billing state UI."
+    />
     <style>
       :root {
         color-scheme: light;
@@ -109,6 +113,11 @@
         border-top: 1px solid var(--line);
         padding-top: 16px;
       }
+      .note {
+        border-left: 4px solid var(--warm);
+        margin-top: 16px;
+        padding-left: 14px;
+      }
       @media (max-width: 820px) {
         .hero,
         .grid {
@@ -127,10 +136,11 @@
           <p class="price">$29 paid source kit</p>
           <h1>Billing State UI Kit</h1>
           <p>
-            Add the billing dashboard states customers actually see after checkout: trial countdowns, past-due payment banners, usage limit warnings, pending plan changes, and escaped HTML panels.
+            Add the billing dashboard states customers actually see after checkout: trial countdowns, past-due payment banners, usage limit warnings, pending plan changes, entitlement blocks, finance close packets, payout reconciliation, and escaped HTML panels.
           </p>
           <div class="button-row">
-            <a class="button" href="https://buy.stripe.com/cNi3co9cG8Oj1CS4XA3sI00">Buy for $29 by card</a>
+            <a class="button" href="https://launchagent.gumroad.com/l/bynzbs">Buy on Gumroad for $29</a>
+            <a class="button secondary" href="https://buy.stripe.com/cNi3co9cG8Oj1CS4XA3sI00">Buy for $29 by card</a>
             <a class="button secondary" href="mailto:agentlaunchops@proton.me?subject=Billing%20State%20UI%20Kit%20USDC%20order">
               Buy with Base USDC
             </a>
@@ -138,13 +148,18 @@
           <p>
             Built for SaaS builders who already have checkout working and need the in-app billing state layer that keeps users from guessing.
           </p>
+          <p class="note">
+            Gumroad listing is prepared at the checkout link while final paid-file upload is confirmed. Card and Base USDC fallback orders remain available for direct delivery.
+          </p>
         </div>
         <aside class="panel">
           <h2>Included</h2>
           <ul>
-            <li>Trial, renewal, payment, pending-change, and usage-state derivation.</li>
+            <li>Trial, renewal, payment, pending-change, entitlement, and usage-state derivation.</li>
             <li>Past-due, trial-ending, near-limit, limit-reached, and plan-change banners.</li>
-            <li>Seat and API usage rows with clear status labels.</li>
+            <li>Dunning, support, launch-readiness, account-health, and customer communication packets.</li>
+            <li>Finance close packets for revenue recognition, tax remittance, payout reconciliation, reserves, credits, disputes, and refunds.</li>
+            <li>Seat and API usage rows with clear status labels and read-only signoff queues.</li>
             <li>Escaped HTML panel rendering for dashboard integration.</li>
             <li>Stripe snapshot mapping, signature helpers, demo server, CLI helper, and buyer tests.</li>
           </ul>
@@ -154,13 +169,29 @@
       <section class="grid">
         <div class="mini">
           <h2>Buyer checks</h2>
-          <p>Run <code>npm test</code>, <code>npm run smoke:buyer</code>, and <code>npm run verify:manifest</code> from the delivered zip.</p>
+          <p>Run <code>npm test</code>, <code>npm run smoke:buyer</code>, <code>npm run verify:manifest</code>, and focused CLI checks such as <code>node bin/billing-state-ui.js --payout-reconciliation</code> from the delivered zip.</p>
         </div>
         <div class="mini" id="usdc">
           <h2>Base USDC</h2>
           <p>Send 29 USDC on Base to <code>0xFF5af6e1c73904FF36754377A3069812E706323E</code>, then email <code>agentlaunchops@proton.me</code> with the transaction hash and delivery email.</p>
         </div>
       </section>
+      <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Billing State UI Kit",
+          "description": "Paid Node source kit for SaaS billing dashboards, entitlement gates, dunning, finance close packets, payout reconciliation, and Stripe billing state UI.",
+          "brand": {"@type": "Brand", "name": "AgentLaunchOps"},
+          "offers": {
+            "@type": "Offer",
+            "price": "29",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/PreOrder",
+            "url": "https://launchagent.gumroad.com/l/bynzbs"
+          }
+        }
+      </script>
     </main>
   </body>
 </html>
