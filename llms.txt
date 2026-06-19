@@ -101,7 +101,9 @@ Paid developer source kits for SaaS billing, license keys, metered APIs, and Str
 
 - Billing State UI Kit ($29): Node source kit for SaaS billing dashboards, entitlement gates, dunning, finance close packets, payout reconciliation, reserves, credits, disputes, refunds, and Stripe billing state UI.
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/billing-state-ui-kit.html
-  Checkout: https://launchagent.gumroad.com/l/bynzbs
+  Checkout: https://buy.stripe.com/cNi3co9cG8Oj1CS4XA3sI00
+  Gumroad draft: https://launchagent.gumroad.com/l/bynzbs
+  Gumroad paid-file upload is still pending; direct card delivery is the current live buyer path.
 
 - Stripe Webhook Replay Kit ($19): Node source kit for Stripe webhook event storage, replay, idempotent handlers, and failed-event recovery workflows.
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-webhook-replay-kit.html

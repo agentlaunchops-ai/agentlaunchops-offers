@@ -336,8 +336,9 @@
       "price": 29,
       "status": "published",
       "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/billing-state-ui-kit.html",
-      "checkout": "https://launchagent.gumroad.com/l/bynzbs",
-      "summary": "Node source kit for SaaS billing dashboards, entitlement gates, dunning, finance close packets, payout reconciliation, reserves, credits, disputes, refunds, and Stripe billing state UI."
+      "checkout": "https://buy.stripe.com/cNi3co9cG8Oj1CS4XA3sI00",
+      "gumroadDraft": "https://launchagent.gumroad.com/l/bynzbs",
+      "summary": "Node source kit for SaaS billing dashboards, entitlement gates, dunning, finance close packets, payout reconciliation, reserves, credits, disputes, refunds, and Stripe billing state UI. Gumroad paid-file upload is pending; direct card delivery is the current live buyer path."
     },
     {
       "name": "Stripe Webhook Replay Kit",
