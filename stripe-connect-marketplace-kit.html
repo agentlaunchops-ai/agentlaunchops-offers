@@ -4,6 +4,33 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Stripe Connect Marketplace Kit</title>
+    <meta
+      name="description"
+      content="A $29 Node source kit for Stripe Connect Express onboarding, connected-account readiness, destination Checkout, platform fees, and signed marketplace webhook reconciliation."
+    />
+    <meta
+      name="keywords"
+      content="Stripe Connect marketplace kit, Stripe Connect Express onboarding, destination charge checkout, platform fees, connected account readiness, Stripe Connect webhooks, marketplace payments Node"
+    />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Stripe Connect Marketplace Kit",
+        "description": "Node source kit for Stripe Connect Express onboarding, connected-account readiness checks, destination Checkout payloads, platform fees, and signed marketplace webhook reconciliation.",
+        "brand": {
+          "@type": "Brand",
+          "name": "AgentLaunchOps"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "29",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "url": "https://launchagent.gumroad.com/l/kusejgu"
+        }
+      }
+    </script>
     <style>
       :root {
         color-scheme: light;
@@ -127,8 +154,9 @@
           <p class="price">$29 paid source kit</p>
           <h1>Stripe Connect Marketplace Kit</h1>
           <p>
-            Drop in the marketplace billing layer that turns connected-account readiness
-            into destination Checkout payloads, platform fees, and paid-order records.
+            Drop in the marketplace payment layer for Stripe Connect Express onboarding,
+            connected-account readiness, destination Checkout payloads, platform fees,
+            and paid-order records.
           </p>
           <div class="button-row">
             <a class="button" href="https://launchagent.gumroad.com/l/kusejgu">Buy on Gumroad for $29</a>
@@ -141,16 +169,17 @@
             </a>
           </div>
           <p>
-            Built for marketplace builders who already have buyers and sellers, but need
-            Stripe Connect onboarding and split-payment logic to be predictable and testable.
+            Built for marketplace builders who already have a product flow, but need Stripe
+            Connect seller onboarding, payout readiness, destination charges, platform-fee
+            calculation, and webhook reconciliation to be predictable and testable.
           </p>
         </div>
         <aside class="panel">
           <h2>Included</h2>
           <ul>
             <li>Stripe webhook signature verification and retry idempotency.</li>
-            <li>Seller readiness checks for charges, payouts, and capabilities.</li>
-            <li>Express account-link payloads for onboarding.</li>
+            <li>Connected-account readiness checks for charges, payouts, and capabilities.</li>
+            <li>Stripe Connect Express account-link payloads for seller onboarding.</li>
             <li>Destination-charge Checkout payloads with platform fees.</li>
             <li>Paid-order reconciliation from signed Checkout webhooks.</li>
             <li>Dependency-free HTTP routes, CLI demo, tests, and manifest checks.</li>
@@ -161,7 +190,7 @@
       <section class="grid">
         <div class="mini">
           <h2>Buyer checks</h2>
-          <p>Run <code>npm test</code>, <code>npm run smoke:buyer</code>, and <code>npm run verify:manifest</code> from the delivered zip.</p>
+          <p>Run <code>npm test</code>, <code>npm run smoke:buyer</code>, and <code>npm run verify:manifest</code> from the delivered zip, then replace the in-memory adapter with your durable marketplace store.</p>
         </div>
         <div class="mini" id="usdc">
           <h2>Base USDC</h2>
