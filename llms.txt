@@ -120,7 +120,7 @@ Paid developer source kits for SaaS billing, license keys, metered APIs, and Str
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/supabase-rls-tenant-kit.html
   Checkout: https://launchagent.gumroad.com/l/ipqgkx
 
-- Supabase RLS Policies for Node ($29): buyer guide for multi-tenant Supabase RLS policy examples, workspace memberships, signed tenant tokens, and server-side role checks backed by the live Supabase RLS Tenant Kit.
+- Supabase RLS Policies for Node ($29): buyer guide for multi-tenant Supabase RLS policy examples, tenant isolation, workspace memberships, signed tenant tokens, stale-role rejection, and server-side role checks backed by the live Supabase RLS Tenant Kit.
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/supabase-rls-policies-node.html
   Checkout: https://launchagent.gumroad.com/l/ipqgkx
 

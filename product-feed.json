@@ -378,7 +378,7 @@
       "status": "published buyer guide",
       "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/supabase-rls-policies-node.html",
       "checkout": "https://launchagent.gumroad.com/l/ipqgkx",
-      "summary": "Buyer guide mapping Supabase multi-tenant RLS policy, workspace membership, signed tenant token, and server-side role-check searches to the live Supabase RLS Tenant Kit checkout."
+      "summary": "Buyer guide mapping Supabase multi-tenant RLS policy examples, tenant isolation, workspace membership, signed tenant tokens, stale-role rejection, and server-side role-check searches to the live Supabase RLS Tenant Kit checkout."
     }
   ]
 }
