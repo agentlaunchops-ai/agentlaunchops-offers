@@ -3,7 +3,41 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Stripe Webhook Replay Kit</title>
+    <title>Stripe Webhook Replay Kit for Node | AgentLaunchOps</title>
+    <meta
+      name="description"
+      content="Paid Node source kit for Stripe webhook replay: raw-body signature checks, failed-event storage, idempotent retry handlers, and admin replay flows."
+    />
+    <link rel="canonical" href="https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-webhook-replay-kit.html" />
+    <meta property="og:type" content="product" />
+    <meta property="og:site_name" content="AgentLaunchOps" />
+    <meta property="og:title" content="Stripe Webhook Replay Kit for Node" />
+    <meta property="og:description" content="Paid Node source for failed Stripe webhook storage, replay attempts, raw-body signature verification, and idempotent handlers." />
+    <meta property="og:url" content="https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-webhook-replay-kit.html" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Stripe Webhook Replay Kit for Node" />
+    <meta name="twitter:description" content="Paid Node source for failed Stripe webhook replay and duplicate-safe recovery workflows." />
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Stripe Webhook Replay Kit",
+      "description": "A paid Node source kit for raw-body Stripe signature verification, failed-event storage, idempotent replay handlers, and guarded admin retry flows.",
+      "brand": {
+        "@type": "Brand",
+        "name": "AgentLaunchOps"
+      },
+      "category": "Developer source kit",
+      "url": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-webhook-replay-kit.html",
+      "offers": {
+        "@type": "Offer",
+        "price": "19",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "url": "https://launchagent.gumroad.com/l/wfhzbp"
+      }
+    }
+    </script>
     <style>
       body {
         margin: 0;
@@ -71,6 +105,11 @@
         border-radius: 8px;
         background: #ffffff;
       }
+      .note {
+        margin-top: 8px;
+        color: #475569;
+        font-size: 0.95rem;
+      }
     </style>
   </head>
   <body>
@@ -78,8 +117,9 @@
       <h1>Stripe Webhook Replay Kit</h1>
       <p class="price">$19 paid source kit</p>
       <p>
-        A focused Node starter for verifying, storing, and replaying failed
-        Stripe webhook events without double-processing successful orders.
+        A focused Node source kit for storing failed Stripe webhook events,
+        replaying them through guarded admin flows, and keeping handlers
+        duplicate-safe when Stripe retries hit the same order twice.
       </p>
       <div class="actions">
         <a class="button" href="https://launchagent.gumroad.com/l/wfhzbp">
@@ -95,14 +135,27 @@
           Buy with Base USDC
         </a>
       </div>
+      <p class="note">
+        Gumroad is the primary checkout and delivery path. Card and Base USDC
+        are fallback rails for buyers who need them.
+      </p>
       <section>
         <h2>Included</h2>
         <ul>
-          <li>Raw-body Stripe signature verification.</li>
+          <li>Raw-body Stripe signature verification before event storage.</li>
           <li>Idempotent event capture keyed by Stripe event ID.</li>
-          <li>Failed-event tracking with replay attempts and last-error state.</li>
-          <li>Bearer-token admin replay endpoint and local CLI.</li>
+          <li>Failed-event records with replay attempts, last error, and status.</li>
+          <li>Bearer-token admin replay endpoint and local CLI workflow.</li>
           <li>Tests, manifest verification, and buyer smoke command.</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Useful When</h2>
+        <ul>
+          <li>Stripe retries are not enough because the app needs a local failed-event queue.</li>
+          <li>A fulfillment handler must not issue duplicate credits, seats, licenses, or receipts.</li>
+          <li>Support needs a narrow replay path without granting broad Stripe dashboard access.</li>
+          <li>Webhook failures need enough state to debug before a manual retry.</li>
         </ul>
       </section>
       <section class="rail">
@@ -120,6 +173,10 @@
           The archive includes <code>MANIFEST.txt</code>. Run
           <code>npm run verify:manifest</code>, <code>npm test</code>, and
           <code>npm run smoke:buyer</code> after unzipping.
+        </p>
+        <p>
+          This is source code for developers to adapt, test, and deploy in
+          their own app. It is not a hosted webhook recovery service.
         </p>
       </section>
     </main>
