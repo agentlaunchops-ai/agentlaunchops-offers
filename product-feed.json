@@ -341,6 +341,15 @@
       "summary": "Node source kit for SaaS billing dashboards, entitlement gates, dunning, finance close packets, payout reconciliation, reserves, credits, disputes, refunds, and Stripe billing state UI. Gumroad paid-file upload is pending; direct card delivery is the current live buyer path."
     },
     {
+      "name": "GridPilot CMS",
+      "price": 19,
+      "status": "published",
+      "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/gridpilot-cms.html",
+      "checkout": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/gridpilot-cms.html#checkout",
+      "gumroadDraft": "https://launchagent.gumroad.com/l/ukanyy",
+      "summary": "Webflow CMS source kit for Collection List search, filters, sorting, favorites, pagination, URL state, and Leaflet map markers. Gumroad paid-file upload is pending; direct Base USDC delivery is the current live buyer path."
+    },
+    {
       "name": "Stripe Webhook Replay Kit",
       "price": 19,
       "status": "published",
