@@ -81,7 +81,7 @@
       "status": "published buyer guide",
       "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-customer-portal-node.html",
       "checkout": "https://launchagent.gumroad.com/l/gdqea",
-      "summary": "Buyer guide mapping Stripe billing portal, Customer Portal session, authenticated return URL, subscription self-service, webhook sync, and entitlement searches to the live Stripe Customer Portal Kit checkout."
+      "summary": "Buyer guide mapping Stripe billing portal, authenticated Customer Portal links, safe return URLs, webhook-backed subscription state, and entitlement searches to the live Stripe Customer Portal Kit checkout."
     },
     {
       "name": "Stripe Billing Dashboard for Node SaaS",
@@ -329,7 +329,7 @@
       "status": "published",
       "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-customer-portal-kit.html",
       "checkout": "https://launchagent.gumroad.com/l/gdqea",
-      "summary": "Node source kit for Stripe Customer Portal sessions, return-url checks, subscription state, and authenticated account access."
+      "summary": "Node source kit for authenticated Stripe Customer Portal links, safe return URLs, webhook-backed subscription state, and account access checks."
     },
     {
       "name": "Billing State UI Kit",

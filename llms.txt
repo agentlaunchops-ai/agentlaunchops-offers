@@ -95,7 +95,7 @@ Paid developer source kits for SaaS billing, license keys, metered APIs, and Str
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-connect-onboarding-node.html
   Checkout: https://launchagent.gumroad.com/l/kusejgu
 
-- Stripe Customer Portal Kit ($19): Node source kit for Stripe Customer Portal sessions, account access guards, return-url checks, webhook-driven subscription state, and entitlement sync.
+- Stripe Customer Portal Kit ($19): Node source kit for authenticated Stripe Customer Portal links, safe return URLs, webhook-backed subscription state, and entitlement sync.
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-customer-portal-kit.html
   Checkout: https://launchagent.gumroad.com/l/gdqea
 
@@ -147,7 +147,7 @@ Paid developer source kits for SaaS billing, license keys, metered APIs, and Str
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-checkout-subscriptions-node.html
 - Stripe Subscription Management for Node SaaS: buyer guide mapping subscription management workflow searches to the six live paid Stripe source kits.
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-subscription-management-node.html
-- Stripe Billing Portal Integration for Node ($19): buyer guide mapping Stripe billing portal, Customer Portal session, authenticated return URL, subscription self-service, webhook sync, and entitlement searches to the live Stripe Customer Portal Kit checkout.
+- Stripe Billing Portal Integration for Node ($19): buyer guide mapping Stripe billing portal, authenticated Customer Portal links, safe return URLs, webhook-backed subscription state, and entitlement searches to the live Stripe Customer Portal Kit checkout.
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-customer-portal-node.html
   Checkout: https://launchagent.gumroad.com/l/gdqea
 - Stripe Billing Dashboard for Node SaaS: buyer guide mapping billing dashboard searches to live paid source kits for SaaS billing UI workflows.
