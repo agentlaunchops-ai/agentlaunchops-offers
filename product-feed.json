@@ -257,7 +257,7 @@
       "status": "published",
       "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/ai-credits-billing-kit.html",
       "checkout": "https://launchagent.gumroad.com/l/wjfxhu",
-      "summary": "Node source kit for usage-credit pricing, Stripe credit packs, reservation holds, finalized refunds, and idempotent AI consumption."
+      "summary": "Node source kit for prepaid AI credits, token billing, Stripe credit packs, reservation holds before model calls, finalized usage charges, unused-credit refunds, voided requests, and idempotent AI consumption."
     },
     {
       "name": "AI Usage Credits Billing for Node",

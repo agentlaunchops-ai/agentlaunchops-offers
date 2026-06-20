@@ -59,7 +59,7 @@ Paid developer source kits for SaaS billing, license keys, metered APIs, and Str
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-cancel-save-node.html
   Checkout: https://launchagent.gumroad.com/l/ogodr
 
-- AI Credits Billing Kit ($29): Node source kit for usage-credit pricing, Stripe credit packs, reservation holds, finalized refunds, and idempotent AI consumption.
+- AI Credits Billing Kit ($29): Node source kit for prepaid AI credits, token billing, Stripe credit packs, reservation holds before model calls, finalized usage charges, unused-credit refunds, voided requests, and idempotent AI consumption.
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/ai-credits-billing-kit.html
   Checkout: https://launchagent.gumroad.com/l/wjfxhu
 
