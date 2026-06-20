@@ -340,6 +340,15 @@
       "summary": "Node source kit for SaaS billing dashboards, entitlement gates, dunning, finance close packets, payout reconciliation, reserves, credits, disputes, refunds, and Stripe billing state UI."
     },
     {
+      "name": "Stripe Dunning Recovery Kit",
+      "price": 29,
+      "status": "published",
+      "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-dunning-recovery-kit.html",
+      "checkout": "https://buy.stripe.com/cNi3co9cG8Oj1CS4XA3sI00",
+      "gumroadDraft": "https://launchagent.gumroad.com/l/gsihx",
+      "summary": "Node source kit for Stripe failed-payment webhooks, dunning ladders, recovery email queues, hosted-invoice reminders, and subscription-save workflows. Gumroad paid-file upload is pending; card and Base USDC delivery are the current live buyer paths."
+    },
+    {
       "name": "GridPilot CMS",
       "price": 19,
       "status": "published",

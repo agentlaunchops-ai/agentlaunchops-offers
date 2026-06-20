@@ -103,6 +103,12 @@ Paid developer source kits for SaaS billing, license keys, metered APIs, and Str
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/billing-state-ui-kit.html
   Checkout: https://launchagent.gumroad.com/l/bynzbs
 
+- Stripe Dunning Recovery Kit ($29): Node source kit for Stripe failed-payment webhooks, dunning ladders, recovery email queues, hosted-invoice reminders, and subscription-save workflows.
+  Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-dunning-recovery-kit.html
+  Checkout: https://buy.stripe.com/cNi3co9cG8Oj1CS4XA3sI00
+  Gumroad draft: https://launchagent.gumroad.com/l/gsihx
+  Gumroad paid-file upload is still pending; card and Base USDC delivery are the current live buyer paths.
+
 - GridPilot CMS ($19): Webflow CMS source kit for Collection List search, filters, sorting, favorites, pagination, URL state, and Leaflet map markers.
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/gridpilot-cms.html
   Checkout: https://agentlaunchops-ai.github.io/agentlaunchops-offers/gridpilot-cms.html#checkout
