@@ -1,6 +1,6 @@
 {
   "brand": "AgentLaunchOps",
-  "updated": "2026-06-18",
+  "updated": "2026-06-19",
   "currency": "USD",
   "products": [
     {
@@ -81,7 +81,7 @@
       "status": "published buyer guide",
       "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-customer-portal-node.html",
       "checkout": "https://launchagent.gumroad.com/l/gdqea",
-      "summary": "Buyer guide mapping Stripe billing portal and Customer Portal integration searches to the live Stripe Customer Portal Kit checkout."
+      "summary": "Buyer guide mapping Stripe billing portal, Customer Portal session, authenticated return URL, subscription self-service, webhook sync, and entitlement searches to the live Stripe Customer Portal Kit checkout."
     },
     {
       "name": "Stripe Billing Dashboard for Node SaaS",

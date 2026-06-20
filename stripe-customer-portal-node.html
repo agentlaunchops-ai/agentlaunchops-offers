@@ -6,23 +6,23 @@
     <title>Stripe Billing Portal Integration for Node | AgentLaunchOps</title>
     <meta
       name="description"
-      content="Paid Node source for Stripe Customer Portal integration: billing portal sessions, authenticated return URLs, subscription state, and account access checks."
+      content="Paid Node source for Stripe Customer Portal integration: billing portal sessions, account access guards, authenticated return URLs, subscription self-service, webhook sync, and entitlement checks."
     />
     <link rel="canonical" href="https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-customer-portal-node.html" />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="AgentLaunchOps" />
     <meta property="og:title" content="Stripe Billing Portal Integration for Node | AgentLaunchOps" />
-    <meta property="og:description" content="Paid Node source for Stripe Customer Portal sessions, return-url checks, subscription state, and authenticated account access." />
+    <meta property="og:description" content="Paid Node source for Stripe Customer Portal sessions, account access guards, return-url checks, subscription state, and entitlement sync." />
     <meta property="og:url" content="https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-customer-portal-node.html" />
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="Stripe Billing Portal Integration for Node | AgentLaunchOps" />
-    <meta name="twitter:description" content="Paid Node source for Stripe Customer Portal sessions and safe billing portal access." />
+    <meta name="twitter:description" content="Paid Node source for Stripe Customer Portal sessions, authenticated billing portal links, and webhook-driven subscription state." />
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "Product",
       "name": "Stripe Customer Portal Kit",
-      "description": "A paid Node source kit for Stripe Customer Portal sessions, return-url checks, subscription state, and authenticated account access.",
+      "description": "A paid Node source kit for Stripe Customer Portal sessions, account access guards, return-url checks, webhook-driven subscription state, and entitlement sync.",
       "url": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-customer-portal-node.html",
       "offers": {
         "@type": "Offer",
@@ -238,9 +238,9 @@
         <h1>Stripe billing portal integration for Node SaaS</h1>
         <p class="lead">
           The Stripe-hosted Customer Portal is useful, but most SaaS apps still need the
-          glue around it: session creation, authenticated return URLs, subscription-state
-          checks, and account access guards. Stripe Customer Portal Kit is a $19 source
-          kit for that integration layer.
+          glue around it: authenticated billing portal links, constrained return URLs,
+          webhook-driven subscription state, entitlement checks, and account access
+          guards. Stripe Customer Portal Kit is a $19 source kit for that integration layer.
         </p>
         <p class="price">$19 source kit</p>
         <a class="button" href="https://launchagent.gumroad.com/l/gdqea">Buy Stripe Customer Portal Kit</a>
@@ -259,11 +259,11 @@
           </article>
           <article class="card">
             <h3>Subscription state</h3>
-            <p>Represent portal-driven subscription changes in app state without treating Stripe as a magic session store.</p>
+            <p>Represent portal-driven subscription changes in app state from signed webhooks instead of treating a return page as truth.</p>
           </article>
           <article class="card">
             <h3>Access guards</h3>
-            <p>Verify that the signed-in user can manage the account before creating a customer portal session.</p>
+            <p>Verify that the signed-in user can manage the account before creating a Customer Portal session.</p>
           </article>
           <article class="card">
             <h3>Tests and smoke run</h3>
