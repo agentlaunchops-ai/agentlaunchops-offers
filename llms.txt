@@ -101,9 +101,7 @@ Paid developer source kits for SaaS billing, license keys, metered APIs, and Str
 
 - Billing State UI Kit ($29): Node source kit for SaaS billing dashboards, entitlement gates, dunning, finance close packets, payout reconciliation, reserves, credits, disputes, refunds, and Stripe billing state UI.
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/billing-state-ui-kit.html
-  Checkout: https://buy.stripe.com/cNi3co9cG8Oj1CS4XA3sI00
-  Gumroad draft: https://launchagent.gumroad.com/l/bynzbs
-  Gumroad paid-file upload is still pending; direct card delivery is the current live buyer path.
+  Checkout: https://launchagent.gumroad.com/l/bynzbs
 
 - GridPilot CMS ($19): Webflow CMS source kit for Collection List search, filters, sorting, favorites, pagination, URL state, and Leaflet map markers.
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/gridpilot-cms.html
