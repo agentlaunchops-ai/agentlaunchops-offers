@@ -3,7 +3,38 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Supabase RLS Tenant Kit</title>
+    <title>Supabase RLS Tenant Kit for Multi-Tenant SaaS</title>
+    <meta
+      name="description"
+      content="Node and SQL source kit for Supabase multi-tenant RLS policies, workspace membership checks, signed tenant context, stale-role rejection, and server-side role guards."
+    />
+    <link rel="canonical" href="https://agentlaunchops-ai.github.io/agentlaunchops-offers/supabase-rls-tenant-kit.html" />
+    <meta property="og:title" content="Supabase RLS Tenant Kit for Multi-Tenant SaaS" />
+    <meta
+      property="og:description"
+      content="Concrete Supabase RLS policy examples and Node role guards for workspace-scoped B2B SaaS apps."
+    />
+    <meta property="og:type" content="product" />
+    <meta property="og:url" content="https://agentlaunchops-ai.github.io/agentlaunchops-offers/supabase-rls-tenant-kit.html" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Supabase RLS Tenant Kit",
+        "description": "Node and SQL source kit for Supabase multi-tenant Row Level Security, workspace membership policies, signed tenant context, stale-role rejection, and server-side role guards.",
+        "brand": {
+          "@type": "Brand",
+          "name": "AgentLaunchOps"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "29",
+          "priceCurrency": "USD",
+          "url": "https://launchagent.gumroad.com/l/ipqgkx",
+          "availability": "https://schema.org/InStock"
+        }
+      }
+    </script>
     <style>
       :root {
         color-scheme: light;
@@ -127,9 +158,9 @@
           <p class="price">$29 paid source kit</p>
           <h1>Supabase RLS Tenant Kit</h1>
           <p>
-            Add multi-tenant Supabase access controls with SQL RLS policies,
-            signed tenant handoff tokens, membership checks, and buyer-run
-            verification scripts.
+            Add multi-tenant Supabase access controls with concrete SQL RLS
+            policies, workspace membership checks, signed tenant context,
+            stale-role rejection, and buyer-run verification scripts.
           </p>
           <div class="button-row">
             <a class="button" href="https://launchagent.gumroad.com/l/ipqgkx">Buy on Gumroad for $29</a>
@@ -144,14 +175,14 @@
           <p>
             Built for SaaS builders who need workspace-scoped tables,
             role-aware writes, and server-side tenant context without starting
-            RLS from a blank SQL editor.
+            RLS from a blank SQL editor or trusting client-provided tenant IDs.
           </p>
         </div>
         <aside class="panel">
           <h2>Included</h2>
           <ul>
             <li>Workspace, membership, project, and audit-event SQL schema.</li>
-            <li>RLS policies for member reads and admin/owner writes.</li>
+            <li>RLS policies for tenant isolation, member reads, and admin/owner writes.</li>
             <li>HMAC-signed tenant tokens with expiry and tamper rejection.</li>
             <li>Server-side membership and minimum-role guards.</li>
             <li>Buyer smoke tests, manifest verification, and zip packaging.</li>
