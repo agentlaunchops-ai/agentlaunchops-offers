@@ -363,7 +363,7 @@
       "status": "published",
       "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-webhook-replay-kit.html",
       "checkout": "https://launchagent.gumroad.com/l/wfhzbp",
-      "summary": "Node source kit for Stripe webhook event storage, replay, idempotent handlers, and failed-event recovery workflows."
+      "summary": "Node source kit for raw-body Stripe webhook signature checks, failed-event storage, duplicate-safe fulfillment, idempotent replay locks, admin retry endpoints, and support recovery workflows."
     },
     {
       "name": "Supabase Entitlement Kit",

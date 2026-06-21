@@ -6,23 +6,23 @@
     <title>Stripe Webhook Replay Kit for Node | AgentLaunchOps</title>
     <meta
       name="description"
-      content="Paid Node source kit for Stripe webhook replay: raw-body signature checks, failed-event storage, idempotent retry handlers, and admin replay flows."
+      content="Paid Node source kit for Stripe webhook replay: raw-body signature checks, failed-event storage, duplicate-safe fulfillment, replay locks, and admin retry flows."
     />
     <link rel="canonical" href="https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-webhook-replay-kit.html" />
     <meta property="og:type" content="product" />
     <meta property="og:site_name" content="AgentLaunchOps" />
     <meta property="og:title" content="Stripe Webhook Replay Kit for Node" />
-    <meta property="og:description" content="Paid Node source for failed Stripe webhook storage, replay attempts, raw-body signature verification, and idempotent handlers." />
+    <meta property="og:description" content="Paid Node source for failed Stripe webhook storage, raw-body signature verification, idempotent replay locks, and duplicate-safe fulfillment handlers." />
     <meta property="og:url" content="https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-webhook-replay-kit.html" />
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="Stripe Webhook Replay Kit for Node" />
-    <meta name="twitter:description" content="Paid Node source for failed Stripe webhook replay and duplicate-safe recovery workflows." />
+    <meta name="twitter:description" content="Paid Node source for failed Stripe webhook replay, replay locks, and duplicate-safe fulfillment recovery." />
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "Product",
       "name": "Stripe Webhook Replay Kit",
-      "description": "A paid Node source kit for raw-body Stripe signature verification, failed-event storage, idempotent replay handlers, and guarded admin retry flows.",
+      "description": "A paid Node source kit for raw-body Stripe signature verification, failed-event storage, duplicate-safe fulfillment, idempotent replay locks, and guarded admin retry flows.",
       "brand": {
         "@type": "Brand",
         "name": "AgentLaunchOps"
@@ -117,9 +117,11 @@
       <h1>Stripe Webhook Replay Kit</h1>
       <p class="price">$19 paid source kit</p>
       <p>
-        A focused Node source kit for storing failed Stripe webhook events,
-        replaying them through guarded admin flows, and keeping handlers
-        duplicate-safe when Stripe retries hit the same order twice.
+        A focused Node source kit for teams whose Stripe webhooks occasionally
+        fail after signature verification, leaving credits, seats, licenses, or
+        receipts half-finished. Store the failed event, keep fulfillment
+        duplicate-safe, then replay it through a narrow admin path after the
+        downstream bug or outage is fixed.
       </p>
       <div class="actions">
         <a class="button" href="https://launchagent.gumroad.com/l/wfhzbp">
@@ -145,6 +147,7 @@
           <li>Raw-body Stripe signature verification before event storage.</li>
           <li>Idempotent event capture keyed by Stripe event ID.</li>
           <li>Failed-event records with replay attempts, last error, and status.</li>
+          <li>Replay locks so support retries do not double-grant credits, seats, or licenses.</li>
           <li>Bearer-token admin replay endpoint and local CLI workflow.</li>
           <li>Tests, manifest verification, and buyer smoke command.</li>
         </ul>
@@ -156,6 +159,7 @@
           <li>A fulfillment handler must not issue duplicate credits, seats, licenses, or receipts.</li>
           <li>Support needs a narrow replay path without granting broad Stripe dashboard access.</li>
           <li>Webhook failures need enough state to debug before a manual retry.</li>
+          <li>You want a small source starter to adapt instead of wiring replay state from scratch.</li>
         </ul>
       </section>
       <section class="rail">
