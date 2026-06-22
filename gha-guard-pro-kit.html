@@ -6,7 +6,7 @@
     <title>GHA Guard Pro Kit | GitHub Actions Security Scanner Source Kit</title>
     <meta
       name="description"
-      content="A $29 GitHub Actions security source kit for workflow permissions, action pinning review, fork-safe PR defaults, CI scanner reports, and hardened Node release templates."
+      content="A $29 GitHub Actions security source kit for GITHUB_TOKEN permissions, action pinning review, unsafe pull_request_target checks, fork-safe PR defaults, CI scanner reports, and hardened Node release templates."
     />
     <style>
       :root {
@@ -132,9 +132,10 @@
           <h1>GitHub Actions security scanner source kit</h1>
           <p>
             GHA Guard Pro Kit helps Node teams audit workflow permissions,
-            third-party action pinning risk, fork-safe PR defaults, checkout
-            credential persistence, shell interpolation, and release workflow
-            hardening before those patterns spread across repos.
+            mutable third-party action risk, unsafe <code>pull_request_target</code>
+            usage, fork-safe PR defaults, checkout credential persistence, shell
+            interpolation, runner assumptions, and release workflow hardening
+            before those patterns spread across repos.
           </p>
           <div class="button-row">
             <a class="button" href="https://launchagent.gumroad.com/l/auqpvm">Buy on Gumroad for $29</a>
@@ -148,7 +149,8 @@
           </div>
           <p>
             Download the source kit, run the local scanner against a repository,
-            and copy the hardened workflow templates into CI after review.
+            export a markdown PR report, and copy the hardened workflow templates
+            into CI after review.
           </p>
         </div>
         <aside class="panel">
@@ -156,7 +158,7 @@
           <ul>
             <li>Dependency-free CLI with text, JSON, and markdown PR reports.</li>
             <li>Safe auto-fixes for least-privilege defaults and job timeouts.</li>
-            <li>Checks for mutable actions, broad writes, unsafe fork workflows, and untrusted shell interpolation.</li>
+            <li>Checks for mutable actions, broad writes, unsafe fork workflows, checkout credentials, and untrusted shell interpolation.</li>
             <li>Composite GitHub Action template and hardened workflow templates.</li>
             <li>Unit tests, buyer smoke checks, package verification, and manifest checks.</li>
           </ul>
@@ -183,7 +185,7 @@
           "@context": "https://schema.org",
           "@type": "Product",
           "name": "GHA Guard Pro Kit",
-          "description": "GitHub Actions security source kit for workflow permissions, action pinning review, fork-safe PR defaults, CI scanner reports, and hardened Node release templates.",
+          "description": "GitHub Actions security source kit for GITHUB_TOKEN permissions, action pinning review, unsafe pull_request_target checks, fork-safe PR defaults, CI scanner reports, and hardened Node release templates.",
           "brand": {
             "@type": "Brand",
             "name": "AgentLaunchOps"
