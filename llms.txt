@@ -16,7 +16,7 @@ Paid developer source kits for SaaS billing, license keys, metered APIs, and Str
 - GitHub Actions Permissions Hardening for Node Repos ($29): buyer guide for tightening token permissions, checkout credentials, and least-privilege workflow defaults with the live GHA Guard Pro Kit.
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/github-actions-permissions-hardening.html
   Checkout: https://launchagent.gumroad.com/l/auqpvm
-- License Launch Kit ($25): Node source kit for license issuing and verification.
+- License Launch Kit ($25): Node source kit for license issuing, verification, revocation, Stripe checkout fulfillment, manual USDC orders, and buyer smoke checks for paid CLIs, plugins, templates, and small SaaS add-ons.
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/license-key-server-node.html
   Checkout: https://launchagent.gumroad.com/l/license_launch_kit2026
 - Stripe Team Seat Kit ($29): Node source kit for per-seat Stripe subscription syncing.

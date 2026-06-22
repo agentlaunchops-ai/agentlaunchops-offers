@@ -145,7 +145,7 @@
       "status": "published",
       "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/license-key-server-node.html",
       "checkout": "https://launchagent.gumroad.com/l/license_launch_kit2026",
-      "summary": "Node source kit for issuing, verifying, and tracking software license keys."
+      "summary": "Node source kit for issuing, verifying, revoking, and delivering license keys for paid CLIs, plugins, templates, and small SaaS add-ons."
     },
     {
       "name": "Stripe Team Seat Kit",
