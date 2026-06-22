@@ -169,7 +169,7 @@
       "status": "published",
       "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-usage-alerts-node.html",
       "checkout": "https://launchagent.gumroad.com/l/aohsrs",
-      "summary": "Node source kit for usage thresholds, notification events, and billing warnings."
+      "summary": "Node source kit for Stripe metered-billing usage alerts, near-limit warnings, overage notices, invoice usage sync, and customer usage summaries."
     },
     {
       "name": "Stripe Usage Alerts Kit Product Page",
@@ -177,7 +177,7 @@
       "status": "published",
       "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-usage-alerts-kit.html",
       "checkout": "https://launchagent.gumroad.com/l/aohsrs",
-      "summary": "Gumroad-first product page for the live Stripe Usage Alerts Kit source package."
+      "summary": "Gumroad-first product page for the live Stripe Usage Alerts Kit source package, positioned around usage thresholds, overage notices, and webhook-safe summaries."
     },
     {
       "name": "Stripe Usage Limit Notifications for Node",
