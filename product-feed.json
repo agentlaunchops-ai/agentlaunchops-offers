@@ -1,6 +1,6 @@
 {
   "brand": "AgentLaunchOps",
-  "updated": "2026-06-20",
+  "updated": "2026-06-22",
   "currency": "USD",
   "products": [
     {
@@ -209,7 +209,7 @@
       "status": "published",
       "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-invoice-tax-node.html",
       "checkout": "https://launchagent.gumroad.com/l/knpcbo",
-      "summary": "Node source kit for invoice tax metadata and review workflows around Stripe invoices."
+      "summary": "Node source kit for Stripe invoice tax ID collection, Checkout metadata, signed invoice webhooks, duplicate-safe invoice state, receipt rendering, and invoice review records."
     },
     {
       "name": "Stripe Invoice Tax ID Collection for Node",
