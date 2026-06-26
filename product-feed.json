@@ -348,6 +348,14 @@
       "summary": "Buyer guide mapping Stripe billing support brief, failed-payment state, entitlement blocker, usage-limit context, and finance close packet searches to the live Billing State UI Kit checkout."
     },
     {
+      "name": "Stripe Entitlement Audit for Node SaaS",
+      "price": 29,
+      "status": "published buyer guide",
+      "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-entitlement-audit-node.html",
+      "checkout": "https://launchagent.gumroad.com/l/bynzbs",
+      "summary": "Buyer guide mapping Stripe entitlement audit, feature access, blocked access reason, usage-limit warning, and support handoff searches to the live Billing State UI Kit checkout."
+    },
+    {
       "name": "Stripe Dunning Recovery Kit",
       "price": 29,
       "status": "published",
