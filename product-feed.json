@@ -1,6 +1,6 @@
 {
   "brand": "AgentLaunchOps",
-  "updated": "2026-06-22",
+  "updated": "2026-06-26",
   "currency": "USD",
   "products": [
     {
@@ -337,7 +337,7 @@
       "status": "published",
       "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/billing-state-ui-kit.html",
       "checkout": "https://launchagent.gumroad.com/l/bynzbs",
-      "summary": "Node source kit for SaaS billing dashboards, entitlement gates, dunning, finance close packets, payout reconciliation, reserves, credits, disputes, refunds, and Stripe billing state UI."
+      "summary": "Node source kit for Stripe billing dashboards, customer billing settings, entitlement gates, failed-payment banners, usage-limit UI, support briefs, finance close packets, payout reconciliation, reserves, credits, disputes, and refunds."
     },
     {
       "name": "Stripe Dunning Recovery Kit",

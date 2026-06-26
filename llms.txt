@@ -99,7 +99,7 @@ Paid developer source kits for SaaS billing, license keys, metered APIs, and Str
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-customer-portal-kit.html
   Checkout: https://launchagent.gumroad.com/l/gdqea
 
-- Billing State UI Kit ($29): Node source kit for SaaS billing dashboards, entitlement gates, dunning, finance close packets, payout reconciliation, reserves, credits, disputes, refunds, and Stripe billing state UI.
+- Billing State UI Kit ($29): Node source kit for Stripe billing dashboards, customer billing settings, entitlement gates, failed-payment banners, usage-limit UI, support briefs, finance close packets, payout reconciliation, reserves, credits, disputes, and refunds.
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/billing-state-ui-kit.html
   Checkout: https://launchagent.gumroad.com/l/bynzbs
 

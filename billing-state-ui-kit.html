@@ -6,7 +6,7 @@
     <title>Billing State UI Kit for Node SaaS</title>
     <meta
       name="description"
-      content="Paid Node source kit for SaaS billing dashboards, entitlement gates, dunning, finance close packets, payout reconciliation, and Stripe billing state UI."
+      content="Paid Node source kit for Stripe billing dashboards, customer billing settings, entitlement gates, failed-payment banners, usage-limit UI, support briefs, and finance close packets."
     />
     <style>
       :root {
@@ -136,7 +136,7 @@
           <p class="price">$29 paid source kit</p>
           <h1>Billing State UI Kit</h1>
           <p>
-            Add the billing dashboard states customers actually see after checkout: trial countdowns, past-due payment banners, usage limit warnings, pending plan changes, entitlement blocks, finance close packets, payout reconciliation, and escaped HTML panels.
+            Add the Stripe billing dashboard states customers actually see after checkout: customer billing settings, trial countdowns, failed-payment banners, usage-limit warnings, pending plan changes, entitlement blocks, finance close packets, payout reconciliation, and escaped HTML panels.
           </p>
           <div class="button-row">
             <a class="button" href="https://launchagent.gumroad.com/l/bynzbs">Buy on Gumroad for $29</a>
@@ -146,7 +146,7 @@
             </a>
           </div>
           <p>
-            Built for SaaS builders who already have checkout working and need the in-app billing state layer that keeps users from guessing.
+            Built for SaaS builders who already have Checkout or Customer Portal working and need the in-app billing state layer that keeps users from guessing.
             Gumroad is the primary checkout and includes paid source-kit delivery; card and Base USDC remain available as fallbacks.
           </p>
         </div>
@@ -155,6 +155,7 @@
           <ul>
             <li>Trial, renewal, payment, pending-change, entitlement, and usage-state derivation.</li>
             <li>Past-due, trial-ending, near-limit, limit-reached, and plan-change banners.</li>
+            <li>Customer billing settings data for plan, renewal, payment, usage, and access status.</li>
             <li>Dunning, support, launch-readiness, account-health, and customer communication packets.</li>
             <li>Finance close packets for revenue recognition, tax remittance, payout reconciliation, reserves, credits, disputes, and refunds.</li>
             <li>Seat and API usage rows with clear status labels and read-only signoff queues.</li>
@@ -179,7 +180,7 @@
           "@context": "https://schema.org",
           "@type": "Product",
           "name": "Billing State UI Kit",
-          "description": "Paid Node source kit for SaaS billing dashboards, entitlement gates, dunning, finance close packets, payout reconciliation, and Stripe billing state UI.",
+          "description": "Paid Node source kit for Stripe billing dashboards, customer billing settings, entitlement gates, failed-payment banners, usage-limit UI, support briefs, and finance close packets.",
           "brand": {"@type": "Brand", "name": "AgentLaunchOps"},
           "offers": {
             "@type": "Offer",
