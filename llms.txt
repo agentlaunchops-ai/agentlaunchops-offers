@@ -103,6 +103,10 @@ Paid developer source kits for SaaS billing, license keys, metered APIs, and Str
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/billing-state-ui-kit.html
   Checkout: https://launchagent.gumroad.com/l/bynzbs
 
+- Stripe Billing Support Briefs for Node ($29): buyer guide for support-ready billing briefs, failed-payment state, entitlement blockers, usage-limit context, customer billing panels, and finance close packets backed by the live Billing State UI Kit.
+  Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-billing-support-brief-node.html
+  Checkout: https://launchagent.gumroad.com/l/bynzbs
+
 - Stripe Dunning Recovery Kit ($29): Node source kit for Stripe failed-payment webhooks, dunning ladders, recovery email queues, hosted-invoice reminders, and subscription-save workflows.
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-dunning-recovery-kit.html
   Checkout: https://buy.stripe.com/cNi3co9cG8Oj1CS4XA3sI00
