@@ -25,7 +25,7 @@ Paid developer source kits for SaaS billing, license keys, metered APIs, and Str
 - Stripe Team Seat Kit Product Page ($29): Gumroad-first page for the live source package.
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-team-seat-kit.html
   Checkout: https://launchagent.gumroad.com/l/vpbnu
-- Stripe Usage Alerts Kit ($29): Node source kit for Stripe metered-billing usage alerts, near-limit warnings, overage notices, invoice usage sync, and customer usage summaries.
+- Stripe Usage Alerts Kit ($29): Node source kit for Stripe metered-billing usage alerts, near-limit warnings, overage notices, invoice usage sync, queued notification records, and customer usage summaries.
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-usage-alerts-node.html
   Checkout: https://launchagent.gumroad.com/l/aohsrs
 - Stripe Usage Alerts Kit Product Page ($29): Gumroad-first page for the live source package, positioned around usage thresholds, overage notices, and webhook-safe summaries.

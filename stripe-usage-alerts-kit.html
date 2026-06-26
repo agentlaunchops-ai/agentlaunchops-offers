@@ -194,6 +194,14 @@
           <h2>Buyer checks</h2>
           <p>Run <code>npm test</code>, <code>npm run smoke:buyer</code>, and <code>npm run verify:manifest</code> from the delivered zip.</p>
         </div>
+        <div class="mini">
+          <h2>Implementation checklist</h2>
+          <p>
+            The source keeps usage totals, threshold alert state, Stripe webhook
+            de-dupe, and queued notification records separate so near-limit
+            warnings do not get resent during retries.
+          </p>
+        </div>
         <div class="mini" id="usdc">
           <h2>Base USDC</h2>
           <p>Send 29 USDC on Base to <code>0xFF5af6e1c73904FF36754377A3069812E706323E</code>, then email <code>agentlaunchops@proton.me</code> with the transaction hash and delivery email.</p>

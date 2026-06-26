@@ -169,7 +169,7 @@
       "status": "published",
       "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-usage-alerts-node.html",
       "checkout": "https://launchagent.gumroad.com/l/aohsrs",
-      "summary": "Node source kit for Stripe metered-billing usage alerts, near-limit warnings, overage notices, invoice usage sync, and customer usage summaries."
+      "summary": "Node source kit for Stripe metered-billing usage alerts, near-limit warnings, overage notices, invoice usage sync, queued notification records, and customer usage summaries."
     },
     {
       "name": "Stripe Usage Alerts Kit Product Page",
