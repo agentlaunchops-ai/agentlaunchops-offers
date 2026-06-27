@@ -6,18 +6,18 @@
     <title>AI Credits Billing Kit</title>
     <meta
       name="description"
-      content="Paid Node source kit for AI usage credits, token billing, Stripe credit packs, reservation holds, finalized usage charges, unused-credit refunds, voids, and idempotent model consumption."
+      content="Paid Node source kit for prepaid AI credits, token metering, Stripe credit packs, reservation holds before model calls, finalized usage charges, unused-credit refunds, voids, and duplicate-safe AI consumption."
     />
     <meta
       name="keywords"
-      content="AI credits billing, prepaid AI credits, token billing, Stripe credit packs, AI usage billing Node, model usage credits, SaaS credit ledger"
+      content="AI credits billing, prepaid AI credits, token metering, Stripe credit packs, AI usage billing Node, model usage credits, SaaS credit ledger, AI credit ledger"
     />
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "Product",
         "name": "AI Credits Billing Kit",
-        "description": "Node source kit for prepaid AI credits, token billing, Stripe credit packs, reservation holds before model calls, finalized usage charges, unused-credit refunds, voided requests, and idempotent model consumption.",
+        "description": "Node source kit for prepaid AI credits, token metering, Stripe credit packs, reservation holds before model calls, finalized usage charges, unused-credit refunds, voided requests, and duplicate-safe AI consumption.",
         "brand": { "@type": "Brand", "name": "AgentLaunchOps" },
         "offers": {
           "@type": "Offer",
@@ -102,9 +102,9 @@
       <h1>AI Credits Billing Kit</h1>
       <p class="price">$29 paid source kit</p>
       <p>
-        A focused Node starter for prepaid AI credits, token billing, Stripe
+        A focused Node starter for prepaid AI credits, token metering, Stripe
         credit packs, reservation holds before model calls, finalized usage
-        charges, unused-credit refunds, voided requests, and idempotent AI
+        charges, unused-credit refunds, voided requests, and duplicate-safe AI
         consumption.
       </p>
       <div class="actions">
@@ -125,10 +125,10 @@
         <h2>Included</h2>
         <ul>
           <li>Per-model credit estimation from token counts and flat-cost jobs.</li>
-          <li>Signed Stripe credit-pack grants with duplicate event protection.</li>
+          <li>Signed Stripe credit-pack grants with duplicate webhook protection.</li>
           <li>Reserve, finalize, void, and refund flows around each AI request.</li>
           <li>Unused-credit refunds when actual usage is lower than reserved.</li>
-          <li>Tests, manifest verification, and buyer smoke command.</li>
+          <li>Tests for duplicate webhooks, insufficient credit, voids, and buyer smoke.</li>
         </ul>
       </section>
       <section>
@@ -136,7 +136,8 @@
         <p>
           Use it when your app already has users and AI features, but still needs
           a small credit ledger that keeps prepaid packs, model estimates,
-          failed calls, duplicate webhooks, and post-call adjustments consistent.
+          failed calls, cancelled streams, duplicate webhooks, and post-call
+          adjustments consistent.
         </p>
       </section>
       <section class="rail">
