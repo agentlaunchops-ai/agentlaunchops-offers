@@ -1,6 +1,6 @@
 {
   "brand": "AgentLaunchOps",
-  "updated": "2026-06-26",
+  "updated": "2026-06-27",
   "currency": "USD",
   "products": [
     {
@@ -387,7 +387,7 @@
       "status": "published",
       "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/supabase-entitlement-kit.html",
       "checkout": "https://launchagent.gumroad.com/l/cwrhl",
-      "summary": "Node and SQL source kit for Supabase workspace plans, seats, RLS-readable billing state, and server-side feature gates."
+      "summary": "Node and SQL source kit for Stripe-synced Supabase workspace plans, seats, entitlement snapshots, RLS-readable billing state, and server-side feature gates."
     },
     {
       "name": "Supabase Entitlements for Node",
@@ -395,7 +395,7 @@
       "status": "published buyer guide",
       "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/supabase-entitlements-node.html",
       "checkout": "https://launchagent.gumroad.com/l/cwrhl",
-      "summary": "Buyer guide mapping Supabase workspace plan, seat-limit, entitlement table, RLS-readable billing state, and server-side feature-gate searches to the live Supabase Entitlement Kit checkout."
+      "summary": "Buyer guide mapping Supabase workspace plan, Stripe webhook entitlement sync, seat-limit, entitlement snapshot, RLS-readable billing state, and server-side feature-gate searches to the live Supabase Entitlement Kit checkout."
     },
     {
       "name": "Supabase RLS Tenant Kit",

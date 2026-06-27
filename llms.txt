@@ -127,11 +127,11 @@ Paid developer source kits for SaaS billing, license keys, metered APIs, and Str
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-webhook-replay-kit.html
   Checkout: https://launchagent.gumroad.com/l/wfhzbp
 
-- Supabase Entitlement Kit ($29): Node and SQL source kit for Supabase workspace plans, seats, RLS-readable billing state, and server-side feature gates.
+- Supabase Entitlement Kit ($29): Node and SQL source kit for Stripe-synced Supabase workspace plans, seats, entitlement snapshots, RLS-readable billing state, and server-side feature gates.
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/supabase-entitlement-kit.html
   Checkout: https://launchagent.gumroad.com/l/cwrhl
 
-- Supabase Entitlements for Node ($29): buyer guide for Supabase workspace plans, seat limits, entitlement tables, RLS-readable billing state, and server-side feature gates backed by the live Supabase Entitlement Kit.
+- Supabase Entitlements for Node ($29): buyer guide for Supabase workspace plans, Stripe webhook entitlement sync, seat limits, entitlement snapshots, RLS-readable billing state, and server-side feature gates backed by the live Supabase Entitlement Kit.
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/supabase-entitlements-node.html
   Checkout: https://launchagent.gumroad.com/l/cwrhl
 

@@ -3,19 +3,19 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Supabase Entitlement Kit | Workspace Plans, Seats, and Feature Gates</title>
+    <title>Supabase Entitlement Kit | Stripe-Synced Supabase Plans and Gates</title>
     <meta
       name="description"
-      content="Paid Node and SQL source kit for Supabase SaaS teams adding workspace plans, seat limits, feature entitlement checks, RLS-readable billing state, and Stripe webhook sync."
+      content="Paid Node and SQL source kit for Supabase SaaS teams adding Stripe-synced workspace plans, seat limits, entitlement snapshots, RLS-readable billing state, and server-side feature gates."
     />
     <meta
       name="keywords"
-      content="Supabase entitlement, Supabase SaaS starter, Supabase feature gating, Supabase seat limits, Supabase RLS billing state, Stripe webhook Supabase"
+      content="Supabase entitlement, Supabase billing, Supabase SaaS starter, Supabase feature gating, entitlement snapshot, Supabase seat limits, Supabase RLS billing state, Stripe webhook Supabase"
     />
     <meta property="og:title" content="Supabase Entitlement Kit" />
     <meta
       property="og:description"
-      content="Drop a focused entitlement layer into a Supabase SaaS app: plans, seats, feature checks, RLS-readable billing state, and webhook-safe sync."
+      content="Drop a focused entitlement layer into a Supabase SaaS app: Stripe-synced plans, seats, entitlement snapshots, RLS-readable billing state, and webhook-safe server checks."
     />
     <meta property="og:type" content="product" />
     <meta property="og:url" content="https://agentlaunchops-ai.github.io/agentlaunchops-offers/supabase-entitlement-kit.html" />
@@ -23,14 +23,14 @@
     <meta name="twitter:title" content="Supabase Entitlement Kit" />
     <meta
       name="twitter:description"
-      content="Paid Node and SQL source kit for Supabase workspace plans, seat limits, feature gates, RLS-readable billing state, and Stripe webhook sync."
+      content="Paid Node and SQL source kit for Stripe-synced Supabase workspace plans, seat limits, entitlement snapshots, RLS-readable billing state, and server-side feature gates."
     />
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "Product",
         "name": "Supabase Entitlement Kit",
-        "description": "Paid Node and SQL source kit for Supabase SaaS teams adding workspace plans, seat limits, feature entitlement checks, RLS-readable billing state, and Stripe webhook sync.",
+        "description": "Paid Node and SQL source kit for Supabase SaaS teams adding Stripe-synced workspace plans, seat limits, entitlement snapshots, RLS-readable billing state, and server-side feature gates.",
         "brand": {
           "@type": "Brand",
           "name": "AgentLaunchOps"
@@ -139,12 +139,12 @@
       <header>
         <div>
           <p class="eyebrow">Supabase entitlement source kit</p>
-          <h1>Ship workspace plans, seats, and feature gates without rebuilding the entitlement layer.</h1>
+          <h1>Ship Stripe-synced Supabase plans, seats, and feature gates without rebuilding the entitlement layer.</h1>
           <p>
             Supabase Entitlement Kit is a focused Node and SQL starter for teams
-            that already have a Supabase app and need checkout state to drive
-            workspace access, RLS-readable billing state, and server-side
-            feature checks.
+            that already have a Supabase app and need checkout or subscription
+            events to drive workspace access, RLS-readable billing state,
+            entitlement snapshots, and server-side feature checks.
           </p>
           <div class="actions">
             <a class="button" href="https://launchagent.gumroad.com/l/cwrhl">Buy on Gumroad for $29</a>
@@ -165,8 +165,8 @@
         <h2>What The Buyer Gets</h2>
         <div class="grid">
           <div class="card"><strong>Supabase schema</strong><p>Customers, workspaces, memberships, subscriptions, entitlement grants, and duplicate-safe webhook event tracking.</p></div>
-          <div class="card"><strong>Feature gates</strong><p>Helpers for active plan checks, feature access, seat-limit enforcement, and webhook-driven entitlement sync.</p></div>
-          <div class="card"><strong>RLS starting point</strong><p>Member-readable workspace billing state with service-role writes kept on trusted server routes.</p></div>
+          <div class="card"><strong>Entitlement snapshots</strong><p>Helpers for active plan checks, feature access, seat-limit enforcement, and one server-readable access snapshot.</p></div>
+          <div class="card"><strong>RLS starting point</strong><p>Member-readable workspace billing state with service-role writes kept on trusted webhook and server routes.</p></div>
         </div>
       </section>
 
@@ -185,11 +185,11 @@
       <section>
         <h2>Built For Supabase SaaS</h2>
         <ul>
-          <li>Connect checkout events to workspace plans and feature grants.</li>
+          <li>Connect Stripe checkout or subscription events to workspace plans and feature grants.</li>
           <li>Keep service-role writes on the server.</li>
           <li>Let app users read their workspace subscription state through RLS.</li>
           <li>Enforce paid seat limits before building a full billing dashboard.</li>
-          <li>Give developers a narrow entitlement layer instead of another full-stack SaaS boilerplate.</li>
+          <li>Replace scattered client-side plan flags with a trusted server entitlement helper.</li>
         </ul>
       </section>
 
