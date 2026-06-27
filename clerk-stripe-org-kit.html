@@ -6,23 +6,23 @@
     <title>Clerk Stripe Org Kit | Org Billing Source Kit</title>
     <meta
       name="description"
-      content="Paid Node source kit for Clerk organization billing with Stripe Checkout payloads, signed Stripe and Clerk webhooks, org/customer linking, plan sync, and entitlement checks."
+      content="Paid Node source kit for Clerk organization billing with Stripe Checkout, org-to-customer linking, signed Stripe and Clerk webhooks, deleted-org cleanup, and entitlement snapshots."
     />
     <link rel="canonical" href="https://agentlaunchops-ai.github.io/agentlaunchops-offers/clerk-stripe-org-kit.html" />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="AgentLaunchOps" />
     <meta property="og:title" content="Clerk Stripe Org Kit | Org Billing Source Kit" />
-    <meta property="og:description" content="Node source kit for Clerk organizations, Stripe subscription webhooks, customer linking, plan sync, and org-scoped entitlements." />
+    <meta property="og:description" content="Node source kit for Clerk organizations, Stripe subscription webhooks, customer/org linking, deleted-org fail-closed access, and org entitlements." />
     <meta property="og:url" content="https://agentlaunchops-ai.github.io/agentlaunchops-offers/clerk-stripe-org-kit.html" />
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="Clerk Stripe Org Kit" />
-    <meta name="twitter:description" content="Paid Node source kit for Clerk organization billing with Stripe subscription webhooks and entitlement checks." />
+    <meta name="twitter:description" content="Paid Node source kit for Clerk org billing with Stripe webhooks, customer/org linking, and entitlement snapshots." />
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "Product",
       "name": "Clerk Stripe Org Kit",
-      "description": "A paid Node source kit for Clerk organization billing, Stripe Checkout payloads, signed Stripe and Clerk webhooks, customer-to-organization linking, subscription plan sync, deleted-org cleanup, and org-scoped entitlement checks.",
+      "description": "A paid Node source kit for Clerk organization billing, Stripe Checkout payloads, signed Stripe and Clerk webhooks, customer-to-organization linking, subscription plan sync, deleted-org cleanup, replay-safe events, and org-scoped entitlement checks.",
       "url": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/clerk-stripe-org-kit.html",
       "offers": {
         "@type": "Offer",
@@ -158,8 +158,8 @@
           <p>
             Connect Clerk organizations to Stripe subscriptions with Checkout
             payloads, signed Stripe and Clerk webhooks, customer/org linking,
-            plan sync, deleted-org cleanup, and organization-scoped
-            entitlement checks.
+            plan sync, deleted-org cleanup, replay-safe event handling, and
+            server-enforced entitlement snapshots.
           </p>
           <div class="button-row">
             <a class="button" href="https://launchagent.gumroad.com/l/ghekag">Buy on Gumroad for $29</a>
@@ -173,17 +173,17 @@
           </div>
           <p>
             Built for SaaS builders who use Clerk for organizations and need
-            Stripe subscription state to become enforceable org-level app
-            access.
+            Stripe customer, subscription, seat, and plan state to become
+            enforceable org-level app access.
           </p>
         </div>
         <aside class="panel">
           <h2>Included</h2>
           <ul>
-            <li>Stripe Checkout request payloads scoped to Clerk org IDs.</li>
+            <li>Stripe Checkout request payloads scoped to Clerk org IDs and price plans.</li>
             <li>Raw-body Stripe webhook signature verification and retry idempotency.</li>
             <li>Clerk/Svix webhook verification with timestamp tolerance.</li>
-            <li>Customer-to-org linking plus plan and feature sync from Stripe prices.</li>
+            <li>Customer-to-org linking plus seat, plan, and feature sync from Stripe prices.</li>
             <li>Fail-closed entitlements when a Clerk organization is deleted or stale.</li>
           </ul>
         </aside>

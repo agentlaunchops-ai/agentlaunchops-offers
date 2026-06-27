@@ -273,7 +273,7 @@
       "status": "published",
       "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/clerk-stripe-org-kit.html",
       "checkout": "https://launchagent.gumroad.com/l/ghekag",
-      "summary": "Node source kit for Clerk organizations, Stripe subscriptions, org seats, entitlement syncing, and webhook-safe access checks."
+      "summary": "Node source kit for Clerk organizations, Stripe subscriptions, customer/org mapping, deleted-org cleanup, org seats, entitlement snapshots, and webhook-safe access checks."
     },
     {
       "name": "Clerk Stripe Org Webhooks for Node",
@@ -281,7 +281,7 @@
       "status": "published buyer guide",
       "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/clerk-stripe-org-webhooks-node.html",
       "checkout": "https://launchagent.gumroad.com/l/ghekag",
-      "summary": "Buyer guide mapping Clerk organization billing, Stripe subscription webhook, org seat, entitlement snapshot, and access-check searches to the live Clerk Stripe Org Kit checkout."
+      "summary": "Buyer guide mapping Clerk organization billing, Stripe subscription webhooks, Clerk/Svix webhooks, customer/org mapping, deleted-org cleanup, org seats, entitlement snapshots, and access-check searches to the live Clerk Stripe Org Kit checkout."
     },
     {
       "name": "Lemon Squeezy Subscription Kit",
