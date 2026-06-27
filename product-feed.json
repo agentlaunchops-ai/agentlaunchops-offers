@@ -209,7 +209,7 @@
       "status": "published",
       "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-invoice-tax-node.html",
       "checkout": "https://launchagent.gumroad.com/l/knpcbo",
-      "summary": "Node source kit for Stripe invoice tax ID collection, Checkout metadata, signed invoice webhooks, duplicate-safe invoice state, receipt rendering, and invoice review records."
+      "summary": "Node source kit for Stripe invoice tax ID collection, billing-address capture, Checkout invoice metadata, signed invoice webhooks, duplicate-safe invoice state, escaped receipt rendering, and finance review packets."
     },
     {
       "name": "Stripe Invoice Tax ID Collection for Node",
