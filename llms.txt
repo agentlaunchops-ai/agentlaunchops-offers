@@ -95,7 +95,7 @@ Paid developer source kits for SaaS billing, license keys, metered APIs, and Str
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-connect-onboarding-node.html
   Checkout: https://launchagent.gumroad.com/l/kusejgu
 
-- Stripe Customer Portal Kit ($19): Node source kit for authenticated Stripe Customer Portal links, safe return URLs, webhook-backed subscription state, and entitlement sync.
+- Stripe Customer Portal Kit ($19): Node source kit for authenticated Stripe Customer Portal links, safe return URLs, billing-status UI data, webhook-backed subscription state, and entitlement sync.
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-customer-portal-kit.html
   Checkout: https://launchagent.gumroad.com/l/gdqea
 

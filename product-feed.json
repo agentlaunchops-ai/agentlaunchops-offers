@@ -329,7 +329,7 @@
       "status": "published",
       "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-customer-portal-kit.html",
       "checkout": "https://launchagent.gumroad.com/l/gdqea",
-      "summary": "Node source kit for authenticated Stripe Customer Portal links, safe return URLs, webhook-backed subscription state, and account access checks."
+      "summary": "Node source kit for authenticated Stripe Customer Portal links, safe return URLs, billing-status UI data, webhook-backed subscription state, account access checks, and entitlement snapshots."
     },
     {
       "name": "Billing State UI Kit",
