@@ -337,7 +337,7 @@
       "status": "published",
       "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/billing-state-ui-kit.html",
       "checkout": "https://launchagent.gumroad.com/l/bynzbs",
-      "summary": "Node source kit for Stripe billing dashboards, customer billing settings, entitlement gates, failed-payment banners, usage-limit UI, support briefs, finance close packets, payout reconciliation, reserves, credits, disputes, and refunds."
+      "summary": "Node source kit for post-checkout Stripe billing dashboards, failed-payment states, entitlement block reasons, usage-limit warnings, support briefs, read-only finance review packets, payout reconciliation, reserves, credits, disputes, and refunds."
     },
     {
       "name": "Stripe Billing Support Briefs for Node",
