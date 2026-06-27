@@ -305,7 +305,7 @@
       "status": "published",
       "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-connect-marketplace-kit.html",
       "checkout": "https://launchagent.gumroad.com/l/kusejgu",
-      "summary": "Node source kit for Stripe Connect marketplace onboarding, seller account state, transfers, and webhook idempotency."
+      "summary": "Node source kit for Stripe Connect Express onboarding, seller readiness, destination charges, platform fees, and signed webhook reconciliation."
     },
     {
       "name": "Stripe Connect Webhooks for Node",
@@ -313,7 +313,7 @@
       "status": "published buyer guide",
       "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-connect-webhooks-node.html",
       "checkout": "https://launchagent.gumroad.com/l/kusejgu",
-      "summary": "Buyer guide mapping Stripe Connect account.updated, seller readiness, destination-charge, platform-fee, and checkout reconciliation searches to the live Stripe Connect Marketplace Kit checkout."
+      "summary": "Buyer guide mapping Stripe Connect account.updated, seller capability readiness, destination-charge, platform-fee, and checkout reconciliation searches to the live Stripe Connect Marketplace Kit checkout."
     },
     {
       "name": "Stripe Connect Express Onboarding for Node",

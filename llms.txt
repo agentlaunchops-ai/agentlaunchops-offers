@@ -83,11 +83,11 @@ Paid developer source kits for SaaS billing, license keys, metered APIs, and Str
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/lemon-squeezy-webhooks-node.html
   Checkout: https://launchagent.gumroad.com/l/wcxuo
 
-- Stripe Connect Marketplace Kit ($29): Node source kit for Stripe Connect marketplace onboarding, seller account state, transfers, and webhook idempotency.
+- Stripe Connect Marketplace Kit ($29): Node source kit for Stripe Connect Express onboarding, seller readiness, destination charges, platform fees, and signed webhook reconciliation.
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-connect-marketplace-kit.html
   Checkout: https://launchagent.gumroad.com/l/kusejgu
 
-- Stripe Connect Webhooks for Node ($29): buyer guide mapping account.updated, seller readiness, destination-charge, platform-fee, and checkout reconciliation searches to the live Stripe Connect Marketplace Kit checkout.
+- Stripe Connect Webhooks for Node ($29): buyer guide mapping account.updated, seller capability readiness, destination-charge, platform-fee, and checkout reconciliation searches to the live Stripe Connect Marketplace Kit checkout.
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-connect-webhooks-node.html
   Checkout: https://launchagent.gumroad.com/l/kusejgu
 
