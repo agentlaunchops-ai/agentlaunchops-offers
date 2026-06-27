@@ -403,7 +403,7 @@
       "status": "published",
       "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/supabase-rls-tenant-kit.html",
       "checkout": "https://launchagent.gumroad.com/l/ipqgkx",
-      "summary": "Node and SQL source kit for Supabase tenant isolation review, workspace membership RLS policies, signed tenant context, stale-role rejection, admin-only audit writes, server-side role guards, and buyer verification."
+      "summary": "Node and SQL source kit for Supabase tenant-isolation review before launch, workspace membership RLS policies, signed tenant context, stale-role rejection, cross-tenant denial tests, admin-only audit writes, server-side role guards, and buyer verification."
     },
     {
       "name": "Supabase RLS Policies for Node",
