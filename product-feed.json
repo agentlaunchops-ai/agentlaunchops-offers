@@ -289,7 +289,7 @@
       "status": "published",
       "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/lemon-squeezy-subscription-kit.html",
       "checkout": "https://launchagent.gumroad.com/l/wcxuo",
-      "summary": "Node source kit for Lemon Squeezy subscription webhooks, entitlement records, customer state, and buyer smoke tests."
+      "summary": "Node source kit for Lemon Squeezy webhooks in Node, subscription entitlement sync, checkout URL handoff, refund/cancel access removal, license activation limits, and buyer smoke tests."
     },
     {
       "name": "Lemon Squeezy Webhooks for Node",

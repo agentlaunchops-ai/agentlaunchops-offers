@@ -75,7 +75,7 @@ Paid developer source kits for SaaS billing, license keys, metered APIs, and Str
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/clerk-stripe-org-webhooks-node.html
   Checkout: https://launchagent.gumroad.com/l/ghekag
 
-- Lemon Squeezy Subscription Kit ($29): Node source kit for Lemon Squeezy subscription webhooks, entitlement records, customer state, and buyer smoke tests.
+- Lemon Squeezy Subscription Kit ($29): Node source kit for Lemon Squeezy webhooks in Node, subscription entitlement sync, checkout URL handoff, refund/cancel access removal, license activation limits, and buyer smoke tests.
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/lemon-squeezy-subscription-kit.html
   Checkout: https://launchagent.gumroad.com/l/wcxuo
 
