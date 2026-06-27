@@ -193,7 +193,7 @@
       "status": "published",
       "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-mrr-analytics-node.html",
       "checkout": "https://launchagent.gumroad.com/l/juzzin",
-      "summary": "Node source kit for monthly recurring revenue snapshots from Stripe subscription data."
+      "summary": "Node source kit for Stripe MRR dashboards, ARR snapshots, churn metrics, paid-invoice revenue, refunds, net revenue, and finance handoff reports."
     },
     {
       "name": "Stripe MRR Dashboard for Node",
@@ -201,7 +201,7 @@
       "status": "published buyer guide",
       "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-mrr-dashboard-node.html",
       "checkout": "https://launchagent.gumroad.com/l/juzzin",
-      "summary": "Buyer guide mapping Stripe MRR dashboard, ARR, churn, paid invoice, refund, and subscription revenue analytics searches to the live Stripe MRR Analytics Kit checkout."
+      "summary": "Buyer guide mapping Stripe MRR dashboard, ARR, churn, paid invoice, refund, net revenue, finance close, and subscription revenue analytics searches to the live Stripe MRR Analytics Kit checkout."
     },
     {
       "name": "Stripe Invoice Tax Kit",

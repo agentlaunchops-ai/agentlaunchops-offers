@@ -34,10 +34,10 @@ Paid developer source kits for SaaS billing, license keys, metered APIs, and Str
 - Stripe Usage Limit Notifications for Node ($29): buyer guide for quota warnings, limit-reached notices, overage alerts, and monthly usage summaries backed by the live Stripe Usage Alerts Kit.
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-usage-limit-notifications-node.html
   Checkout: https://launchagent.gumroad.com/l/aohsrs
-- Stripe MRR Analytics Kit ($29): Node source kit for recurring revenue snapshots.
+- Stripe MRR Analytics Kit ($29): Node source kit for Stripe MRR dashboards, ARR snapshots, churn metrics, paid-invoice revenue, refunds, net revenue, and finance handoff reports.
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-mrr-analytics-node.html
   Checkout: https://launchagent.gumroad.com/l/juzzin
-- Stripe MRR Dashboard for Node ($29): buyer guide for MRR dashboard, ARR snapshot, churn metric, paid invoice, refund, and subscription revenue analytics searches backed by the live Stripe MRR Analytics Kit.
+- Stripe MRR Dashboard for Node ($29): buyer guide for MRR dashboard, ARR snapshot, churn metric, paid invoice, refund, net revenue, finance close, and subscription revenue analytics searches backed by the live Stripe MRR Analytics Kit.
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-mrr-dashboard-node.html
   Checkout: https://launchagent.gumroad.com/l/juzzin
 - Stripe Invoice Tax Kit ($29): Node source kit for Stripe invoice tax ID collection, Checkout metadata, signed invoice webhooks, duplicate-safe invoice state, receipt rendering, and invoice review records.

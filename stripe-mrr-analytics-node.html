@@ -332,7 +332,8 @@
           <h1>Turn Stripe webhooks into MRR, ARR, churn, and net revenue snapshots.</h1>
           <p class="lead">
             Stripe MRR Analytics Kit is a paid Node source kit for SaaS builders who need subscription
-            metrics, paid-invoice summaries, refund handling, and idempotent Stripe webhook syncing.
+            metrics, paid-invoice summaries, refund handling, monthly finance handoffs, and
+            idempotent Stripe webhook syncing.
           </p>
           <div class="actions">
             <a class="button" href="https://launchagent.gumroad.com/l/juzzin">Buy on Gumroad for $29</a>
@@ -346,6 +347,7 @@
             <li>MRR and ARR snapshots from Stripe subscription events.</li>
             <li>Monthly paid-invoice summaries with duplicate-event suppression.</li>
             <li>Refund and cancellation handling for net revenue and churn views.</li>
+            <li>Bridge-table output for explaining MRR versus cash collected.</li>
             <li>A lightweight metrics endpoint before building a full analytics app.</li>
             <li>Buyer smoke checks before adapting the code.</li>
           </ul>
@@ -361,7 +363,11 @@
           </div>
           <div class="card">
             <h3>Invoice Revenue</h3>
-            <p>Paid invoices and refunds roll into monthly gross and net revenue summaries.</p>
+            <p>Paid invoices and refunds roll into monthly gross and net revenue summaries without inflating MRR.</p>
+          </div>
+          <div class="card">
+            <h3>Finance Handoff</h3>
+            <p>Support and finance summaries make mismatched subscriptions, cash, and refunds easier to explain.</p>
           </div>
           <div class="card">
             <h3>Verification</h3>
