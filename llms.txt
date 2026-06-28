@@ -19,10 +19,10 @@ Paid developer source kits for SaaS billing, license keys, metered APIs, and Str
 - License Launch Kit ($25): Node source kit for license issuing, verification, revocation, Stripe checkout fulfillment, manual USDC orders, and buyer smoke checks for paid CLIs, plugins, templates, and small SaaS add-ons.
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/license-key-server-node.html
   Checkout: https://launchagent.gumroad.com/l/license_launch_kit2026
-- Stripe Team Seat Kit ($29): Node source kit for Stripe per-seat billing, subscription quantity sync, workspace invites, over-seat access checks, and idempotent webhook handling.
+- Stripe Team Seat Kit ($29): Node source kit for Stripe per-seat billing, subscription quantity sync, workspace invites, paid seat-limit enforcement, downgrade checks, and idempotent webhook handling.
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-per-seat-billing-node.html
   Checkout: https://launchagent.gumroad.com/l/vpbnu
-- Stripe Team Seat Kit Product Page ($29): Gumroad-first page for the live source package, positioned around paid seats, workspace invites, and subscription quantity changes.
+- Stripe Team Seat Kit Product Page ($29): Gumroad-first page for the live source package, positioned around paid seats, workspace invites, subscription quantity changes, and seat-count enforcement after checkout.
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-team-seat-kit.html
   Checkout: https://launchagent.gumroad.com/l/vpbnu
 - Stripe Usage Alerts Kit ($29): Node source kit for Stripe metered-billing usage alerts, near-limit warnings, overage notices, invoice usage sync, queued notification records, and customer usage summaries.

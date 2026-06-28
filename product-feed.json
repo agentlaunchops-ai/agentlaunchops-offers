@@ -153,7 +153,7 @@
       "status": "published",
       "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-per-seat-billing-node.html",
       "checkout": "https://launchagent.gumroad.com/l/vpbnu",
-      "summary": "Node source kit for Stripe per-seat billing, subscription quantity sync, workspace invites, over-seat access checks, and idempotent webhook handling."
+      "summary": "Node source kit for Stripe per-seat billing, subscription quantity sync, workspace invites, paid seat-limit enforcement, downgrade checks, and idempotent webhook handling."
     },
     {
       "name": "Stripe Team Seat Kit Product Page",
@@ -161,7 +161,7 @@
       "status": "published",
       "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-team-seat-kit.html",
       "checkout": "https://launchagent.gumroad.com/l/vpbnu",
-      "summary": "Gumroad-first product page for the live Stripe Team Seat Kit source package, positioned around paid seats, workspace invites, and subscription quantity changes."
+      "summary": "Gumroad-first product page for the live Stripe Team Seat Kit source package, positioned around paid seats, workspace invites, subscription quantity changes, and seat-count enforcement after checkout."
     },
     {
       "name": "Stripe Usage Alerts Kit",
