@@ -241,7 +241,7 @@
       "status": "published",
       "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-cancel-save-kit.html",
       "checkout": "https://launchagent.gumroad.com/l/ogodr",
-      "summary": "Gumroad-first product page for cancellation surveys, retention offers, final Stripe cancellation, webhook-backed subscription state, and churn analytics."
+      "summary": "Gumroad-first product page for Stripe cancellation surveys, optional save offers, clear final cancellation, webhook-backed subscription state, support records, and churn analytics."
     },
     {
       "name": "Stripe Cancel Save Flow for Node",
@@ -249,7 +249,7 @@
       "status": "published buyer guide",
       "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-cancel-save-node.html",
       "checkout": "https://launchagent.gumroad.com/l/ogodr",
-      "summary": "Buyer guide mapping Stripe cancellation survey, save-offer, retention offer, subscription cancellation, and churn analytics searches to the live Stripe Cancel Save Kit checkout."
+      "summary": "Buyer guide mapping Stripe cancellation survey, save-offer flow, retention offer, subscription cancellation, support record, and churn analytics searches to the live Stripe Cancel Save Kit checkout."
     },
     {
       "name": "AI Credits Billing Kit",
