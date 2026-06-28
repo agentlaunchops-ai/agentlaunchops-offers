@@ -324,8 +324,8 @@
           <h1>Ship the first paid license flow without building every checkout hook from zero.</h1>
           <p class="lead">
             License Launch Kit is a paid Node source kit for CLI, plugin, template, and small SaaS sellers
-            who need license issuing, verification endpoints, Stripe checkout fulfillment, and a manual
-            Base USDC order path.
+            who need license issuing, verification endpoints, revocation, Stripe checkout fulfillment,
+            webhook retry safety, and a manual Base USDC order path.
           </p>
           <div class="actions">
             <a class="button" href="https://launchagent.gumroad.com/l/license_launch_kit2026">Buy on Gumroad for $25</a>
@@ -340,6 +340,7 @@
             <li>Templates, plugins, or private downloads that need buyer access checks.</li>
             <li>Small SaaS add-ons before a larger billing stack is worth building.</li>
             <li>Products that need Stripe webhook idempotency around license delivery.</li>
+            <li>Products that need revocation for refunds, leaked keys, or canceled buyers.</li>
             <li>Card checkout plus manual Base USDC order intake.</li>
           </ul>
         </aside>
@@ -358,7 +359,7 @@
           </div>
           <div class="card">
             <h3>Buyer Checks</h3>
-            <p>Includes setup notes, Docker assets, a CLI, tests, manifest verification, and a buyer smoke script.</p>
+            <p>Includes setup notes, Docker assets, a CLI, tests, manifest verification, and a buyer smoke script for issue, verify, revoke, and failed-key paths.</p>
           </div>
         </div>
       </section>
@@ -381,7 +382,7 @@ npm run smoke:buyer</code>
         <div class="faq-grid">
           <div class="faq-item">
             <h3>What does the license key server kit include?</h3>
-            <p>It includes Node source for license issuing, verification, activation tracking, admin listing, Stripe webhook idempotency, manual Base USDC pending orders, tests, and buyer smoke checks.</p>
+            <p>It includes Node source for license issuing, verification, activation tracking, revocation, admin listing, Stripe webhook idempotency, manual Base USDC pending orders, tests, and buyer smoke checks.</p>
           </div>
           <div class="faq-item">
             <h3>Is this a hosted license server?</h3>
