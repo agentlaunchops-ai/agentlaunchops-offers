@@ -169,7 +169,7 @@
       "status": "published",
       "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-usage-alerts-node.html",
       "checkout": "https://launchagent.gumroad.com/l/aohsrs",
-      "summary": "Node source kit for Stripe metered-billing usage alerts, near-limit warnings, overage notices, invoice usage sync, queued notification records, and customer usage summaries."
+      "summary": "Node source kit for Stripe metered-billing usage alerts, quota warning rules, limit-reached notices, overage messages, invoice usage sync, queued notification records, and customer usage summaries."
     },
     {
       "name": "Stripe Usage Alerts Kit Product Page",
@@ -177,7 +177,7 @@
       "status": "published",
       "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-usage-alerts-kit.html",
       "checkout": "https://launchagent.gumroad.com/l/aohsrs",
-      "summary": "Gumroad-first product page for the live Stripe Usage Alerts Kit source package, positioned around usage thresholds, overage notices, and webhook-safe summaries."
+      "summary": "Gumroad-first product page for the live Stripe Usage Alerts Kit source package, positioned around quota warning rules, limit-reached notices, overage messages, and webhook-safe summaries."
     },
     {
       "name": "Stripe Usage Limit Notifications for Node",
@@ -185,7 +185,7 @@
       "status": "published buyer guide",
       "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-usage-limit-notifications-node.html",
       "checkout": "https://launchagent.gumroad.com/l/aohsrs",
-      "summary": "Buyer guide mapping Stripe usage limit notification, quota warning, overage alert, and monthly usage summary searches to the live Stripe Usage Alerts Kit checkout."
+      "summary": "Buyer guide mapping Stripe usage limit notification, quota warning, overage message, and monthly usage summary searches to the live Stripe Usage Alerts Kit checkout."
     },
     {
       "name": "Stripe MRR Analytics Kit",
