@@ -117,6 +117,12 @@ Paid developer source kits for SaaS billing, license keys, metered APIs, and Str
   Gumroad draft: https://launchagent.gumroad.com/l/gsihx
   Gumroad paid-file upload is still pending; card and Base USDC delivery are the current live buyer paths.
 
+- Stripe Dispute Evidence Kit ($29): Node source kit for Stripe dispute webhooks, reason-specific evidence checks, response payload builders, reviewer summaries, readiness analytics, and chargeback handoff records.
+  Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/stripe-dispute-evidence-kit.html
+  Checkout: https://buy.stripe.com/cNi3co9cG8Oj1CS4XA3sI00
+  Gumroad draft: https://launchagent.gumroad.com/l/xldig
+  Gumroad paid-file upload is still pending; card and Base USDC delivery are the current live buyer paths.
+
 - GridPilot CMS ($19): Webflow CMS source kit for Collection List search, filters, sorting, favorites, pagination, URL state, and Leaflet map markers.
   Page: https://agentlaunchops-ai.github.io/agentlaunchops-offers/gridpilot-cms.html
   Checkout: https://agentlaunchops-ai.github.io/agentlaunchops-offers/gridpilot-cms.html#checkout
