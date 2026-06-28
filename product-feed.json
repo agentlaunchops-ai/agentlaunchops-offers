@@ -233,7 +233,7 @@
       "status": "published",
       "page": "https://agentlaunchops-ai.github.io/agentlaunchops-offers/metered-api-node.html",
       "checkout": "https://launchagent.gumroad.com/l/lygkci",
-      "summary": "Node source kit for API key issuance, monthly quota checks, usage logs, and Stripe checkout hooks."
+      "summary": "Node source kit for one-time API key issuance, quota enforcement, usage logs, customer usage summaries, duplicate-safe Stripe checkout fulfillment, and manual USDC order review."
     },
     {
       "name": "Stripe Cancel Save Kit",
